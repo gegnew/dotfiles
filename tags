@@ -1,0 +1,1581 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+#abar_button_opt.ab_button	qutebrowser_dark_solarized/solarized-dark.css	/^#abar_button_opt.ab_button {$/;"	c
+#appbar	qutebrowser_dark_solarized/solarized-dark.css	/^#appbar {$/;"	i
+#archnavbar	qutebrowser_dark_solarized/custom_solarized.css	/^#archnavbar,$/;"	i
+#content	qutebrowser_dark_solarized/custom_solarized.css	/^#content,$/;"	i
+#content	qutebrowser_dark_solarized/solarized-dark.css	/^#content {$/;"	i
+#fbar	qutebrowser_dark_solarized/solarized-dark.css	/^#fbar {$/;"	i
+#footer	qutebrowser_dark_solarized/solarized-dark.css	/^#footer {$/;"	i
+#footer #footer-sites th	qutebrowser_dark_solarized/solarized-dark.css	/^#footer #footer-sites th {$/;"	s
+#gs_taif0	qutebrowser_dark_solarized/solarized-dark.css	/^#gs_taif0 {$/;"	i
+#h-chat-link	qutebrowser_dark_solarized/solarized-dark.css	/^#h-chat-link {$/;"	i
+#hdtb-tls.hdtb-tl	qutebrowser_dark_solarized/solarized-dark.css	/^#hdtb-tls.hdtb-tl {$/;"	c
+#hdtb-tls.hdtb-tl.hdtb-tl-sel	qutebrowser_dark_solarized/solarized-dark.css	/^#hdtb-tls.hdtb-tl.hdtb-tl-sel {$/;"	c
+#hdtbMenus.hdtb-td-o	qutebrowser_dark_solarized/solarized-dark.css	/^#hdtbMenus.hdtb-td-o {$/;"	c
+#hdtbSum	qutebrowser_dark_solarized/solarized-dark.css	/^#hdtbSum {$/;"	i
+#header	qutebrowser_dark_solarized/solarized-dark.css	/^#header {$/;"	i
+#header-bottom-right	qutebrowser_dark_solarized/solarized-dark.css	/^#header-bottom-right {$/;"	i
+#hlogo a	qutebrowser_dark_solarized/solarized-dark.css	/^#hlogo a {$/;"	s
+#hnmain .c00	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain .c00 {$/;"	c
+#hnmain .comhead	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain .comhead {$/;"	c
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {$/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-c/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-c/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2)	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-c/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) a	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {$/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(2)	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(2) {$/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1)	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {$/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(4)	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(4) {$/;"	s
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nt/;"	s
+#hnmain a.hnuser	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain a.hnuser {$/;"	c
+#hnmain span.age a	qutebrowser_dark_solarized/solarized-dark.css	/^#hnmain span.age a {$/;"	s
+#hot-network-questions a	qutebrowser_dark_solarized/solarized-dark.css	/^#hot-network-questions a {$/;"	s
+#hot-network-questions h4 a.js-gps-track	qutebrowser_dark_solarized/solarized-dark.css	/^#hot-network-questions h4 a.js-gps-track {$/;"	c
+#lst-ib	qutebrowser_dark_solarized/solarized-dark.css	/^#lst-ib,$/;"	i
+#mainbar	qutebrowser_dark_solarized/custom_solarized.css	/^#mainbar,$/;"	i
+#menu	qutebrowser_dark_solarized/solarized-dark.css	/^#menu,$/;"	i
+#mw-head	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-head {$/;"	i
+#mw-head	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-head,$/;"	i
+#mw-head div.portal	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-head div.portal,$/;"	c
+#mw-panel	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-panel {$/;"	i
+#mw-panel	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-panel,$/;"	i
+#mw-panel div.portal	qutebrowser_dark_solarized/solarized-dark.css	/^#mw-panel div.portal {$/;"	c
+#p-logo	qutebrowser_dark_solarized/solarized-dark.css	/^#p-logo {$/;"	i
+#question-header .question-hyperlink	qutebrowser_dark_solarized/solarized-dark.css	/^#question-header .question-hyperlink {$/;"	c
+#readme .plain	qutebrowser_dark_solarized/solarized-dark.css	/^#readme .plain {$/;"	c
+#sb_ifc0.sbib_b	qutebrowser_dark_solarized/solarized-dark.css	/^#sb_ifc0.sbib_b,$/;"	c
+#sidebar .community-bulletin .bulletin-item-content a	qutebrowser_dark_solarized/solarized-dark.css	/^#sidebar .community-bulletin .bulletin-item-content a {$/;"	s
+#sidebar .module.community-bulletin	qutebrowser_dark_solarized/solarized-dark.css	/^#sidebar .module.community-bulletin {$/;"	c
+#sidebar .question-hyperlink	qutebrowser_dark_solarized/solarized-dark.css	/^#sidebar .question-hyperlink {$/;"	c
+#sr-header-area	qutebrowser_dark_solarized/solarized-dark.css	/^#sr-header-area {$/;"	i
+#sr-header-area #sr-more-link	qutebrowser_dark_solarized/solarized-dark.css	/^#sr-header-area #sr-more-link {$/;"	i
+#sr-header-area .srdrop .selected	qutebrowser_dark_solarized/solarized-dark.css	/^#sr-header-area .srdrop .selected {$/;"	c
+#tabs a	qutebrowser_dark_solarized/solarized-dark.css	/^#tabs a {$/;"	s
+#tabs a.youarehere	qutebrowser_dark_solarized/solarized-dark.css	/^#tabs a.youarehere {$/;"	c
+#toc	qutebrowser_dark_solarized/solarized-dark.css	/^#toc,$/;"	i
+#toctitle	qutebrowser_dark_solarized/solarized-dark.css	/^#toctitle,$/;"	i
+#toolMenu li	qutebrowser_dark_solarized/solarized-dark.css	/^#toolMenu li {$/;"	s
+$(OBJ)	st/st/st-0.8.6.2/Makefile	/^$(OBJ): config.h config.mk$/;"	t
+*	qutebrowser_dark_solarized/solarized-dark.css	/^* {$/;"	s
+-1004,11 +1013,23	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -1004,11 +1013,23 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1018,7 +1039,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -1018,7 +1039,7 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1038,19 +1059,15	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -1038,19 +1059,15 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1058,15 +1068,53	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -1058,15 +1068,53 @@ tswapscreen(void)$/;"	h	modifiedFile:a/st.c
+-1080,13 +1128,23	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -1080,13 +1128,23 @@ tscrolldown(int orig, int n)$/;"	h	modifiedFile:a/st.c
+-109,6 +112,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -109,6 +112,7 @@ static const char *colorname[] = {$/;"	h	modifiedFile:a/config.def.h
+-1135,7 +1193,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -1135,7 +1193,7 @@ tnewline(int first_col)$/;"	h	modifiedFile:a/st.c
+-117,6 +121,9	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -117,6 +121,9 @@ typedef struct {$/;"	h	modifiedFile:a/st.c
+-117,7 +121,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -117,7 +121,7 @@ static const char *colorname[] = {$/;"	h	modifiedFile:a/config.def.h
+-120,3 +120,4	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -120,3 +120,4 @@ extern char *termname;$/;"	h	modifiedFile:a/st.h
+-1300,14 +1358,14	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -1300,14 +1358,14 @@ void$/;"	h	modifiedFile:a/st.c
+-16,7 +16,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -16,7 +16,7 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-1737,11 +1795,11	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -1737,11 +1795,11 @@ csihandle(void)$/;"	h	modifiedFile:a/st.c
+-176,6 +176,8	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -176,6 +176,8 @@ static Shortcut shortcuts[] = {$/;"	h	modifiedFile:a/config.def.h
+-184,8 +191,8	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -184,8 +191,8 @@ static void tnewline(int);$/;"	h	modifiedFile:a/st.c
+-1894,6 +1911,9	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -1894,6 +1911,9 @@ main(int argc, char *argv[])$/;"	h	modifiedFile:a/x.c
+-2243,7 +2301,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2243,7 +2301,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-2256,7 +2314,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2256,7 +2314,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-229,6 +230,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -229,6 +230,7 @@ static char *usedfont = NULL;$/;"	h	modifiedFile:a/x.c
+-2475,7 +2533,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2475,7 +2533,7 @@ twrite(const char *buf, int buflen, int show_ctrl)$/;"	h	modifiedFile:a/st.c
+-2512,6 +2570,14	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2512,6 +2570,14 @@ tresize(int col, int row)$/;"	h	modifiedFile:a/st.c
+-2569,7 +2635,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2569,7 +2635,7 @@ drawregion(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/st.c
+-2590,7 +2656,8	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -2590,7 +2656,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-261,7 +261,7	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^@@ -261,7 +261,7 @@ static Key key[] = {$/;"	h	modifiedFile:a/config.def.h
+-316,8 +316,7	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^@@ -316,8 +316,7 @@ static Key key[] = {$/;"	h	modifiedFile:a/config.def.h
+-35,6 +35,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -35,6 +35,7 @@$/;"	h	modifiedFile:a/st.c
+-42,6 +43,9	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -42,6 +43,9 @@$/;"	h	modifiedFile:a/st.c
+-427,10 +434,10	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -427,10 +434,10 @@ tlinelen(int y)$/;"	h	modifiedFile:a/st.c
+-53,7 +53,7	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^@@ -53,7 +53,7 @@ st| simpleterm,$/;"	h	modifiedFile:a/st.info
+-539,7 +546,7	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -539,7 +546,7 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-554,14 +561,14	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -554,14 +561,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-582,14 +589,14	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -582,14 +589,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-620,13 +627,13	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -620,13 +627,13 @@ getsel(void)$/;"	h	modifiedFile:a/st.c
+-627,6 +627,8	st/st/st-0.8.6.2/patches/st-clipboard-0.8.2.diff	/^@@ -627,6 +627,8 @@ setsel(char *str, Time t)$/;"	h	modifiedFile:a/x.c
+-644,7 +646,7	st/st/st-0.8.6.2/patches/st-clipboard-0.8.2.diff	/^@@ -644,7 +646,7 @@ brelease(XEvent *e)$/;"	h	modifiedFile:a/x.c
+-688,7 +690,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -688,7 +690,7 @@ xresize(int col, int row)$/;"	h	modifiedFile:a/x.c
+-73,7 +73,7	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^@@ -73,7 +73,7 @@ st| simpleterm,$/;"	h	modifiedFile:a/st.info
+-748,6 +750,13	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -748,6 +750,13 @@ xloadcols(void)$/;"	h	modifiedFile:a/x.c
+-80,6 +80,8	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -80,6 +80,8 @@ void die(const char *, ...);$/;"	h	modifiedFile:a/st.h
+-82,6 +82,9	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -82,6 +82,9 @@ char *termname = "st-256color";$/;"	h	modifiedFile:a/config.def.h
+-849,6 +856,9	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^@@ -849,6 +856,9 @@ void$/;"	h	modifiedFile:a/st.c
+-98,6 +98,7	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^@@ -98,6 +98,7 @@ typedef struct {$/;"	h	modifiedFile:a/x.c
+.BigQuote	qutebrowser_dark_solarized/solarized-dark.css	/^.BigQuote {$/;"	c
+.Box-row--focus-gray.navigation-focus	qutebrowser_dark_solarized/solarized-dark.css	/^.Box-row--focus-gray.navigation-focus {$/;"	c
+.Cat1HL	qutebrowser_dark_solarized/solarized-dark.css	/^.Cat1HL {$/;"	c
+.Cat2HL	qutebrowser_dark_solarized/solarized-dark.css	/^.Cat2HL {$/;"	c
+.Cat3HL	qutebrowser_dark_solarized/solarized-dark.css	/^.Cat3HL {$/;"	c
+.FeatureByline	qutebrowser_dark_solarized/solarized-dark.css	/^.FeatureByline {$/;"	c
+.Header	qutebrowser_dark_solarized/solarized-dark.css	/^.Header {$/;"	c
+.Header a	qutebrowser_dark_solarized/solarized-dark.css	/^.Header a {$/;"	s
+.Headline	qutebrowser_dark_solarized/solarized-dark.css	/^.Headline {$/;"	c
+.QuotedText	qutebrowser_dark_solarized/solarized-dark.css	/^.QuotedText {$/;"	c
+.State	qutebrowser_dark_solarized/solarized-dark.css	/^.State,$/;"	c
+.State--green	qutebrowser_dark_solarized/solarized-dark.css	/^.State--green {$/;"	c
+.State--red	qutebrowser_dark_solarized/solarized-dark.css	/^.State--red {$/;"	c
+.State:visited	qutebrowser_dark_solarized/solarized-dark.css	/^.State:visited {$/;"	c
+.ab_dropdown	qutebrowser_dark_solarized/solarized-dark.css	/^.ab_dropdown {$/;"	c
+.about-info-box__heading	qutebrowser_dark_solarized/solarized-dark.css	/^.about-info-box__heading {$/;"	c
+.ad502-room	qutebrowser_dark_solarized/solarized-dark.css	/^.ad502-room {$/;"	c
+.ambox	qutebrowser_dark_solarized/solarized-dark.css	/^.ambox,$/;"	c
+.answer-votes	qutebrowser_dark_solarized/solarized-dark.css	/^.answer-votes {$/;"	c
+.answered .mini-counts span	qutebrowser_dark_solarized/solarized-dark.css	/^.answered .mini-counts span {$/;"	s
+.avatar	qutebrowser_dark_solarized/solarized-dark.css	/^.avatar,$/;"	c
+.bg-white	qutebrowser_dark_solarized/solarized-dark.css	/^.bg-white {$/;"	c
+.blankslate	qutebrowser_dark_solarized/solarized-dark.css	/^.blankslate {$/;"	c
+.blob-code	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code {$/;"	c
+.blob-code span	qutebrowser_dark_solarized/custom_solarized.css	/^.blob-code span {$/;"	s
+.blob-code-addition	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-addition {$/;"	c
+.blob-code-addition .x	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-addition .x {$/;"	c
+.blob-code-deletion	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-deletion {$/;"	c
+.blob-code-deletion .x	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-deletion .x {$/;"	c
+.blob-code-hunk	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-hunk {$/;"	c
+.blob-code-inner	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-code-inner {$/;"	c
+.blob-num	qutebrowser_dark_solarized/solarized-dark.css	/^.blob-num {$/;"	c
+.border	qutebrowser_dark_solarized/solarized-dark.css	/^.border {$/;"	c
+.border-bottom	qutebrowser_dark_solarized/solarized-dark.css	/^.border-bottom,$/;"	c
+.border-top	qutebrowser_dark_solarized/solarized-dark.css	/^.border-top {$/;"	c
+.bottom-notice	qutebrowser_dark_solarized/solarized-dark.css	/^.bottom-notice {$/;"	c
+.bounty-indicator	qutebrowser_dark_solarized/solarized-dark.css	/^.bounty-indicator,$/;"	c
+.bounty-indicator-tab	qutebrowser_dark_solarized/solarized-dark.css	/^.bounty-indicator-tab {$/;"	c
+.boxed-group *	qutebrowser_dark_solarized/solarized-dark.css	/^.boxed-group * {$/;"	s
+.boxed-group > h3	qutebrowser_dark_solarized/solarized-dark.css	/^.boxed-group > h3 {$/;"	s
+.boxed-group article	qutebrowser_dark_solarized/solarized-dark.css	/^.boxed-group article {$/;"	s
+.boxed-group-inner	qutebrowser_dark_solarized/solarized-dark.css	/^.boxed-group-inner {$/;"	c
+.branch-a-b-count .meter	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-a-b-count .meter {$/;"	c
+.branch-action-body	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-body {$/;"	c
+.branch-action-body div	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-body div {$/;"	s
+.branch-action-state-clean .branch-action-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-state-clean .branch-action-icon {$/;"	c
+.branch-action-state-dirty .branch-action-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-state-dirty .branch-action-icon,$/;"	c
+.branch-action-state-unknown .branch-action-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-state-unknown .branch-action-icon {$/;"	c
+.branch-action-state-unstable .branch-action-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-action-state-unstable .branch-action-icon,$/;"	c
+.branch-group-heading	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-group-heading,$/;"	c
+.branch-group-name	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-group-name,$/;"	c
+.branch-infobar	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-infobar,$/;"	c
+.branch-name	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-name {$/;"	c
+.branch-summary	qutebrowser_dark_solarized/solarized-dark.css	/^.branch-summary {$/;"	c
+.breadcrumb .repo-root.js-repo-root a	qutebrowser_dark_solarized/solarized-dark.css	/^.breadcrumb .repo-root.js-repo-root a {$/;"	s
+.breadcrumb strong.final-path	qutebrowser_dark_solarized/solarized-dark.css	/^.breadcrumb strong.final-path {$/;"	c
+.btn	qutebrowser_dark_solarized/solarized-dark.css	/^.btn {$/;"	c
+.btn--top	qutebrowser_dark_solarized/solarized-dark.css	/^.btn--top {$/;"	c
+.btn--top:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.btn--top:hover {$/;"	c
+.btn-primary	qutebrowser_dark_solarized/solarized-dark.css	/^.btn-primary,$/;"	c
+.btn:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.btn:hover {$/;"	c
+.build-status-item	qutebrowser_dark_solarized/solarized-dark.css	/^.build-status-item {$/;"	c
+.build-status-item .build-status-details	qutebrowser_dark_solarized/solarized-dark.css	/^.build-status-item .build-status-details {$/;"	c
+.c.o	st/st/st-0.8.6.2/Makefile	/^.c.o:$/;"	t
+.capped-card h3	qutebrowser_dark_solarized/solarized-dark.css	/^.capped-card h3 {$/;"	s
+.capped-card h3 a	qutebrowser_dark_solarized/solarized-dark.css	/^.capped-card h3 a {$/;"	s
+.capped-card-content	qutebrowser_dark_solarized/solarized-dark.css	/^.capped-card-content {$/;"	c
+.capped-list th	qutebrowser_dark_solarized/solarized-dark.css	/^.capped-list th {$/;"	s
+.capped-list tr:nth-child(2n)	qutebrowser_dark_solarized/solarized-dark.css	/^.capped-list tr:nth-child(2n) {$/;"	s
+.catlinks	qutebrowser_dark_solarized/solarized-dark.css	/^.catlinks {$/;"	c
+.cdd	qutebrowser_dark_solarized/solarized-dark.css	/^.cdd {$/;"	c
+.comment i	qutebrowser_dark_solarized/solarized-dark.css	/^.comment i {$/;"	s
+.comment-form-head.tabnav	qutebrowser_dark_solarized/solarized-dark.css	/^.comment-form-head.tabnav {$/;"	c
+.comment-reactions .btn-link	qutebrowser_dark_solarized/solarized-dark.css	/^.comment-reactions .btn-link {$/;"	c
+.comment-reactions .user-has-reacted	qutebrowser_dark_solarized/solarized-dark.css	/^.comment-reactions .user-has-reacted {$/;"	c
+.commentarea .menuarea	qutebrowser_dark_solarized/solarized-dark.css	/^.commentarea .menuarea {$/;"	c
+.commentarea > .usertext	qutebrowser_dark_solarized/solarized-dark.css	/^.commentarea > .usertext {$/;"	c
+.comments-link	qutebrowser_dark_solarized/solarized-dark.css	/^.comments-link {$/;"	c
+.comments-page .panestack-title	qutebrowser_dark_solarized/solarized-dark.css	/^.comments-page .panestack-title {$/;"	c
+.commit	qutebrowser_dark_solarized/solarized-dark.css	/^.commit,$/;"	c
+.commit *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit *,$/;"	s
+.commit-author	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-author {$/;"	c
+.commit-author-section	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-author-section {$/;"	c
+.commit-branches *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-branches *,$/;"	s
+.commit-branches * *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-branches * *,$/;"	s
+.commit-desc pre	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-desc pre {$/;"	s
+.commit-group-title .octicon-git-commit	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-group-title .octicon-git-commit {$/;"	c
+.commit-group-title .octicon-git-commit *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-group-title .octicon-git-commit * {$/;"	s
+.commit-icon .octicon	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-icon .octicon,$/;"	c
+.commit-icon .octicon *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-icon .octicon *,$/;"	s
+.commit-meta	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta {$/;"	c
+.commit-meta	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta,$/;"	c
+.commit-meta *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta *,$/;"	s
+.commit-meta .sha-block	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta .sha-block {$/;"	c
+.commit-meta .sha-block .sha	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta .sha-block .sha {$/;"	c
+.commit-meta.commit-author-section	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-meta.commit-author-section {$/;"	c
+.commit-ref	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-ref,$/;"	c
+.commit-ref .user	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-ref .user,$/;"	c
+.commit-tease	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-tease,$/;"	c
+.commit-tease *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-tease *,$/;"	s
+.commit-tease-contributors	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-tease-contributors {$/;"	c
+.commit-title	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-title {$/;"	c
+.commit-title *	qutebrowser_dark_solarized/solarized-dark.css	/^.commit-title * {$/;"	s
+.commit.table-list-item	qutebrowser_dark_solarized/solarized-dark.css	/^.commit.table-list-item {$/;"	c
+.commits-listing:before	qutebrowser_dark_solarized/solarized-dark.css	/^.commits-listing:before {$/;"	c
+.compare-pr-placeholder	qutebrowser_dark_solarized/solarized-dark.css	/^.compare-pr-placeholder {$/;"	c
+.completeness-indicator-problem	qutebrowser_dark_solarized/solarized-dark.css	/^.completeness-indicator-problem {$/;"	c
+.completeness-indicator-success	qutebrowser_dark_solarized/solarized-dark.css	/^.completeness-indicator-success {$/;"	c
+.contrib-number	qutebrowser_dark_solarized/solarized-dark.css	/^.contrib-number {$/;"	c
+.conversation-list-heading .inner	qutebrowser_dark_solarized/solarized-dark.css	/^.conversation-list-heading .inner {$/;"	c
+.copyable-terminal	qutebrowser_dark_solarized/solarized-dark.css	/^.copyable-terminal {$/;"	c
+.counter	qutebrowser_dark_solarized/solarized-dark.css	/^.counter {$/;"	c
+.diffbar	qutebrowser_dark_solarized/solarized-dark.css	/^.diffbar {$/;"	c
+.diffstat-bar	qutebrowser_dark_solarized/solarized-dark.css	/^.diffstat-bar {$/;"	c
+.discussion-item-closed .discussion-item-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.discussion-item-closed .discussion-item-icon {$/;"	c
+.discussion-item-icon	qutebrowser_dark_solarized/solarized-dark.css	/^.discussion-item-icon {$/;"	c
+.discussion-item-icon.octicon	qutebrowser_dark_solarized/solarized-dark.css	/^.discussion-item-icon.octicon {$/;"	c
+.discussion-timeline-actions	qutebrowser_dark_solarized/solarized-dark.css	/^.discussion-timeline-actions {$/;"	c
+.discussion-timeline:before	qutebrowser_dark_solarized/solarized-dark.css	/^.discussion-timeline:before {$/;"	c
+.donut-chart > .pending	qutebrowser_dark_solarized/solarized-dark.css	/^.donut-chart > .pending {$/;"	c
+.drag-and-drop	qutebrowser_dark_solarized/solarized-dark.css	/^.drag-and-drop {$/;"	c
+.dropdown-divider	qutebrowser_dark_solarized/solarized-dark.css	/^.dropdown-divider {$/;"	c
+.dropdown-item	qutebrowser_dark_solarized/solarized-dark.css	/^.dropdown-item {$/;"	c
+.dropdown-item:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.dropdown-item:hover {$/;"	c
+.dropdown-menu	qutebrowser_dark_solarized/solarized-dark.css	/^.dropdown-menu {$/;"	c
+.ellipsis-expander	qutebrowser_dark_solarized/solarized-dark.css	/^.ellipsis-expander,$/;"	c
+.empty-cell	qutebrowser_dark_solarized/solarized-dark.css	/^.empty-cell,$/;"	c
+.entry-title a	qutebrowser_dark_solarized/solarized-dark.css	/^.entry-title a {$/;"	s
+.facebox-popup	qutebrowser_dark_solarized/solarized-dark.css	/^.facebox-popup {$/;"	c
+.facebox-popup .octicon	qutebrowser_dark_solarized/solarized-dark.css	/^.facebox-popup .octicon {$/;"	c
+.facebox-popup .owner-select-target	qutebrowser_dark_solarized/solarized-dark.css	/^.facebox-popup .owner-select-target {$/;"	c
+.facebox-popup .owner-select-target:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.facebox-popup .owner-select-target:hover {$/;"	c
+.file	qutebrowser_dark_solarized/solarized-dark.css	/^.file {$/;"	c
+.file-header	qutebrowser_dark_solarized/solarized-dark.css	/^.file-header {$/;"	c
+.file-history-tease .author a	qutebrowser_dark_solarized/solarized-dark.css	/^.file-history-tease .author a {$/;"	s
+.file-history-tease .participation	qutebrowser_dark_solarized/solarized-dark.css	/^.file-history-tease .participation {$/;"	c
+.file-history-tease .participation .quickstat strong	qutebrowser_dark_solarized/solarized-dark.css	/^.file-history-tease .participation .quickstat strong {$/;"	s
+.file-history-tease .participation a	qutebrowser_dark_solarized/solarized-dark.css	/^.file-history-tease .participation a {$/;"	s
+.file-history-tease-header	qutebrowser_dark_solarized/solarized-dark.css	/^.file-history-tease-header {$/;"	c
+.file-info-divider	qutebrowser_dark_solarized/solarized-dark.css	/^.file-info-divider {$/;"	c
+.file-wrap	qutebrowser_dark_solarized/solarized-dark.css	/^.file-wrap {$/;"	c
+.file-wrap *	qutebrowser_dark_solarized/solarized-dark.css	/^.file-wrap * {$/;"	s
+.files *	qutebrowser_dark_solarized/solarized-dark.css	/^.files * {$/;"	s
+.files tbody tr	qutebrowser_dark_solarized/solarized-dark.css	/^.files tbody tr {$/;"	s
+.files tbody tr:hover *	qutebrowser_dark_solarized/solarized-dark.css	/^.files tbody tr:hover * {$/;"	s
+.files tbody tr:nth-child(even)	qutebrowser_dark_solarized/solarized-dark.css	/^.files tbody tr:nth-child(even) {$/;"	s
+.files tbody tr:nth-child(odd)	qutebrowser_dark_solarized/solarized-dark.css	/^.files tbody tr:nth-child(odd) {$/;"	s
+.filter-bar	qutebrowser_dark_solarized/solarized-dark.css	/^.filter-bar {$/;"	c
+.filter-item	qutebrowser_dark_solarized/solarized-dark.css	/^.filter-item {$/;"	c
+.filter-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.filter-item.selected {$/;"	c
+.filter-item:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.filter-item:hover {$/;"	c
+.flash	qutebrowser_dark_solarized/solarized-dark.css	/^.flash {$/;"	c
+.form-control	qutebrowser_dark_solarized/solarized-dark.css	/^.form-control {$/;"	c
+.full-commit	qutebrowser_dark_solarized/solarized-dark.css	/^.full-commit {$/;"	c
+.full-commit *	qutebrowser_dark_solarized/solarized-dark.css	/^.full-commit * {$/;"	s
+.gh-header-number	qutebrowser_dark_solarized/solarized-dark.css	/^.gh-header-number {$/;"	c
+.global	qutebrowser_dark_solarized/custom_solarized.css	/^.global,$/;"	c
+.graphs .area	qutebrowser_dark_solarized/solarized-dark.css	/^.graphs .area {$/;"	c
+.hidden-text-expander a	qutebrowser_dark_solarized/solarized-dark.css	/^.hidden-text-expander a {$/;"	s
+.highlight span	qutebrowser_dark_solarized/custom_solarized.css	/^.highlight span {$/;"	s
+.infobox	qutebrowser_dark_solarized/solarized-dark.css	/^.infobox,$/;"	c
+.instruction	qutebrowser_dark_solarized/solarized-dark.css	/^.instruction,$/;"	c
+.issue-meta	qutebrowser_dark_solarized/solarized-dark.css	/^.issue-meta {$/;"	c
+.issues-listing .btn-primary	qutebrowser_dark_solarized/solarized-dark.css	/^.issues-listing .btn-primary {$/;"	c
+.issues-listing a	qutebrowser_dark_solarized/solarized-dark.css	/^.issues-listing a {$/;"	s
+.js-chromeless-input-container	qutebrowser_dark_solarized/solarized-dark.css	/^.js-chromeless-input-container {$/;"	c
+.js-directory-link	qutebrowser_dark_solarized/solarized-dark.css	/^.js-directory-link {$/;"	c
+.js-site-search-form input	qutebrowser_dark_solarized/solarized-dark.css	/^.js-site-search-form input,$/;"	s
+.kpbb	qutebrowser_dark_solarized/solarized-dark.css	/^.kpbb {$/;"	c
+.label-key	qutebrowser_dark_solarized/solarized-dark.css	/^.label-key {$/;"	c
+.label-key b	qutebrowser_dark_solarized/solarized-dark.css	/^.label-key b {$/;"	s
+.lang	qutebrowser_dark_solarized/solarized-dark.css	/^.lang {$/;"	c
+.link .usertext .md	qutebrowser_dark_solarized/solarized-dark.css	/^.link .usertext .md {$/;"	c
+.link-gray-dark	qutebrowser_dark_solarized/solarized-dark.css	/^.link-gray-dark,$/;"	c
+.link.promotedlink.promoted	qutebrowser_dark_solarized/solarized-dark.css	/^.link.promotedlink.promoted {$/;"	c
+.linkinfo	qutebrowser_dark_solarized/solarized-dark.css	/^.linkinfo {$/;"	c
+.linklisting .odd	qutebrowser_dark_solarized/solarized-dark.css	/^.linklisting .odd {$/;"	c
+.listHier th	qutebrowser_dark_solarized/solarized-dark.css	/^.listHier th {$/;"	s
+.listing-chooser	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser {$/;"	c
+.listing-chooser .grippy	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser .grippy {$/;"	c
+.listing-chooser .grippy:after	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser .grippy:after {$/;"	c
+.listing-chooser .intro	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser .intro {$/;"	c
+.listing-chooser li	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser li {$/;"	s
+.listing-chooser li a	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser li a {$/;"	s
+.listing-chooser li a .description	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser li a .description {$/;"	c
+.listing-chooser li.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.listing-chooser li.selected {$/;"	c
+.markdown-body	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body,$/;"	c
+.markdown-body a	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body a,$/;"	s
+.markdown-body code	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body code,$/;"	s
+.markdown-body hr	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body hr,$/;"	s
+.markdown-body img	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body img,$/;"	s
+.markdown-body pre	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body pre,$/;"	s
+.markdown-body table *	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * {$/;"	s
+.markdown-body table * a	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * a {$/;"	s
+.markdown-body table * code	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * code,$/;"	s
+.markdown-body table * hr	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * hr {$/;"	s
+.markdown-body table * img	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * img {$/;"	s
+.markdown-body table * pre	qutebrowser_dark_solarized/solarized-dark.css	/^.markdown-body table * pre {$/;"	s
+.merge-message	qutebrowser_dark_solarized/solarized-dark.css	/^.merge-message {$/;"	c
+.merge-status-item	qutebrowser_dark_solarized/solarized-dark.css	/^.merge-status-item {$/;"	c
+.module__text	qutebrowser_dark_solarized/solarized-dark.css	/^.module__text {$/;"	c
+.more-branches	qutebrowser_dark_solarized/solarized-dark.css	/^.more-branches,$/;"	c
+.more-repos	qutebrowser_dark_solarized/solarized-dark.css	/^.more-repos {$/;"	c
+.morelink .nub	qutebrowser_dark_solarized/solarized-dark.css	/^.morelink .nub {$/;"	c
+.muted-link	qutebrowser_dark_solarized/solarized-dark.css	/^.muted-link {$/;"	c
+.mw-body .external	qutebrowser_dark_solarized/solarized-dark.css	/^.mw-body .external {$/;"	c
+.mw-wiki-logo	qutebrowser_dark_solarized/solarized-dark.css	/^.mw-wiki-logo {$/;"	c
+.navIntraTool	qutebrowser_dark_solarized/solarized-dark.css	/^.navIntraTool {$/;"	c
+.navPanel	qutebrowser_dark_solarized/solarized-dark.css	/^.navPanel,$/;"	c
+.navbox	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox {$/;"	c
+.navbox .navbox-title	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox .navbox-title {$/;"	c
+.navbox .th	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox .th,$/;"	c
+.navbox-abovebelow	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox-abovebelow,$/;"	c
+.navbox-even	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox-even {$/;"	c
+.navbox-subgroup	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox-subgroup,$/;"	c
+.navbox-title	qutebrowser_dark_solarized/solarized-dark.css	/^.navbox-title {$/;"	c
+.navmenu ul	qutebrowser_dark_solarized/solarized-dark.css	/^.navmenu ul {$/;"	s
+.new-discussion-timeline .closed-banner	qutebrowser_dark_solarized/solarized-dark.css	/^.new-discussion-timeline .closed-banner {$/;"	c
+.new-post-activity	qutebrowser_dark_solarized/solarized-dark.css	/^.new-post-activity {$/;"	c
+.new-user-avatar-cta	qutebrowser_dark_solarized/solarized-dark.css	/^.new-user-avatar-cta {$/;"	c
+.news .alert .pull-info	qutebrowser_dark_solarized/solarized-dark.css	/^.news .alert .pull-info {$/;"	c
+.newuser	qutebrowser_dark_solarized/solarized-dark.css	/^.newuser {$/;"	c
+.notifications-list a	qutebrowser_dark_solarized/solarized-dark.css	/^.notifications-list a {$/;"	s
+.notifications-list li	qutebrowser_dark_solarized/solarized-dark.css	/^.notifications-list li {$/;"	s
+.octicon	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon,$/;"	c
+.octicon-alert	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-alert {$/;"	c
+.octicon-check	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-check {$/;"	c
+.octicon-clippy	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-clippy {$/;"	c
+.octicon-diff	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-diff {$/;"	c
+.octicon-git-merge	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-git-merge {$/;"	c
+.octicon-git-pull-request	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-git-pull-request,$/;"	c
+.octicon-markdown	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-markdown {$/;"	c
+.octicon-primitive-dot	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-primitive-dot {$/;"	c
+.octicon-repo	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-repo {$/;"	c
+.octicon-repo.type-icon-state-closed	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-repo.type-icon-state-closed {$/;"	c
+.octicon-repo.type-icon-state-merged	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-repo.type-icon-state-merged {$/;"	c
+.octicon-repo.type-icon-state-open	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-repo.type-icon-state-open {$/;"	c
+.octicon-x	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon-x {$/;"	c
+.octicon.type-icon-state-closed	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon.type-icon-state-closed,$/;"	c
+.octicon.type-icon-state-merged	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon.type-icon-state-merged,$/;"	c
+.octicon.type-icon-state-open	qutebrowser_dark_solarized/solarized-dark.css	/^.octicon.type-icon-state-open,$/;"	c
+.org-name	qutebrowser_dark_solarized/solarized-dark.css	/^.org-name {$/;"	c
+.orghead	qutebrowser_dark_solarized/solarized-dark.css	/^.orghead {$/;"	c
+.outline-box-highlighted	qutebrowser_dark_solarized/solarized-dark.css	/^.outline-box-highlighted {$/;"	c
+.overall-summary	qutebrowser_dark_solarized/solarized-dark.css	/^.overall-summary {$/;"	c
+.page-numbers	qutebrowser_dark_solarized/solarized-dark.css	/^.page-numbers {$/;"	c
+.page-numbers.current	qutebrowser_dark_solarized/solarized-dark.css	/^.page-numbers.current {$/;"	c
+.pagehead-tabs-item	qutebrowser_dark_solarized/solarized-dark.css	/^.pagehead-tabs-item {$/;"	c
+.pagehead-tabs-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.pagehead-tabs-item.selected {$/;"	c
+.pagehead-tabs-item:visited	qutebrowser_dark_solarized/solarized-dark.css	/^.pagehead-tabs-item:visited {$/;"	c
+.pagehead.orghead	qutebrowser_dark_solarized/solarized-dark.css	/^.pagehead.orghead {$/;"	c
+.pagehead.repohead	qutebrowser_dark_solarized/solarized-dark.css	/^.pagehead.repohead {$/;"	c
+.pagination .current	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination .current {$/;"	c
+.pagination .disabled	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination .disabled {$/;"	c
+.pagination .disabled:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination .disabled:hover {$/;"	c
+.pagination .gap	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination .gap {$/;"	c
+.pagination a	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination a {$/;"	s
+.pagination a:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.pagination a:hover {$/;"	s
+.pinned-repo-item.border	qutebrowser_dark_solarized/solarized-dark.css	/^.pinned-repo-item.border {$/;"	c
+.pl-c	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-c {$/;"	c
+.pl-c1	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-c1 {$/;"	c
+.pl-e	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-e {$/;"	c
+.pl-en	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-en {$/;"	c
+.pl-k	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-k {$/;"	c
+.pl-pds	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-pds {$/;"	c
+.pl-s	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-s {$/;"	c
+.pl-smi	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-smi {$/;"	c
+.pl-v	qutebrowser_dark_solarized/solarized-dark.css	/^.pl-v {$/;"	c
+.post	qutebrowser_dark_solarized/solarized-dark.css	/^.post {$/;"	c
+.post *	qutebrowser_dark_solarized/solarized-dark.css	/^.post * {$/;"	s
+.post div.entry	qutebrowser_dark_solarized/solarized-dark.css	/^.post div.entry {$/;"	c
+.post div.entry blockquote	qutebrowser_dark_solarized/solarized-dark.css	/^.post div.entry blockquote {$/;"	s
+.post div.entry kbd	qutebrowser_dark_solarized/solarized-dark.css	/^.post div.entry kbd {$/;"	s
+.post h2	qutebrowser_dark_solarized/solarized-dark.css	/^.post h2 {$/;"	s
+.post h2 a	qutebrowser_dark_solarized/solarized-dark.css	/^.post h2 a {$/;"	s
+.post pre.mode-line	qutebrowser_dark_solarized/solarized-dark.css	/^.post pre.mode-line {$/;"	c
+.post-actions	qutebrowser_dark_solarized/solarized-dark.css	/^.post-actions {$/;"	c
+.post-menu a	qutebrowser_dark_solarized/solarized-dark.css	/^.post-menu a {$/;"	s
+.post-signature	qutebrowser_dark_solarized/solarized-dark.css	/^.post-signature {$/;"	c
+.post-signature a	qutebrowser_dark_solarized/solarized-dark.css	/^.post-signature a {$/;"	s
+.post-signature span.relativetime	qutebrowser_dark_solarized/solarized-dark.css	/^.post-signature span.relativetime {$/;"	c
+.post-signature.owner .user-info .user-details a	qutebrowser_dark_solarized/solarized-dark.css	/^.post-signature.owner .user-info .user-details a {$/;"	s
+.post-tag	qutebrowser_dark_solarized/solarized-dark.css	/^.post-tag {$/;"	c
+.post-tag::before	qutebrowser_dark_solarized/solarized-dark.css	/^.post-tag::before {$/;"	c
+.pr-toolbar	qutebrowser_dark_solarized/solarized-dark.css	/^.pr-toolbar {$/;"	c
+.progress-bar	qutebrowser_dark_solarized/solarized-dark.css	/^.progress-bar {$/;"	c
+.question-status	qutebrowser_dark_solarized/solarized-dark.css	/^.question-status {$/;"	c
+.range-editor	qutebrowser_dark_solarized/solarized-dark.css	/^.range-editor {$/;"	c
+.repohead-details-container a	qutebrowser_dark_solarized/solarized-dark.css	/^.repohead-details-container a {$/;"	s
+.reponav-item	qutebrowser_dark_solarized/solarized-dark.css	/^.reponav-item,$/;"	c
+.reponav-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.reponav-item.selected,$/;"	c
+.reponav-item:visited	qutebrowser_dark_solarized/solarized-dark.css	/^.reponav-item:visited,$/;"	c
+.repository-content .RecentBranches	qutebrowser_dark_solarized/solarized-dark.css	/^.repository-content .RecentBranches {$/;"	c
+.repository-description	qutebrowser_dark_solarized/solarized-dark.css	/^.repository-description {$/;"	c
+.repository-meta .edit-repository-meta label	qutebrowser_dark_solarized/solarized-dark.css	/^.repository-meta .edit-repository-meta label {$/;"	s
+.repository-sidebar	qutebrowser_dark_solarized/solarized-dark.css	/^.repository-sidebar {$/;"	c
+.result--sep--hr:before	qutebrowser_dark_solarized/solarized-dark.css	/^.result--sep--hr:before {$/;"	c
+.result.highlight	qutebrowser_dark_solarized/solarized-dark.css	/^.result.highlight {$/;"	c
+.result__snippet	qutebrowser_dark_solarized/solarized-dark.css	/^.result__snippet {$/;"	c
+.result__snippet b	qutebrowser_dark_solarized/solarized-dark.css	/^.result__snippet b {$/;"	s
+.review-thread-reply	qutebrowser_dark_solarized/solarized-dark.css	/^.review-thread-reply {$/;"	c
+.review-thread-reply .inline-comment-form	qutebrowser_dark_solarized/solarized-dark.css	/^.review-thread-reply .inline-comment-form {$/;"	c
+.right .tabnav-extra	qutebrowser_dark_solarized/solarized-dark.css	/^.right .tabnav-extra {$/;"	c
+.sakaiCopyrightInfo	qutebrowser_dark_solarized/solarized-dark.css	/^.sakaiCopyrightInfo {$/;"	c
+.sbib_a	qutebrowser_dark_solarized/solarized-dark.css	/^.sbib_a {$/;"	c
+.sbsb_a	qutebrowser_dark_solarized/solarized-dark.css	/^.sbsb_a {$/;"	c
+.scope-badge	qutebrowser_dark_solarized/solarized-dark.css	/^.scope-badge {$/;"	c
+.search--adv	qutebrowser_dark_solarized/solarized-dark.css	/^.search--adv {$/;"	c
+.search--header	qutebrowser_dark_solarized/solarized-dark.css	/^.search--header {$/;"	c
+.search__autocomplete > .acp-wrap	qutebrowser_dark_solarized/solarized-dark.css	/^.search__autocomplete > .acp-wrap {$/;"	c
+.search__autocomplete > .acp-wrap > .acp--highlight	qutebrowser_dark_solarized/solarized-dark.css	/^.search__autocomplete > .acp-wrap > .acp--highlight {$/;"	c
+.search__autocomplete > .acp-wrap strong	qutebrowser_dark_solarized/solarized-dark.css	/^.search__autocomplete > .acp-wrap strong {$/;"	s
+.section	qutebrowser_dark_solarized/custom_solarized.css	/^.section,$/;"	c
+.select-menu-header	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-header,$/;"	c
+.select-menu-header *	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-header * {$/;"	s
+.select-menu-item	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-item {$/;"	c
+.select-menu-item-text.navigation-focus	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-item-text.navigation-focus {$/;"	c
+.select-menu-item.navigation-focus	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-item.navigation-focus,$/;"	c
+.select-menu-item.navigation-focus.select-menu-action	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-item.navigation-focus.select-menu-action,$/;"	c
+.select-menu-item.navigation-focus.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-item.navigation-focus.selected,$/;"	c
+.select-menu-modal	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-modal {$/;"	c
+.select-menu-modal *	qutebrowser_dark_solarized/solarized-dark.css	/^.select-menu-modal * {$/;"	s
+.sfbgg	qutebrowser_dark_solarized/solarized-dark.css	/^.sfbgg {$/;"	c
+.side	qutebrowser_dark_solarized/solarized-dark.css	/^.side {$/;"	c
+.side .usertext-body .md	qutebrowser_dark_solarized/solarized-dark.css	/^.side .usertext-body .md {$/;"	c
+.sidebox .spacer	qutebrowser_dark_solarized/solarized-dark.css	/^.sidebox .spacer {$/;"	c
+.simple-box	qutebrowser_dark_solarized/solarized-dark.css	/^.simple-box {$/;"	c
+.site-footer-links *	qutebrowser_dark_solarized/solarized-dark.css	/^.site-footer-links * {$/;"	s
+.site-wrapper > #header_wrapper	qutebrowser_dark_solarized/solarized-dark.css	/^.site-wrapper > #header_wrapper {$/;"	i
+.site-wrapper > #header_wrapper > #header	qutebrowser_dark_solarized/solarized-dark.css	/^.site-wrapper > #header_wrapper > #header {$/;"	i
+.sitestr	qutebrowser_dark_solarized/solarized-dark.css	/^.sitestr {$/;"	c
+.so-header	qutebrowser_dark_solarized/solarized-dark.css	/^.so-header {$/;"	c
+.so-header .navigation .-list .-item :hover	qutebrowser_dark_solarized/solarized-dark.css	/^.so-header .navigation .-list .-item :hover {$/;"	s
+.so-header a	qutebrowser_dark_solarized/solarized-dark.css	/^.so-header a {$/;"	s
+.social-count	qutebrowser_dark_solarized/solarized-dark.css	/^.social-count {$/;"	c
+.state	qutebrowser_dark_solarized/solarized-dark.css	/^.state {$/;"	c
+.state-closed	qutebrowser_dark_solarized/solarized-dark.css	/^.state-closed {$/;"	c
+.state-open	qutebrowser_dark_solarized/solarized-dark.css	/^.state-open {$/;"	c
+.stats-switcher-wrapper	qutebrowser_dark_solarized/solarized-dark.css	/^.stats-switcher-wrapper {$/;"	c
+.stats-switcher-wrapper .numbers-summary li a	qutebrowser_dark_solarized/solarized-dark.css	/^.stats-switcher-wrapper .numbers-summary li a {$/;"	s
+.subnav-item	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-item {$/;"	c
+.subnav-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-item.selected {$/;"	c
+.subnav-item:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-item:hover {$/;"	c
+.subnav-item:visited	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-item:visited {$/;"	c
+.subnav-links a:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-links a:hover {$/;"	s
+.subnav-search input	qutebrowser_dark_solarized/solarized-dark.css	/^.subnav-search input {$/;"	s
+.suggester	qutebrowser_dark_solarized/solarized-dark.css	/^.suggester {$/;"	c
+.suggester li.navigation-focus	qutebrowser_dark_solarized/solarized-dark.css	/^.suggester li.navigation-focus {$/;"	c
+.summary-stats li .num	qutebrowser_dark_solarized/solarized-dark.css	/^.summary-stats li .num {$/;"	c
+.sunken-menu	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu {$/;"	c
+.sunken-menu-item	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu-item {$/;"	c
+.sunken-menu-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu-item.selected {$/;"	c
+.sunken-menu-item.selected:after	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu-item.selected:after {$/;"	c
+.sunken-menu-separator:before	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu-separator:before {$/;"	c
+.sunken-menu:after	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu:after {$/;"	c
+.sunken-menu:before	qutebrowser_dark_solarized/solarized-dark.css	/^.sunken-menu:before {$/;"	c
+.table-list li	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list li {$/;"	s
+.table-list li:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list li:hover {$/;"	s
+.table-list tr	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list tr,$/;"	s
+.table-list tr:hover	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list tr:hover,$/;"	s
+.table-list-cell .commit-title	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list-cell .commit-title {$/;"	c
+.table-list-header	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list-header {$/;"	c
+.table-list-header-toggle .btn-link	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list-header-toggle .btn-link {$/;"	c
+.table-list-header-toggle .btn-link.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.table-list-header-toggle .btn-link.selected {$/;"	c
+.tabmenu li a	qutebrowser_dark_solarized/solarized-dark.css	/^.tabmenu li a {$/;"	s
+.tabnav-tab	qutebrowser_dark_solarized/solarized-dark.css	/^.tabnav-tab {$/;"	c
+.tabnav-tab.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.tabnav-tab.selected {$/;"	c
+.tagged-interesting	qutebrowser_dark_solarized/solarized-dark.css	/^.tagged-interesting {$/;"	c
+.task-list-item.hovered	qutebrowser_dark_solarized/solarized-dark.css	/^.task-list-item.hovered {$/;"	c
+.text-diff-added	qutebrowser_dark_solarized/solarized-dark.css	/^.text-diff-added {$/;"	c
+.text-diff-deleted	qutebrowser_dark_solarized/solarized-dark.css	/^.text-diff-deleted {$/;"	c
+.text-emphasized	qutebrowser_dark_solarized/solarized-dark.css	/^.text-emphasized {$/;"	c
+.text-gray-dark	qutebrowser_dark_solarized/solarized-dark.css	/^.text-gray-dark {$/;"	c
+.text-pending	qutebrowser_dark_solarized/solarized-dark.css	/^.text-pending {$/;"	c
+.text-pending .octicon-primitive-dot	qutebrowser_dark_solarized/solarized-dark.css	/^.text-pending .octicon-primitive-dot {$/;"	c
+.text-red	qutebrowser_dark_solarized/solarized-dark.css	/^.text-red {$/;"	c
+.text-shadow-light	qutebrowser_dark_solarized/solarized-dark.css	/^.text-shadow-light,$/;"	c
+.textarea-wrapper	qutebrowser_dark_solarized/solarized-dark.css	/^.textarea-wrapper {$/;"	c
+.thing .title	qutebrowser_dark_solarized/solarized-dark.css	/^.thing .title {$/;"	c
+.thread-subscription-status	qutebrowser_dark_solarized/solarized-dark.css	/^.thread-subscription-status {$/;"	c
+.tile--c	qutebrowser_dark_solarized/solarized-dark.css	/^.tile--c {$/;"	c
+.tile--info	qutebrowser_dark_solarized/solarized-dark.css	/^.tile--info {$/;"	c
+.tile--info__expand	qutebrowser_dark_solarized/solarized-dark.css	/^.tile--info__expand {$/;"	c
+.timeline-comment	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-comment {$/;"	c
+.timeline-comment-avatar	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-comment-avatar {$/;"	c
+.timeline-comment-header	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-comment-header {$/;"	c
+.timeline-comment-wrapper	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-comment-wrapper {$/;"	c
+.timeline-commits .commit-meta	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-commits .commit-meta {$/;"	c
+.timeline-commits .commit-meta .commit-id	qutebrowser_dark_solarized/solarized-dark.css	/^.timeline-commits .commit-meta .commit-id {$/;"	c
+.title a	qutebrowser_dark_solarized/solarized-dark.css	/^.title a {$/;"	s
+.title a:visited	qutebrowser_dark_solarized/solarized-dark.css	/^.title a:visited {$/;"	s
+.titlebox	qutebrowser_dark_solarized/solarized-dark.css	/^.titlebox {$/;"	c
+.titlebox form.toggle	qutebrowser_dark_solarized/solarized-dark.css	/^.titlebox form.toggle {$/;"	c
+.toclevel-1	qutebrowser_dark_solarized/solarized-dark.css	/^.toclevel-1 {$/;"	c
+.top-footer-links a	qutebrowser_dark_solarized/solarized-dark.css	/^.top-footer-links a {$/;"	s
+.topbar-dialog	qutebrowser_dark_solarized/solarized-dark.css	/^.topbar-dialog {$/;"	c
+.topbar-dialog .current-site-container	qutebrowser_dark_solarized/solarized-dark.css	/^.topbar-dialog .current-site-container {$/;"	c
+.topbar-dialog .header	qutebrowser_dark_solarized/solarized-dark.css	/^.topbar-dialog .header {$/;"	c
+.topbar-dialog .header a	qutebrowser_dark_solarized/solarized-dark.css	/^.topbar-dialog .header a {$/;"	s
+.topbar-dialog .site-link	qutebrowser_dark_solarized/solarized-dark.css	/^.topbar-dialog .site-link {$/;"	c
+.topic-tag.topic-tag-link	qutebrowser_dark_solarized/solarized-dark.css	/^.topic-tag.topic-tag-link {$/;"	c
+.topnav-container	qutebrowser_dark_solarized/solarized-dark.css	/^.topnav-container {$/;"	c
+.u-backgroundWhite	qutebrowser_dark_solarized/custom_solarized.css	/^.u-backgroundWhite$/;"	c
+.unanswered .mini-counts span	qutebrowser_dark_solarized/solarized-dark.css	/^.unanswered .mini-counts span {$/;"	s
+.underline-nav-item	qutebrowser_dark_solarized/solarized-dark.css	/^.underline-nav-item {$/;"	c
+.underline-nav-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^.underline-nav-item.selected {$/;"	c
+.upload-progress	qutebrowser_dark_solarized/solarized-dark.css	/^.upload-progress {$/;"	c
+.uploaded-files	qutebrowser_dark_solarized/solarized-dark.css	/^.uploaded-files {$/;"	c
+.user-profile-nav	qutebrowser_dark_solarized/solarized-dark.css	/^.user-profile-nav {$/;"	c
+.user-profile-sticky-bar:after	qutebrowser_dark_solarized/solarized-dark.css	/^.user-profile-sticky-bar:after {$/;"	c
+.viz	qutebrowser_dark_solarized/solarized-dark.css	/^.viz {$/;"	c
+.vote	qutebrowser_dark_solarized/solarized-dark.css	/^.vote {$/;"	c
+.vote .star-off	qutebrowser_dark_solarized/solarized-dark.css	/^.vote .star-off {$/;"	c
+.vote .star-on	qutebrowser_dark_solarized/solarized-dark.css	/^.vote .star-on {$/;"	c
+.vote .vote-down-off	qutebrowser_dark_solarized/solarized-dark.css	/^.vote .vote-down-off,$/;"	c
+.vote .vote-up-off	qutebrowser_dark_solarized/solarized-dark.css	/^.vote .vote-up-off {$/;"	c
+.zci	qutebrowser_dark_solarized/solarized-dark.css	/^.zci {$/;"	c
+<C-H>	nvim/.config/nvim/init.vim	/^    nnoremap <C-H> <C-W><C-H>$/;"	m
+<C-J>	nvim/.config/nvim/init.vim	/^    nnoremap <C-J> <C-W><C-J>$/;"	m
+<C-K>	nvim/.config/nvim/init.vim	/^    nnoremap <C-K> <C-W><C-K>$/;"	m
+<C-L>	nvim/.config/nvim/init.vim	/^    nnoremap <C-L> <C-W><C-L>$/;"	m
+<C-S>	nvim/.config/nvim/init.vim	/^nnoremap <C-S> :CtrlP<cr>$/;"	m
+<CR>	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> <CR>$/;"	m
+<Leader>b	nvim/.config/nvim/init.vim	/^   map <Leader>b :ls<Enter>$/;"	m
+<Leader>f	nvim/.config/nvim/init.vim	/^nnoremap <Leader>f :NERDTreeToggle<Enter>$/;"	m
+<Leader>q	nvim/.config/nvim/init.vim	/^    map <Leader>q :q!<Enter>$/;"	m
+<Leader>v	nvim/.config/nvim/init.vim	/^nnoremap <silent> <Leader>v :NERDTreeFind<CR>$/;"	m
+<Leader>w	nvim/.config/nvim/init.vim	/^    map <Leader>w :w<Enter>$/;"	m
+<Leader>wq	nvim/.config/nvim/init.vim	/^    map <Leader>wq :wq<Enter>$/;"	m
+<Space>	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> <Space>$/;"	m
+<TAB>	nvim/.config/nvim/init.vim	/^inoremap <expr><TAB>  pumvisible() ? "\\<C-n>" : "\\<TAB>"$/;"	m
+<c-s>	nvim/.config/nvim/init.vim	/^map <silent> <c-s> <Plug>(Ipy-Run)$/;"	m
+<leader>a	nvim/.config/nvim/init.vim	/^map <silent> <leader>a <Plug>(Ipy-RunAll$/;"	m
+<leader>c	nvim/.config/nvim/init.vim	/^map <silent> <leader>c <Plug>(Ipy-RunCell)$/;"	m
+<leader>p	nvim/.config/nvim/init.vim	/^nnoremap <leader>p :CtrlPTag<cr>$/;"	m
+ARGBEGIN	st/st/st-0.8.6.2/arg.h	/^#define ARGBEGIN	/;"	d
+ARGC	st/st/st-0.8.6.2/arg.h	/^#define ARGC(/;"	d
+ARGEND	st/st/st-0.8.6.2/arg.h	/^#define ARGEND	/;"	d
+ARGF	st/st/st-0.8.6.2/arg.h	/^#define ARGF(/;"	d
+ARG_H__	st/st/st-0.8.6.2/arg.h	/^#define ARG_H__$/;"	d
+ATTRCMP	st/st/st-0.8.6.2/st.h	/^#define ATTRCMP(/;"	d
+ATTR_BLINK	st/st/st-0.8.6.2/st.h	/^	ATTR_BLINK      = 1 << 4,$/;"	e	enum:glyph_attribute
+ATTR_BOLD	st/st/st-0.8.6.2/st.h	/^	ATTR_BOLD       = 1 << 0,$/;"	e	enum:glyph_attribute
+ATTR_BOLD_FAINT	st/st/st-0.8.6.2/st.h	/^	ATTR_BOLD_FAINT = ATTR_BOLD | ATTR_FAINT,$/;"	e	enum:glyph_attribute
+ATTR_FAINT	st/st/st-0.8.6.2/st.h	/^	ATTR_FAINT      = 1 << 1,$/;"	e	enum:glyph_attribute
+ATTR_INVISIBLE	st/st/st-0.8.6.2/st.h	/^	ATTR_INVISIBLE  = 1 << 6,$/;"	e	enum:glyph_attribute
+ATTR_ITALIC	st/st/st-0.8.6.2/st.h	/^	ATTR_ITALIC     = 1 << 2,$/;"	e	enum:glyph_attribute
+ATTR_NULL	st/st/st-0.8.6.2/st.h	/^	ATTR_NULL       = 0,$/;"	e	enum:glyph_attribute
+ATTR_REVERSE	st/st/st-0.8.6.2/st.h	/^	ATTR_REVERSE    = 1 << 5,$/;"	e	enum:glyph_attribute
+ATTR_STRUCK	st/st/st-0.8.6.2/st.h	/^	ATTR_STRUCK     = 1 << 7,$/;"	e	enum:glyph_attribute
+ATTR_UNDERLINE	st/st/st-0.8.6.2/st.h	/^	ATTR_UNDERLINE  = 1 << 3,$/;"	e	enum:glyph_attribute
+ATTR_WDUMMY	st/st/st-0.8.6.2/st.h	/^	ATTR_WDUMMY     = 1 << 10,$/;"	e	enum:glyph_attribute
+ATTR_WIDE	st/st/st-0.8.6.2/st.h	/^	ATTR_WIDE       = 1 << 9,$/;"	e	enum:glyph_attribute
+ATTR_WRAP	st/st/st-0.8.6.2/st.h	/^	ATTR_WRAP       = 1 << 8,$/;"	e	enum:glyph_attribute
+AUTHORS	st/st/st-0.8.6.2/st.1	/^.SH AUTHORS$/;"	s	title:ST
+Arg	st/st/st-0.8.6.2/st.h	/^} Arg;$/;"	t	typeref:union:__anonbc8329cb020a
+Args	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^class Args(object):$/;"	c
+BETWEEN	st/st/st-0.8.6.2/st.h	/^#define BETWEEN(/;"	d
+BUGS	st/st/st-0.8.6.2/st.1	/^.SH BUGS$/;"	s	title:ST
+CSIEscape	st/st/st-0.8.6.2/st.c	/^} CSIEscape;$/;"	t	typeref:struct:__anonbc8329c60508	file:
+CS_FIN	st/st/st-0.8.6.2/st.c	/^	CS_FIN$/;"	e	enum:charset	file:
+CS_GER	st/st/st-0.8.6.2/st.c	/^	CS_GER,$/;"	e	enum:charset	file:
+CS_GRAPHIC0	st/st/st-0.8.6.2/st.c	/^	CS_GRAPHIC0,$/;"	e	enum:charset	file:
+CS_GRAPHIC1	st/st/st-0.8.6.2/st.c	/^	CS_GRAPHIC1,$/;"	e	enum:charset	file:
+CS_MULTI	st/st/st-0.8.6.2/st.c	/^	CS_MULTI,$/;"	e	enum:charset	file:
+CS_UK	st/st/st-0.8.6.2/st.c	/^	CS_UK,$/;"	e	enum:charset	file:
+CS_USA	st/st/st-0.8.6.2/st.c	/^	CS_USA,$/;"	e	enum:charset	file:
+CURSOR_DEFAULT	st/st/st-0.8.6.2/st.c	/^	CURSOR_DEFAULT  = 0,$/;"	e	enum:cursor_state	file:
+CURSOR_LOAD	st/st/st-0.8.6.2/st.c	/^	CURSOR_LOAD$/;"	e	enum:cursor_movement	file:
+CURSOR_ORIGIN	st/st/st-0.8.6.2/st.c	/^	CURSOR_ORIGIN   = 2$/;"	e	enum:cursor_state	file:
+CURSOR_SAVE	st/st/st-0.8.6.2/st.c	/^	CURSOR_SAVE,$/;"	e	enum:cursor_movement	file:
+CURSOR_WRAPNEXT	st/st/st-0.8.6.2/st.c	/^	CURSOR_WRAPNEXT = 1,$/;"	e	enum:cursor_state	file:
+CUSTOMIZATION	st/st/st-0.8.6.2/st.1	/^.SH CUSTOMIZATION$/;"	s	title:ST
+Color	st/st/st-0.8.6.2/x.c	/^typedef XftColor Color;$/;"	t	typeref:typename:XftColor	file:
+DC	st/st/st-0.8.6.2/x.c	/^} DC;$/;"	t	typeref:struct:__anon344215770808	file:
+DEFAULT	st/st/st-0.8.6.2/st.h	/^#define DEFAULT(/;"	d
+DESCRIPTION	st/st/st-0.8.6.2/st.1	/^.SH DESCRIPTION$/;"	s	title:ST
+DIV.CommentBox	qutebrowser_dark_solarized/solarized-dark.css	/^DIV.CommentBox {$/;"	c
+DIV.CommentBox P.CommentTitle	qutebrowser_dark_solarized/solarized-dark.css	/^DIV.CommentBox P.CommentTitle {$/;"	c
+DIV.GAByline	qutebrowser_dark_solarized/solarized-dark.css	/^DIV.GAByline {$/;"	c
+DIVCEIL	st/st/st-0.8.6.2/st.h	/^#define DIVCEIL(/;"	d
+Draw	st/st/st-0.8.6.2/x.c	/^typedef XftDraw *Draw;$/;"	t	typeref:typename:XftDraw *	file:
+EARGF	st/st/st-0.8.6.2/arg.h	/^#define EARGF(/;"	d
+ESC_ALTCHARSET	st/st/st-0.8.6.2/st.c	/^	ESC_ALTCHARSET = 8,$/;"	e	enum:escape_state	file:
+ESC_ARG_SIZ	st/st/st-0.8.6.2/st.c	/^#define ESC_ARG_SIZ /;"	d	file:
+ESC_BUF_SIZ	st/st/st-0.8.6.2/st.c	/^#define ESC_BUF_SIZ /;"	d	file:
+ESC_CSI	st/st/st-0.8.6.2/st.c	/^	ESC_CSI        = 2,$/;"	e	enum:escape_state	file:
+ESC_DCS	st/st/st-0.8.6.2/st.c	/^	ESC_DCS        =128,$/;"	e	enum:escape_state	file:
+ESC_START	st/st/st-0.8.6.2/st.c	/^	ESC_START      = 1,$/;"	e	enum:escape_state	file:
+ESC_STR	st/st/st-0.8.6.2/st.c	/^	ESC_STR        = 4,  \/* OSC, PM, APC *\/$/;"	e	enum:escape_state	file:
+ESC_STR_END	st/st/st-0.8.6.2/st.c	/^	ESC_STR_END    = 16, \/* a final string was encountered *\/$/;"	e	enum:escape_state	file:
+ESC_TEST	st/st/st-0.8.6.2/st.c	/^	ESC_TEST       = 32, \/* Enter in test mode *\/$/;"	e	enum:escape_state	file:
+ESC_UTF8	st/st/st-0.8.6.2/st.c	/^	ESC_UTF8       = 64,$/;"	e	enum:escape_state	file:
+FA_BATTERY	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    FA_BATTERY = "<span font='FontAwesome'>\\uf240<\/span>"$/;"	v
+FA_LIGHTNING	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    FA_LIGHTNING = "<span color='yellow'><span font='FontAwesome'>\\uf0e7<\/span><\/span>"$/;"	v
+FA_PLUG	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    FA_PLUG = "<span font='FontAwesome'>\\uf1e6<\/span>"$/;"	v
+FA_QUESTION	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    FA_QUESTION = "<span font='FontAwesome'>\\uf128<\/span>"$/;"	v
+FRC_BOLD	st/st/st-0.8.6.2/x.c	/^	FRC_BOLD,$/;"	e	enum:__anon344215770903	file:
+FRC_ITALIC	st/st/st-0.8.6.2/x.c	/^	FRC_ITALIC,$/;"	e	enum:__anon344215770903	file:
+FRC_ITALICBOLD	st/st/st-0.8.6.2/x.c	/^	FRC_ITALICBOLD$/;"	e	enum:__anon344215770903	file:
+FRC_NORMAL	st/st/st-0.8.6.2/x.c	/^	FRC_NORMAL,$/;"	e	enum:__anon344215770903	file:
+Font	st/st/st-0.8.6.2/x.c	/^#define Font /;"	d	file:
+Font	st/st/st-0.8.6.2/x.c	/^} Font;$/;"	t	typeref:struct:__anon344215770708	file:
+Fontcache	st/st/st-0.8.6.2/x.c	/^} Fontcache;$/;"	t	typeref:struct:__anon344215770a08	file:
+Glyph	st/st/st-0.8.6.2/st.h	/^#define Glyph /;"	d
+Glyph	st/st/st-0.8.6.2/st.h	/^} Glyph;$/;"	t	typeref:struct:__anonbc8329cb0108
+GlyphFontSpec	st/st/st-0.8.6.2/x.c	/^typedef XftGlyphFontSpec GlyphFontSpec;$/;"	t	typeref:typename:XftGlyphFontSpec	file:
+HISTSIZE	st/st/st-0.8.6.2/st.c	/^#define HISTSIZE /;"	d	file:
+IGNORE_LIST	i3blocks/.config/i3blocks_/scripts/usb	/^    IGNORE_LIST = list(map(lambda p: $/;"	v
+IGNORE_LIST	i3blocks/.config/i3blocks_/scripts/usb	/^IGNORE_LIST = _default("IGNORE_LIST", "[]")$/;"	v
+INCS	st/st/st-0.8.6.2/config.mk	/^INCS = -I$(X11INC) \\$/;"	m
+INFO_TEXT_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^INFO_TEXT_COLOR = _default("INFO_TEXT_COLOR", "white")$/;"	v
+ISCONTROL	st/st/st-0.8.6.2/st.c	/^#define ISCONTROL(/;"	d	file:
+ISCONTROLC0	st/st/st-0.8.6.2/st.c	/^#define ISCONTROLC0(/;"	d	file:
+ISCONTROLC1	st/st/st-0.8.6.2/st.c	/^#define ISCONTROLC1(/;"	d	file:
+ISDELIM	st/st/st-0.8.6.2/st.c	/^#define ISDELIM(/;"	d	file:
+IS_SET	st/st/st-0.8.6.2/st.c	/^#define IS_SET(/;"	d	file:
+IS_SET	st/st/st-0.8.6.2/x.c	/^#define IS_SET(/;"	d	file:
+IS_TRUECOL	st/st/st-0.8.6.2/st.h	/^#define IS_TRUECOL(/;"	d
+In config	qutebrowser_dark_solarized/README.md	/^### In config$/;"	S
+In settings	qutebrowser_dark_solarized/README.md	/^### In settings$/;"	S
+Key	st/st/st-0.8.6.2/x.c	/^} Key;$/;"	t	typeref:struct:__anon344215770308	file:
+LEN	st/st/st-0.8.6.2/st.h	/^#define LEN(/;"	d
+LIBS	st/st/st-0.8.6.2/config.mk	/^LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft -lXrender\\$/;"	m
+LICENSE	st/st/st-0.8.6.2/st.1	/^.SH LICENSE$/;"	s	title:ST
+LIMIT	st/st/st-0.8.6.2/st.h	/^#define LIMIT(/;"	d
+LOCKED_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^LOCKED_COLOR = _default("LOCKED_COLOR", "gray")$/;"	v
+LOCKED_INDICATOR	i3blocks/.config/i3blocks_/scripts/usb	/^LOCKED_INDICATOR = _default("LOCKED_INDICATOR", "\\uf023 ")$/;"	v
+Line	st/st/st-0.8.6.2/st.h	/^typedef Glyph *Line;$/;"	t	typeref:typename:Glyph *
+MANPREFIX	st/st/st-0.8.6.2/config.mk	/^MANPREFIX = $(PREFIX)\/share\/man$/;"	m
+MAX	st/st/st-0.8.6.2/st.h	/^#define MAX(/;"	d
+MIN	st/st/st-0.8.6.2/st.h	/^#define MIN(/;"	d
+MODBIT	st/st/st-0.8.6.2/st.h	/^#define MODBIT(/;"	d
+MODE_8BIT	st/st/st-0.8.6.2/win.h	/^	MODE_8BIT        = 1 << 10,$/;"	e	enum:win_mode
+MODE_ALTSCREEN	st/st/st-0.8.6.2/st.c	/^	MODE_ALTSCREEN   = 1 << 2,$/;"	e	enum:term_mode	file:
+MODE_APPCURSOR	st/st/st-0.8.6.2/win.h	/^	MODE_APPCURSOR   = 1 << 8,$/;"	e	enum:win_mode
+MODE_APPKEYPAD	st/st/st-0.8.6.2/win.h	/^	MODE_APPKEYPAD   = 1 << 2,$/;"	e	enum:win_mode
+MODE_BLINK	st/st/st-0.8.6.2/win.h	/^	MODE_BLINK       = 1 << 11,$/;"	e	enum:win_mode
+MODE_BRCKTPASTE	st/st/st-0.8.6.2/win.h	/^	MODE_BRCKTPASTE  = 1 << 16,$/;"	e	enum:win_mode
+MODE_CRLF	st/st/st-0.8.6.2/st.c	/^	MODE_CRLF        = 1 << 3,$/;"	e	enum:term_mode	file:
+MODE_ECHO	st/st/st-0.8.6.2/st.c	/^	MODE_ECHO        = 1 << 4,$/;"	e	enum:term_mode	file:
+MODE_FBLINK	st/st/st-0.8.6.2/win.h	/^	MODE_FBLINK      = 1 << 12,$/;"	e	enum:win_mode
+MODE_FOCUS	st/st/st-0.8.6.2/win.h	/^	MODE_FOCUS       = 1 << 13,$/;"	e	enum:win_mode
+MODE_FOCUSED	st/st/st-0.8.6.2/win.h	/^	MODE_FOCUSED     = 1 << 1,$/;"	e	enum:win_mode
+MODE_HIDE	st/st/st-0.8.6.2/win.h	/^	MODE_HIDE        = 1 << 7,$/;"	e	enum:win_mode
+MODE_INSERT	st/st/st-0.8.6.2/st.c	/^	MODE_INSERT      = 1 << 1,$/;"	e	enum:term_mode	file:
+MODE_KBDLOCK	st/st/st-0.8.6.2/win.h	/^	MODE_KBDLOCK     = 1 << 6,$/;"	e	enum:win_mode
+MODE_MOUSE	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSE       = MODE_MOUSEBTN|MODE_MOUSEMOTION|MODE_MOUSEX10\\$/;"	e	enum:win_mode
+MODE_MOUSEBTN	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSEBTN    = 1 << 3,$/;"	e	enum:win_mode
+MODE_MOUSEMANY	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSEMANY   = 1 << 15,$/;"	e	enum:win_mode
+MODE_MOUSEMOTION	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSEMOTION = 1 << 4,$/;"	e	enum:win_mode
+MODE_MOUSESGR	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSESGR    = 1 << 9,$/;"	e	enum:win_mode
+MODE_MOUSEX10	st/st/st-0.8.6.2/win.h	/^	MODE_MOUSEX10    = 1 << 14,$/;"	e	enum:win_mode
+MODE_NUMLOCK	st/st/st-0.8.6.2/win.h	/^	MODE_NUMLOCK     = 1 << 17,$/;"	e	enum:win_mode
+MODE_PRINT	st/st/st-0.8.6.2/st.c	/^	MODE_PRINT       = 1 << 5,$/;"	e	enum:term_mode	file:
+MODE_REVERSE	st/st/st-0.8.6.2/win.h	/^	MODE_REVERSE     = 1 << 5,$/;"	e	enum:win_mode
+MODE_SIXEL	st/st/st-0.8.6.2/st.c	/^	MODE_SIXEL       = 1 << 7,$/;"	e	enum:term_mode	file:
+MODE_UTF8	st/st/st-0.8.6.2/st.c	/^	MODE_UTF8        = 1 << 6,$/;"	e	enum:term_mode	file:
+MODE_VISIBLE	st/st/st-0.8.6.2/win.h	/^	MODE_VISIBLE     = 1 << 0,$/;"	e	enum:win_mode
+MODE_WRAP	st/st/st-0.8.6.2/st.c	/^	MODE_WRAP        = 1 << 0,$/;"	e	enum:term_mode	file:
+MODKEY	st/st/st-0.8.6.2/config.def.h	/^#define MODKEY /;"	d
+MODKEY	st/st/st-0.8.6.2/config.h	/^#define MODKEY /;"	d
+MODKEY	st/st/st-0.8.6.2/config.orig.h	/^#define MODKEY /;"	d
+MOUNTED_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^MOUNTED_COLOR = _default("MOUNTED_COLOR", "green")$/;"	v
+MouseShortcut	st/st/st-0.8.6.2/x.c	/^} MouseShortcut;$/;"	t	typeref:struct:__anon344215770208	file:
+NAME	st/st/st-0.8.6.2/st.1	/^.SH NAME$/;"	s	title:ST
+NERDTreeAutoDeleteBuffer	nvim/.config/nvim/init.vim	/^let NERDTreeAutoDeleteBuffer = 1$/;"	v
+NERDTreeDirArrows	nvim/.config/nvim/init.vim	/^let NERDTreeDirArrows = 1$/;"	v
+NERDTreeIgnore	nvim/.config/nvim/init.vim	/^let NERDTreeIgnore=['\\.pyc$', '\\~$'] "ignore .pyc files in NERDTree$/;"	v
+NERDTreeMinimalUI	nvim/.config/nvim/init.vim	/^let NERDTreeMinimalUI = 1$/;"	v
+NERDTreeToggleQuitOnOpen	nvim/.config/nvim/init.vim	/^let NERDTreeToggleQuitOnOpen = 1$/;"	v
+OBJ	st/st/st-0.8.6.2/Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
+OPTIONS	st/st/st-0.8.6.2/st.1	/^.SH OPTIONS$/;"	s	title:ST
+PARTITIONLESS_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^PARTITIONLESS_COLOR = _default("PARTITIONLESS_COLOR", "red")$/;"	v
+PARTITIONLESS_TEXT	i3blocks/.config/i3blocks_/scripts/usb	/^PARTITIONLESS_TEXT = _default("PARTITIONLESS_TEXT", "no partitions")$/;"	v
+PKG_CONFIG	st/st/st-0.8.6.2/config.mk	/^PKG_CONFIG = pkg-config$/;"	m
+PLUGGED_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^PLUGGED_COLOR = _default("PLUGGED_COLOR", "gray")$/;"	v
+PREFIX	st/st/st-0.8.6.2/config.mk	/^PREFIX = \/usr\/local$/;"	m
+Qutebrowser Dark Solarized	qutebrowser_dark_solarized/README.md	/^# Qutebrowser Dark Solarized$/;"	c
+READONLY_INDICATOR	i3blocks/.config/i3blocks_/scripts/usb	/^READONLY_INDICATOR = _default("READONLY_INDICATOR", "ro")$/;"	v
+Rune	st/st/st-0.8.6.2/st.h	/^typedef uint_least32_t Rune;$/;"	t	typeref:typename:uint_least32_t
+SEE	st/st/st-0.8.6.2/st.1	/^.SH SEE ALSO$/;"	s	title:ST
+SEL_EMPTY	st/st/st-0.8.6.2/st.h	/^	SEL_EMPTY = 1,$/;"	e	enum:selection_mode
+SEL_IDLE	st/st/st-0.8.6.2/st.h	/^	SEL_IDLE = 0,$/;"	e	enum:selection_mode
+SEL_READY	st/st/st-0.8.6.2/st.h	/^	SEL_READY = 2$/;"	e	enum:selection_mode
+SEL_RECTANGULAR	st/st/st-0.8.6.2/st.h	/^	SEL_RECTANGULAR = 2$/;"	e	enum:selection_type
+SEL_REGULAR	st/st/st-0.8.6.2/st.h	/^	SEL_REGULAR = 1,$/;"	e	enum:selection_type
+SEPARATOR	i3blocks/.config/i3blocks_/scripts/usb	/^SEPARATOR = _default("SEPARATOR", "<span color='gray'> | <\/span>")$/;"	v
+SHORTCUTS	st/st/st-0.8.6.2/st.1	/^.SH SHORTCUTS$/;"	s	title:ST
+SNAP_LINE	st/st/st-0.8.6.2/st.h	/^	SNAP_LINE = 2$/;"	e	enum:selection_snap
+SNAP_WORD	st/st/st-0.8.6.2/st.h	/^	SNAP_WORD = 1,$/;"	e	enum:selection_snap
+SRC	st/st/st-0.8.6.2/Makefile	/^SRC = st.c x.c$/;"	m
+ST	st/st/st-0.8.6.2/st.1	/^.TH ST 1 st\\-VERSION$/;"	t
+STCFLAGS	st/st/st-0.8.6.2/config.mk	/^STCFLAGS = $(INCS) $(STCPPFLAGS) $(CPPFLAGS) $(CFLAGS)$/;"	m
+STCPPFLAGS	st/st/st-0.8.6.2/config.mk	/^STCPPFLAGS = -DVERSION=\\"$(VERSION)\\" -D_XOPEN_SOURCE=600$/;"	m
+STLDFLAGS	st/st/st-0.8.6.2/config.mk	/^STLDFLAGS = $(LIBS) $(LDFLAGS)$/;"	m
+STREscape	st/st/st-0.8.6.2/st.c	/^} STREscape;$/;"	t	typeref:struct:__anonbc8329c60608	file:
+STR_ARG_SIZ	st/st/st-0.8.6.2/st.c	/^#define STR_ARG_SIZ /;"	d	file:
+STR_BUF_SIZ	st/st/st-0.8.6.2/st.c	/^#define STR_BUF_SIZ /;"	d	file:
+SYNOPSIS	st/st/st-0.8.6.2/st.1	/^.SH SYNOPSIS$/;"	s	title:ST
+Screenshots	qutebrowser_dark_solarized/README.md	/^## Screenshots$/;"	s
+Selection	st/st/st-0.8.6.2/st.c	/^} Selection;$/;"	t	typeref:struct:__anonbc8329c60208	file:
+Shortcut	st/st/st-0.8.6.2/x.c	/^} Shortcut;$/;"	t	typeref:struct:__anon344215770108	file:
+Sites I tested	qutebrowser_dark_solarized/README.md	/^## Sites I tested$/;"	s
+Style	qutebrowser_dark_solarized/README.md	/^## Style$/;"	s
+TCursor	st/st/st-0.8.6.2/st.c	/^} TCursor;$/;"	t	typeref:struct:__anonbc8329c60108	file:
+TERMMOD	st/st/st-0.8.6.2/config.def.h	/^#define TERMMOD /;"	d
+TERMMOD	st/st/st-0.8.6.2/config.h	/^#define TERMMOD /;"	d
+TERMMOD	st/st/st-0.8.6.2/config.orig.h	/^#define TERMMOD /;"	d
+TIMEDIFF	st/st/st-0.8.6.2/st.h	/^#define TIMEDIFF(/;"	d
+TLINE	st/st/st-0.8.6.2/st.c	/^#define TLINE(/;"	d	file:
+TODO	qutebrowser_dark_solarized/README.md	/^## TODO$/;"	s
+TRUEBLUE	st/st/st-0.8.6.2/x.c	/^#define TRUEBLUE(/;"	d	file:
+TRUECOLOR	st/st/st-0.8.6.2/st.h	/^#define TRUECOLOR(/;"	d
+TRUEGREEN	st/st/st-0.8.6.2/x.c	/^#define TRUEGREEN(/;"	d	file:
+TRUERED	st/st/st-0.8.6.2/x.c	/^#define TRUERED(/;"	d	file:
+TRUNCATE_FS_LABELS	i3blocks/.config/i3blocks_/scripts/usb	/^TRUNCATE_FS_LABELS = _default("TRUNCASE_FS_LABELS", None)$/;"	v
+Term	st/st/st-0.8.6.2/st.c	/^} Term;$/;"	t	typeref:struct:__anonbc8329c60408	file:
+TermWindow	st/st/st-0.8.6.2/x.c	/^} TermWindow;$/;"	t	typeref:struct:__anon344215770408	file:
+UNLOCKED_INDICATOR	i3blocks/.config/i3blocks_/scripts/usb	/^UNLOCKED_INDICATOR = _default("UNLOCKED_INDICATOR", "\\uf09c ")$/;"	v
+UNLOCKED_NOT_MOUNTED_COLOR	i3blocks/.config/i3blocks_/scripts/usb	/^UNLOCKED_NOT_MOUNTED_COLOR = _default("UNLOCKED_NOT_MOUNTED_COLOR", "yellow")$/;"	v
+UTF_INVALID	st/st/st-0.8.6.2/st.c	/^#define UTF_INVALID /;"	d	file:
+UTF_SIZ	st/st/st-0.8.6.2/st.c	/^#define UTF_SIZ /;"	d	file:
+Usage	qutebrowser_dark_solarized/README.md	/^## Usage$/;"	s
+VERSION	st/st/st-0.8.6.2/config.mk	/^VERSION = 0.8.2$/;"	m
+X11INC	st/st/st-0.8.6.2/config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
+X11LIB	st/st/st-0.8.6.2/config.mk	/^X11LIB = \/usr\/X11R6\/lib$/;"	m
+XEMBED_FOCUS_IN	st/st/st-0.8.6.2/x.c	/^#define XEMBED_FOCUS_IN /;"	d	file:
+XEMBED_FOCUS_OUT	st/st/st-0.8.6.2/x.c	/^#define XEMBED_FOCUS_OUT /;"	d	file:
+XK_ANY_MOD	st/st/st-0.8.6.2/x.c	/^#define XK_ANY_MOD /;"	d	file:
+XK_NO_MOD	st/st/st-0.8.6.2/x.c	/^#define XK_NO_MOD /;"	d	file:
+XK_SWITCH_MOD	st/st/st-0.8.6.2/x.c	/^#define XK_SWITCH_MOD /;"	d	file:
+XSelection	st/st/st-0.8.6.2/x.c	/^} XSelection;$/;"	t	typeref:struct:__anon344215770608	file:
+XWindow	st/st/st-0.8.6.2/x.c	/^} XWindow;$/;"	t	typeref:struct:__anon344215770508	file:
+\x20       pager_move  up	ranger/.config/ranger/rc.conf	/^pmap  <up>        pager_move  up=1$/;"	k
+\x20       taskview_move up	ranger/.config/ranger/rc.conf	/^tmap <up>        taskview_move up=1$/;"	k
+\x20      move right	ranger/.config/ranger/rc.conf	/^map <CR>       move right=1$/;"	k
+\x20      move up	ranger/.config/ranger/rc.conf	/^map <UP>       move up=1$/;"	k
+\x20      pager_move  down	ranger/.config/ranger/rc.conf	/^pmap  <C-d>       pager_move  down=0.5  pages=True$/;"	k
+\x20      pager_move  to	ranger/.config/ranger/rc.conf	/^pmap  <end>       pager_move  to=-1$/;"	k
+\x20      pager_move  up	ranger/.config/ranger/rc.conf	/^pmap  <C-u>       pager_move  up=0.5    pages=True$/;"	k
+\x20      taskview_move down	ranger/.config/ranger/rc.conf	/^tmap <C-d>       taskview_move down=0.5  pages=True$/;"	k
+\x20      taskview_move to	ranger/.config/ranger/rc.conf	/^tmap <end>       taskview_move to=-1$/;"	k
+\x20      taskview_move up	ranger/.config/ranger/rc.conf	/^tmap <C-u>       taskview_move up=0.5    pages=True$/;"	k
+\x20     move to	ranger/.config/ranger/rc.conf	/^map <END>      move to=-1$/;"	k
+\x20     pager_move  down	ranger/.config/ranger/rc.conf	/^pmap  <down>      pager_move  down=1$/;"	k
+\x20     pager_move  left	ranger/.config/ranger/rc.conf	/^pmap  <left>      pager_move  left=4$/;"	k
+\x20     pager_move  to	ranger/.config/ranger/rc.conf	/^pmap  <home>      pager_move  to=0$/;"	k
+\x20     taskview_move down	ranger/.config/ranger/rc.conf	/^tmap <down>      taskview_move down=1$/;"	k
+\x20     taskview_move to	ranger/.config/ranger/rc.conf	/^tmap <home>      taskview_move to=0$/;"	k
+\x20    move down	ranger/.config/ranger/rc.conf	/^map <DOWN>     move down=1$/;"	k
+\x20    move left	ranger/.config/ranger/rc.conf	/^map <LEFT>     move left=1$/;"	k
+\x20    move to	ranger/.config/ranger/rc.conf	/^map <HOME>     move to=0$/;"	k
+\x20    pager_move  right	ranger/.config/ranger/rc.conf	/^pmap  <right>     pager_move  right=4$/;"	k
+\x20   move right	ranger/.config/ranger/rc.conf	/^map <RIGHT>    move right=1$/;"	k
+\x20   pager_move  up	ranger/.config/ranger/rc.conf	/^pmap  <pageup>    pager_move  up=1.0    pages=True$/;"	k
+\x20   taskview_move up	ranger/.config/ranger/rc.conf	/^tmap <pageup>    taskview_move up=1.0    pages=True$/;"	k
+\x20  move up	ranger/.config/ranger/rc.conf	/^map <PAGEUP>   move up=1     pages=True$/;"	k
+\x20 pager_move  down	ranger/.config/ranger/rc.conf	/^pmap  <pagedown>  pager_move  down=1.0  pages=True$/;"	k
+\x20 taskview_move down	ranger/.config/ranger/rc.conf	/^tmap <pagedown>  taskview_move down=1.0  pages=True$/;"	k
+\x20mark_files toggle	ranger/.config/ranger/rc.conf	/^map <Space> mark_files toggle=True$/;"	k
+\x20move down	ranger/.config/ranger/rc.conf	/^map <PAGEDOWN> move down=1   pages=True$/;"	k
+\x20tag_toggle tag	ranger/.config/ranger/rc.conf	/^map "<any>  tag_toggle tag=%any$/;"	k
+__anon344215770108	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770208	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770308	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770408	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770508	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770608	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770708	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770808	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anon344215770903	st/st/st-0.8.6.2/x.c	/^enum {$/;"	g	file:
+__anon344215770a08	st/st/st-0.8.6.2/x.c	/^typedef struct {$/;"	s	file:
+__anonbc8329c60108	st/st/st-0.8.6.2/st.c	/^typedef struct {$/;"	s	file:
+__anonbc8329c60208	st/st/st-0.8.6.2/st.c	/^typedef struct {$/;"	s	file:
+__anonbc8329c60308	st/st/st-0.8.6.2/st.c	/^	struct {$/;"	s	struct:__anonbc8329c60208	file:
+__anonbc8329c60408	st/st/st-0.8.6.2/st.c	/^typedef struct {$/;"	s	file:
+__anonbc8329c60508	st/st/st-0.8.6.2/st.c	/^typedef struct {$/;"	s	file:
+__anonbc8329c60608	st/st/st-0.8.6.2/st.c	/^typedef struct {$/;"	s	file:
+__anonbc8329cb0108	st/st/st-0.8.6.2/st.h	/^typedef struct {$/;"	s
+__anonbc8329cb020a	st/st/st-0.8.6.2/st.h	/^typedef union {$/;"	u
+_default	i3blocks/.config/i3blocks_/scripts/usb	/^def _default(name, default='', arg_type=str):$/;"	f
+a	qutebrowser_dark_solarized/solarized-dark.css	/^a {$/;"	s
+a.comment-user.owner	qutebrowser_dark_solarized/solarized-dark.css	/^a.comment-user.owner {$/;"	c
+a.filter-item	qutebrowser_dark_solarized/solarized-dark.css	/^a.filter-item,$/;"	c
+a.filter-item.selected	qutebrowser_dark_solarized/solarized-dark.css	/^a.filter-item.selected,$/;"	c
+a.filter-item:hover	qutebrowser_dark_solarized/solarized-dark.css	/^a.filter-item:hover,$/;"	c
+a.label	qutebrowser_dark_solarized/solarized-dark.css	/^a.label {$/;"	c
+a.storylink	qutebrowser_dark_solarized/solarized-dark.css	/^a.storylink {$/;"	c
+a.tabnav-tab	qutebrowser_dark_solarized/solarized-dark.css	/^a.tabnav-tab,$/;"	c
+a.tabnav-tab.selected	qutebrowser_dark_solarized/solarized-dark.css	/^a.tabnav-tab.selected,$/;"	c
+a/config.def.h	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.mk	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^--- a\/config.mk$/;"	m
+a/st.c	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^--- a\/st.c$/;"	m
+a/st.h	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^--- a\/st.h$/;"	m
+a/st.h	st/st/st-0.8.6.2/patches/st-scrollback-0.8.2.diff	/^--- a\/st.h$/;"	m
+a/st.info	st/st/st-0.8.6.2/patches/st-delkey-0.7.diff	/^--- a\/st.info$/;"	m
+a/x.c	st/st/st-0.8.6.2/patches/st-alpha-0.8.2.diff	/^--- a\/x.c$/;"	m
+a/x.c	st/st/st-0.8.6.2/patches/st-clipboard-0.8.2.diff	/^--- a\/x.c$/;"	m
+a:visited	qutebrowser_dark_solarized/solarized-dark.css	/^a:visited {$/;"	s
+actionfps	st/st/st-0.8.6.2/config.def.h	/^static unsigned int actionfps = 30;$/;"	v	typeref:typename:unsigned int
+actionfps	st/st/st-0.8.6.2/config.h	/^static unsigned int actionfps = 30;$/;"	v	typeref:typename:unsigned int
+actionfps	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int actionfps = 30;$/;"	v	typeref:typename:unsigned int
+add_argument	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    def add_argument(self, name, default='', arg_type=str):$/;"	m	class:Args
+all	st/st/st-0.8.6.2/Makefile	/^all: options st$/;"	t
+allowaltscreen	st/st/st-0.8.6.2/config.def.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+allowaltscreen	st/st/st-0.8.6.2/config.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+allowaltscreen	st/st/st-0.8.6.2/config.orig.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+alpha	st/st/st-0.8.6.2/config.def.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alpha	st/st/st-0.8.6.2/config.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alpha	st/st/st-0.8.6.2/config.orig.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alt	st/st/st-0.8.6.2/st.c	/^	Line *alt;    \/* alternate screen *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:Line *	file:
+alt	st/st/st-0.8.6.2/st.c	/^	int alt;$/;"	m	struct:__anonbc8329c60208	typeref:typename:int	file:
+appcursor	st/st/st-0.8.6.2/x.c	/^	signed char appcursor; \/* application cursor *\/$/;"	m	struct:__anon344215770308	typeref:typename:signed char	file:
+appkey	st/st/st-0.8.6.2/x.c	/^	signed char appkey;    \/* application keypad *\/$/;"	m	struct:__anon344215770308	typeref:typename:signed char	file:
+arg	st/st/st-0.8.6.2/st.c	/^	int arg[ESC_ARG_SIZ];$/;"	m	struct:__anonbc8329c60508	typeref:typename:int[]	file:
+arg	st/st/st-0.8.6.2/x.c	/^	const Arg arg;$/;"	m	struct:__anon344215770108	typeref:typename:const Arg	file:
+args	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^args = Args()$/;"	v
+args	st/st/st-0.8.6.2/st.c	/^	char *args[STR_ARG_SIZ];$/;"	m	struct:__anonbc8329c60608	typeref:typename:char * []	file:
+argv0	st/st/st-0.8.6.2/x.c	/^static char *argv0;$/;"	v	typeref:typename:char *	file:
+article	qutebrowser_dark_solarized/custom_solarized.css	/^article,$/;"	s
+ascent	st/st/st-0.8.6.2/x.c	/^	int ascent;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+ascii_printable	st/st/st-0.8.6.2/config.def.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+ascii_printable	st/st/st-0.8.6.2/config.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+ascii_printable	st/st/st-0.8.6.2/config.orig.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+aside	qutebrowser_dark_solarized/custom_solarized.css	/^aside,$/;"	s
+ask_confirmation	i3blocks/.config/i3blocks_/scripts/shutdown_menu.sh	/^function ask_confirmation() {$/;"	f
+attr	st/st/st-0.8.6.2/st.c	/^	Glyph attr; \/* current char attributes *\/$/;"	m	struct:__anonbc8329c60108	typeref:typename:Glyph	file:
+attributeMaps	i3blocks/.config/i3blocks_/scripts/usb	/^attributeMaps = getAttributeMaps(leaves)$/;"	v
+attrs	st/st/st-0.8.6.2/x.c	/^	XSetWindowAttributes attrs;$/;"	m	struct:__anon344215770508	typeref:typename:XSetWindowAttributes	file:
+b	st/st/st-0.8.6.2/x.c	/^	uint b;$/;"	m	struct:__anon344215770208	typeref:typename:uint	file:
+backward	ranger/.config/ranger/rc.conf	/^cmap <A-d>        eval fm.ui.console.delete_word(backward=False)$/;"	k
+badslant	st/st/st-0.8.6.2/x.c	/^	int badslant;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+badweight	st/st/st-0.8.6.2/x.c	/^	int badweight;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+base64_digits	st/st/st-0.8.6.2/st.c	/^static const char base64_digits[] = {$/;"	v	typeref:typename:const char[]	file:
+base64dec	st/st/st-0.8.6.2/st.c	/^base64dec(const char *src)$/;"	f	typeref:typename:char *
+base64dec_getc	st/st/st-0.8.6.2/st.c	/^base64dec_getc(const char **src)$/;"	f	typeref:typename:char
+bellvolume	st/st/st-0.8.6.2/config.def.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bellvolume	st/st/st-0.8.6.2/config.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bellvolume	st/st/st-0.8.6.2/config.orig.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bfont	st/st/st-0.8.6.2/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon344215770808	typeref:typename:Font	file:
+bg	st/st/st-0.8.6.2/st.h	/^	uint32_t bg;      \/* background  *\/$/;"	m	struct:__anonbc8329cb0108	typeref:typename:uint32_t
+blinktimeout	st/st/st-0.8.6.2/config.def.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+blinktimeout	st/st/st-0.8.6.2/config.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+blinktimeout	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+block_button	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^block_button = int(block_button) if block_button else None$/;"	v
+block_button	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^block_button = os.environ['BLOCK_BUTTON'] if 'BLOCK_BUTTON' in os.environ else None$/;"	v
+blockquote	qutebrowser_dark_solarized/solarized-dark.css	/^blockquote,$/;"	s
+bmotion	st/st/st-0.8.6.2/x.c	/^bmotion(XEvent *e)$/;"	f	typeref:typename:void
+body	qutebrowser_dark_solarized/solarized-dark.css	/^body {$/;"	s
+body *	qutebrowser_dark_solarized/solarized-dark.css	/^body * {$/;"	s
+body.comment	qutebrowser_dark_solarized/solarized-dark.css	/^body.comment {$/;"	c
+borderpx	st/st/st-0.8.6.2/config.def.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+borderpx	st/st/st-0.8.6.2/config.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+borderpx	st/st/st-0.8.6.2/config.orig.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+bot	st/st/st-0.8.6.2/st.c	/^	int bot;      \/* bottom scroll limit *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+bpress	st/st/st-0.8.6.2/x.c	/^bpress(XEvent *e)$/;"	f	typeref:typename:void
+brelease	st/st/st-0.8.6.2/x.c	/^brelease(XEvent *e)$/;"	f	typeref:typename:void
+bt	bash/.local/aliases.d/100.bluetoothctl.sh	/^alias bt='bluetoothctl'$/;"	a
+buf	st/st/st-0.8.6.2/st.c	/^	char buf[ESC_BUF_SIZ]; \/* raw string *\/$/;"	m	struct:__anonbc8329c60508	typeref:typename:char[]	file:
+buf	st/st/st-0.8.6.2/st.c	/^	char buf[STR_BUF_SIZ]; \/* raw string *\/$/;"	m	struct:__anonbc8329c60608	typeref:typename:char[]	file:
+buf	st/st/st-0.8.6.2/x.c	/^	Drawable buf;$/;"	m	struct:__anon344215770508	typeref:typename:Drawable	file:
+button.ajax-pagination-btn	qutebrowser_dark_solarized/solarized-dark.css	/^button.ajax-pagination-btn {$/;"	c
+button.ajax-pagination-btn:hover	qutebrowser_dark_solarized/solarized-dark.css	/^button.ajax-pagination-btn:hover {$/;"	c
+c	bash/.local/aliases.d/100.clear.sh	/^alias c='clear'$/;"	a
+c	st/st/st-0.8.6.2/st.c	/^	TCursor c;    \/* cursor *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:TCursor	file:
+ch	st/st/st-0.8.6.2/x.c	/^	int ch; \/* char height *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+charset	st/st/st-0.8.6.2/st.c	/^	int charset;  \/* current charset *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+charset	st/st/st-0.8.6.2/st.c	/^enum charset {$/;"	g	file:
+check_launcher	i3blocks/.config/i3blocks_/scripts/shutdown_menu.sh	/^function check_launcher() {$/;"	f
+check_opts	i3blocks/.config/i3blocks_/scripts/openvpn	/^sub check_opts {$/;"	s
+chscale	st/st/st-0.8.6.2/config.def.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+chscale	st/st/st-0.8.6.2/config.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+chscale	st/st/st-0.8.6.2/config.orig.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+cite	qutebrowser_dark_solarized/solarized-dark.css	/^cite {$/;"	s
+clean	st/st/st-0.8.6.2/Makefile	/^clean:$/;"	t
+clipboard	st/st/st-0.8.6.2/x.c	/^	char *primary, *clipboard;$/;"	m	struct:__anon344215770608	typeref:typename:char **	file:
+clipcopy	st/st/st-0.8.6.2/x.c	/^clipcopy(const Arg *dummy)$/;"	f	typeref:typename:void
+clippaste	st/st/st-0.8.6.2/x.c	/^clippaste(const Arg *dummy)$/;"	f	typeref:typename:void
+cloudauth	bash/.local/profile.d/900.cloud_auth.sh	/^alias cloudauth="curl https:\/\/dev-cloud.relayr.io\/oauth\/userinfo --header 'Authorization: Be/;"	a
+cmap	st/st/st-0.8.6.2/x.c	/^	Colormap cmap;$/;"	m	struct:__anon344215770508	typeref:typename:Colormap	file:
+cmdfd	st/st/st-0.8.6.2/st.c	/^static int cmdfd;$/;"	v	typeref:typename:int	file:
+cmessage	st/st/st-0.8.6.2/x.c	/^cmessage(XEvent *e)$/;"	f	typeref:typename:void
+code	qutebrowser_dark_solarized/solarized-dark.css	/^code {$/;"	s
+code.commit-sha	qutebrowser_dark_solarized/solarized-dark.css	/^code.commit-sha {$/;"	c
+code.commit-sha .user	qutebrowser_dark_solarized/solarized-dark.css	/^code.commit-sha .user {$/;"	c
+col	st/st/st-0.8.6.2/st.c	/^	int col;      \/* nb col *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+col	st/st/st-0.8.6.2/x.c	/^	Color *col;$/;"	m	struct:__anon344215770808	typeref:typename:Color *	file:
+collen	st/st/st-0.8.6.2/x.c	/^	size_t collen;$/;"	m	struct:__anon344215770808	typeref:typename:size_t	file:
+color	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    def color(percent):$/;"	f
+colorname	st/st/st-0.8.6.2/config.def.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+colorname	st/st/st-0.8.6.2/config.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+colorname	st/st/st-0.8.6.2/config.orig.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+colors	bash/.local/bashrc.d/001.kde.sh	/^colors() {$/;"	f
+cols	st/st/st-0.8.6.2/config.def.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+cols	st/st/st-0.8.6.2/config.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+cols	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+command_exists	i3blocks/.config/i3blocks_/scripts/shutdown_menu.sh	/^function command_exists() {$/;"	f
+commasplitstatus	i3blocks/.config/i3blocks_/scripts/battery2.py	/^            commasplitstatus = battery.split(", ")$/;"	v
+commasplitstatus	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    commasplitstatus = commasplitstatus_batteries[0]$/;"	v
+commasplitstatus_batteries	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    commasplitstatus_batteries=[]$/;"	v
+config.h	st/st/st-0.8.6.2/Makefile	/^config.h:$/;"	t
+control_iface	i3blocks/.config/i3blocks_/scripts/spotify.py	/^        control_iface = dbus.Interface(spotify, 'org.mpris.MediaPlayer2.Player')$/;"	v
+cp	bash/.local/bashrc.d/001.kde.sh	/^alias cp="cp -i"                          # confirm before overwriting something$/;"	a
+cresize	st/st/st-0.8.6.2/x.c	/^cresize(int width, int height)$/;"	f	typeref:typename:void
+csidump	st/st/st-0.8.6.2/st.c	/^csidump(void)$/;"	f	typeref:typename:void
+csiescseq	st/st/st-0.8.6.2/st.c	/^static CSIEscape csiescseq;$/;"	v	typeref:typename:CSIEscape	file:
+csihandle	st/st/st-0.8.6.2/st.c	/^csihandle(void)$/;"	f	typeref:typename:void
+csiparse	st/st/st-0.8.6.2/st.c	/^csiparse(void)$/;"	f	typeref:typename:void
+csireset	st/st/st-0.8.6.2/st.c	/^csireset(void)$/;"	f	typeref:typename:void
+cursor	st/st/st-0.8.6.2/x.c	/^	int cursor; \/* cursor style *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+cursor_movement	st/st/st-0.8.6.2/st.c	/^enum cursor_movement {$/;"	g	file:
+cursor_state	st/st/st-0.8.6.2/st.c	/^enum cursor_state {$/;"	g	file:
+cursorshape	st/st/st-0.8.6.2/config.def.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorshape	st/st/st-0.8.6.2/config.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorshape	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/st/st-0.8.6.2/config.def.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/st/st-0.8.6.2/config.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cvim	bash/.local/aliases.d/100.neovim.sh	/^alias cvim='vim ~\/.config\/nvim\/init.vim'$/;"	a
+cw	st/st/st-0.8.6.2/x.c	/^	int cw; \/* char width  *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+cwscale	st/st/st-0.8.6.2/config.def.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+cwscale	st/st/st-0.8.6.2/config.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+cwscale	st/st/st-0.8.6.2/config.orig.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+d	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> d$/;"	m
+dc	st/st/st-0.8.6.2/x.c	/^static DC dc;$/;"	v	typeref:typename:DC	file:
+debug	bash/.local/aliases.d/100.pudb.sh	/^alias debug='python -m pudb.run'$/;"	a
+defaultattr	st/st/st-0.8.6.2/config.def.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultattr	st/st/st-0.8.6.2/config.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultattr	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/st/st-0.8.6.2/config.def.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/st/st-0.8.6.2/config.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/st/st-0.8.6.2/config.orig.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/st/st-0.8.6.2/config.def.h	/^static unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/st/st-0.8.6.2/config.h	/^static unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/st/st-0.8.6.2/config.def.h	/^unsigned int defaultfg = 7;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/st/st-0.8.6.2/config.h	/^unsigned int defaultfg = 7;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/st/st-0.8.6.2/config.orig.h	/^unsigned int defaultfg = 7;$/;"	v	typeref:typename:unsigned int
+defaultfontsize	st/st/st-0.8.6.2/x.c	/^static double defaultfontsize = 0;$/;"	v	typeref:typename:double	file:
+defaultrcs	st/st/st-0.8.6.2/config.def.h	/^static unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+defaultrcs	st/st/st-0.8.6.2/config.h	/^static unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+defaultrcs	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+depth	st/st/st-0.8.6.2/x.c	/^	int depth; \/* bit depth *\/$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+descent	st/st/st-0.8.6.2/x.c	/^	int descent;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+details	qutebrowser_dark_solarized/custom_solarized.css	/^details,$/;"	s
+df	bash/.local/bashrc.d/001.kde.sh	/^alias df='df -h'                          # human-readable sizes$/;"	a
+die	bash/.local/aliases.d/100.die.sh	/^alias die='shutdown -P now'$/;"	a
+die	st/st/st-0.8.6.2/st.c	/^die(const char *errstr, ...)$/;"	f	typeref:typename:void
+dirarg	ranger/.config/ranger/rc.conf	/^map dG  eval fm.cut(dirarg=dict(to=-1), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map dgg eval fm.cut(dirarg=dict(to=0), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map dj  eval fm.cut(dirarg=dict(down=1), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map dk  eval fm.cut(dirarg=dict(up=1), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map yG  eval fm.copy(dirarg=dict(to=-1), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map ygg eval fm.copy(dirarg=dict(to=0), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map yj  eval fm.copy(dirarg=dict(down=1), narg=quantifier)$/;"	k
+dirarg	ranger/.config/ranger/rc.conf	/^map yk  eval fm.copy(dirarg=dict(up=1), narg=quantifier)$/;"	k
+dirty	st/st/st-0.8.6.2/st.c	/^	int *dirty;   \/* dirtyness of lines *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int *	file:
+dist	st/st/st-0.8.6.2/Makefile	/^dist: clean$/;"	t
+div	qutebrowser_dark_solarized/custom_solarized.css	/^div,$/;"	s
+div#page div#header	qutebrowser_dark_solarized/solarized-dark.css	/^div#page div#header {$/;"	i
+div#page div#header a	qutebrowser_dark_solarized/solarized-dark.css	/^div#page div#header a {$/;"	s
+div#simpleSearch #searchInput	qutebrowser_dark_solarized/solarized-dark.css	/^div#simpleSearch #searchInput {$/;"	i
+div.answered-accepted	qutebrowser_dark_solarized/solarized-dark.css	/^div.answered-accepted {$/;"	c
+div.answered-accepted .mini-counts	qutebrowser_dark_solarized/solarized-dark.css	/^div.answered-accepted .mini-counts {$/;"	c
+div.commit-branches	qutebrowser_dark_solarized/solarized-dark.css	/^div.commit-branches,$/;"	c
+div.commit-branches *	qutebrowser_dark_solarized/solarized-dark.css	/^div.commit-branches *,$/;"	s
+div.commit.full-commit p.commit-title	qutebrowser_dark_solarized/solarized-dark.css	/^div.commit.full-commit p.commit-title,$/;"	c
+div.commit.full-commit p.commit-title *	qutebrowser_dark_solarized/solarized-dark.css	/^div.commit.full-commit p.commit-title *,$/;"	s
+div.crp	qutebrowser_dark_solarized/solarized-dark.css	/^div.crp {$/;"	c
+div.md	qutebrowser_dark_solarized/solarized-dark.css	/^div.md {$/;"	c
+div.thumbinner	qutebrowser_dark_solarized/solarized-dark.css	/^div.thumbinner {$/;"	c
+div.vectorTabs	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs {$/;"	c
+div.vectorTabs li.selected	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs li.selected,$/;"	c
+div.vectorTabs li.selected span	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs li.selected span {$/;"	s
+div.vectorTabs span	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs span {$/;"	s
+div.vectorTabs ul	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs ul {$/;"	s
+div.vectorTabs ul li	qutebrowser_dark_solarized/solarized-dark.css	/^div.vectorTabs ul li {$/;"	s
+doubleclicktimeout	st/st/st-0.8.6.2/config.def.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+doubleclicktimeout	st/st/st-0.8.6.2/config.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+doubleclicktimeout	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+download	bash/.local/aliases.d/100.slow-connection-download.sh	/^alias download='bash ~\/bin\/download.sh'$/;"	a
+dpy	st/st/st-0.8.6.2/x.c	/^	Display *dpy;$/;"	m	struct:__anon344215770508	typeref:typename:Display *	file:
+draw	st/st/st-0.8.6.2/st.c	/^draw(void)$/;"	f	typeref:typename:void
+draw	st/st/st-0.8.6.2/x.c	/^	Draw draw;$/;"	m	struct:__anon344215770508	typeref:typename:Draw	file:
+drawregion	st/st/st-0.8.6.2/st.c	/^drawregion(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+dtouch	bash/.local/aliases.d/100.touchpad.sh	/^alias dtouch='xinput set-prop `xinput list | grep -i touchpad | cut -f 2 | grep -oE '[[:digit:]]/;"	a
+egrep	bash/.local/bashrc.d/001.kde.sh	/^	alias egrep='egrep --colour=auto'$/;"	a
+esc	st/st/st-0.8.6.2/st.c	/^	int esc;      \/* escape state flags *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+escape_state	st/st/st-0.8.6.2/st.c	/^enum escape_state {$/;"	g	file:
+eschandle	st/st/st-0.8.6.2/st.c	/^eschandle(uchar ascii)$/;"	f	typeref:typename:int
+etouch	bash/.local/aliases.d/100.touchpad.sh	/^alias etouch='xinput set-prop `xinput list | grep -i touchpad | cut -f 2 | grep -oE '[[:digit:]]/;"	a
+evcol	st/st/st-0.8.6.2/x.c	/^evcol(XEvent *e)$/;"	f	typeref:typename:int
+evrow	st/st/st-0.8.6.2/x.c	/^evrow(XEvent *e)$/;"	f	typeref:typename:int
+ex	bash/.local/bashrc.d/001.kde.sh	/^ex ()$/;"	f
+execsh	st/st/st-0.8.6.2/st.c	/^execsh(char *cmd, char **args)$/;"	f	typeref:typename:void
+expose	st/st/st-0.8.6.2/x.c	/^expose(XEvent *ev)$/;"	f	typeref:typename:void
+f	st/st/st-0.8.6.2/st.h	/^	float f;$/;"	m	union:__anonbc8329cb020a	typeref:typename:float
+fastIgnore	i3blocks/.config/i3blocks_/scripts/usb	/^def fastIgnore(path):$/;"	f
+fg	st/st/st-0.8.6.2/st.h	/^	uint32_t fg;      \/* foreground  *\/$/;"	m	struct:__anonbc8329cb0108	typeref:typename:uint32_t
+fgrep	bash/.local/bashrc.d/001.kde.sh	/^	alias fgrep='fgrep --colour=auto'$/;"	a
+figcaption	qutebrowser_dark_solarized/custom_solarized.css	/^figcaption,$/;"	s
+figure	qutebrowser_dark_solarized/custom_solarized.css	/^figure,$/;"	s
+flags	st/st/st-0.8.6.2/x.c	/^	int flags;$/;"	m	struct:__anon344215770a08	typeref:typename:int	file:
+focus	st/st/st-0.8.6.2/x.c	/^focus(XEvent *ev)$/;"	f	typeref:typename:void
+font	st/st/st-0.8.6.2/config.def.h	/^static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";$/;"	v	typeref:typename:char *
+font	st/st/st-0.8.6.2/config.h	/^static char *font = "Sudo:pixelsize=17:antialias=true:autohint=true";$/;"	v	typeref:typename:char *
+font	st/st/st-0.8.6.2/config.orig.h	/^static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";$/;"	v	typeref:typename:char *
+font	st/st/st-0.8.6.2/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon344215770808	typeref:typename:Font	file:
+font	st/st/st-0.8.6.2/x.c	/^	XftFont *font;$/;"	m	struct:__anon344215770a08	typeref:typename:XftFont *	file:
+footer	qutebrowser_dark_solarized/custom_solarized.css	/^footer,$/;"	s
+forceselmod	st/st/st-0.8.6.2/config.def.h	/^static uint forceselmod = ShiftMask;$/;"	v	typeref:typename:uint
+forceselmod	st/st/st-0.8.6.2/config.h	/^static uint forceselmod = ShiftMask;$/;"	v	typeref:typename:uint
+forceselmod	st/st/st-0.8.6.2/config.orig.h	/^static uint forceselmod = ShiftMask;$/;"	v	typeref:typename:uint
+form	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    form =  '<span color="{}">{}%<\/span>'$/;"	v
+frc	st/st/st-0.8.6.2/x.c	/^static Fontcache frc[16];$/;"	v	typeref:typename:Fontcache[16]	file:
+frclen	st/st/st-0.8.6.2/x.c	/^static int frclen = 0;$/;"	v	typeref:typename:int	file:
+free	bash/.local/bashrc.d/001.kde.sh	/^alias free='free -m'                      # show sizes in MB$/;"	a
+fulltext	i3blocks/.config/i3blocks_/scripts/battery2.py	/^        fulltext = FA_BATTERY + " "$/;"	v
+fulltext	i3blocks/.config/i3blocks_/scripts/battery2.py	/^        fulltext = FA_PLUG + " "$/;"	v
+fulltext	i3blocks/.config/i3blocks_/scripts/battery2.py	/^        fulltext = FA_QUESTION + " " + FA_BATTERY + " "$/;"	v
+fulltext	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    fulltext = "<span color='red'><span font='FontAwesome'>\\uf00d \\uf240<\/span><\/span>"$/;"	v
+func	st/st/st-0.8.6.2/x.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon344215770108	typeref:typename:void (*)(const Arg *)	file:
+g	bash/.local/aliases.d/100.gcalcli.sh	/^alias g='gcalcli'$/;"	a
+g:SimpylFold_docstring_preview	nvim/.config/nvim/init.vim	/^let g:SimpylFold_docstring_preview=1$/;"	v
+g:SuperTabDefaultCompletionType	nvim/.config/nvim/init.vim	/^let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top$/;"	v
+g:UltiSnipsExpandTrigger	nvim/.config/nvim/init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	nvim/.config/nvim/init.vim	/^let g:UltiSnipsJumpBackwardTrigger="<c-b>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	nvim/.config/nvim/init.vim	/^let g:UltiSnipsJumpForwardTrigger="<tab>"$/;"	v
+g:UltiSnipsSnippetDirectories	nvim/.config/nvim/init.vim	/^let g:UltiSnipsSnippetDirectories=[$HOME.'.config\/nvim\/UltiSnips']$/;"	v
+g:airline_theme	nvim/.config/nvim/init.vim	/^let g:airline_theme='neodark'  " Set airline theme$/;"	v
+g:ctrlp_cmd	nvim/.config/nvim/init.vim	/^let g:ctrlp_cmd = 'CtrlP'$/;"	v
+g:ctrlp_map	nvim/.config/nvim/init.vim	/^let g:ctrlp_map = '<C-p>'$/;"	v
+g:deoplete#custom#option#on_insert_enter	nvim/.config/nvim/init.vim	/^let g:deoplete#custom#option#on_insert_enter = 'false'$/;"	v
+g:deoplete#enable_at_startup	nvim/.config/nvim/init.vim	/^let g:deoplete#enable_at_startup = 1$/;"	v
+g:deoplete#ignore_sources	nvim/.config/nvim/init.vim	/^let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})$/;"	v
+g:deoplete#ignore_sources	nvim/.config/nvim/init.vim	/^let g:deoplete#ignore_sources.python = ['look']$/;"	v
+g:ipy_celldef	nvim/.config/nvim/init.vim	/^let g:ipy_celldef = "##"$/;"	v
+g:neodark#terminal_transparent	nvim/.config/nvim/init.vim	/^let g:neodark#terminal_transparent = 1$/;"	v
+g:neodark#use_256color	nvim/.config/nvim/init.vim	/^let g:neodark#use_256color = 1$/;"	v
+g:neomake_serialize	nvim/.config/nvim/init.vim	/^let g:neomake_serialize = 1$/;"	v
+g:neomake_serialize_abort_on_error	nvim/.config/nvim/init.vim	/^let g:neomake_serialize_abort_on_error = 1$/;"	v
+g:nvim_ipy_perform_mappings	nvim/.config/nvim/init.vim	/^let g:nvim_ipy_perform_mappings = 0  " obliterate mappings$/;"	v
+g:syntastic_mode_map	nvim/.config/nvim/init.vim	/^let g:syntastic_mode_map = {$/;"	v
+g:tmuxcomplete#trigger	nvim/.config/nvim/init.vim	/^let g:tmuxcomplete#trigger = ''$/;"	v
+gc	st/st/st-0.8.6.2/x.c	/^	GC gc;$/;"	m	struct:__anon344215770808	typeref:typename:GC	file:
+getAttributeMaps	i3blocks/.config/i3blocks_/scripts/usb	/^def getAttributeMaps(paths):$/;"	f
+getDeviceType	i3blocks/.config/i3blocks_/scripts/usb	/^def getDeviceType(path):$/;"	f
+getDiskWithNoPartitionsOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getDiskWithNoPartitionsOutput(path):$/;"	f
+getFSLabel	i3blocks/.config/i3blocks_/scripts/usb	/^def getFSLabel(path):$/;"	f
+getFSOptions	i3blocks/.config/i3blocks_/scripts/usb	/^def getFSOptions(path):$/;"	f
+getFSType	i3blocks/.config/i3blocks_/scripts/usb	/^def getFSType(path):$/;"	f
+getKernelName	i3blocks/.config/i3blocks_/scripts/usb	/^def getKernelName(path):$/;"	f
+getLeafDevicePaths	i3blocks/.config/i3blocks_/scripts/usb	/^def getLeafDevicePaths():$/;"	f
+getLockedCryptOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getLockedCryptOutput(path):$/;"	f
+getMountPoint	i3blocks/.config/i3blocks_/scripts/usb	/^def getMountPoint(path):$/;"	f
+getOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getOutput(path):$/;"	f
+getParentKernelName	i3blocks/.config/i3blocks_/scripts/usb	/^def getParentKernelName(path):$/;"	f
+getSpaceAvailable	i3blocks/.config/i3blocks_/scripts/usb	/^def getSpaceAvailable(path):$/;"	f
+getSwapOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getSwapOutput(path):$/;"	f
+getUnencryptedPartitionOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getUnencryptedPartitionOutput(path): $/;"	f
+getUnlockedCryptOutput	i3blocks/.config/i3blocks_/scripts/usb	/^def getUnlockedCryptOutput(path):$/;"	f
+getsel	st/st/st-0.8.6.2/st.c	/^getsel(void)$/;"	f	typeref:typename:char *
+git	bash/.local/aliases.d/100.github.sh	/^alias git='hub'$/;"	a
+gl	bash/.local/aliases.d/100.github.sh	/^alias gl='git log --oneline --all --graph'$/;"	a
+glyph_attribute	st/st/st-0.8.6.2/st.h	/^enum glyph_attribute {$/;"	g
+gm	st/st/st-0.8.6.2/x.c	/^	int gm; \/* geometry mask *\/$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+grep	bash/.local/bashrc.d/001.kde.sh	/^	alias grep='grep --colour=auto'$/;"	a
+h	st/st/st-0.8.6.2/x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+h1	qutebrowser_dark_solarized/custom_solarized.css	/^h1,$/;"	s
+h1	qutebrowser_dark_solarized/solarized-dark.css	/^h1,$/;"	s
+h2	qutebrowser_dark_solarized/custom_solarized.css	/^h2,$/;"	s
+h2	qutebrowser_dark_solarized/solarized-dark.css	/^h2,$/;"	s
+h3	qutebrowser_dark_solarized/custom_solarized.css	/^h3,$/;"	s
+h3	qutebrowser_dark_solarized/solarized-dark.css	/^h3,$/;"	s
+h4	qutebrowser_dark_solarized/custom_solarized.css	/^h4,$/;"	s
+h4	qutebrowser_dark_solarized/solarized-dark.css	/^h4,$/;"	s
+h5	qutebrowser_dark_solarized/custom_solarized.css	/^h5,$/;"	s
+h5	qutebrowser_dark_solarized/solarized-dark.css	/^h5,$/;"	s
+h6	qutebrowser_dark_solarized/custom_solarized.css	/^h6 {$/;"	s
+h6	qutebrowser_dark_solarized/solarized-dark.css	/^h6 {$/;"	s
+handler	st/st/st-0.8.6.2/x.c	/^static void (*handler[LASTEvent])(XEvent *) = {$/;"	v	typeref:typename:void (* [LASTEvent])(XEvent *)	file:
+header	qutebrowser_dark_solarized/custom_solarized.css	/^header,$/;"	s
+height	st/st/st-0.8.6.2/x.c	/^	int height;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+help	i3blocks/.config/i3blocks_/scripts/openvpn	/^sub help {$/;"	s
+hgroup	qutebrowser_dark_solarized/custom_solarized.css	/^hgroup,$/;"	s
+hist	st/st/st-0.8.6.2/st.c	/^	Line hist[HISTSIZE]; \/* history buffer *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:Line[]	file:
+histi	st/st/st-0.8.6.2/st.c	/^	int histi;    \/* history index *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+hr	qutebrowser_dark_solarized/solarized-dark.css	/^hr {$/;"	s
+html	qutebrowser_dark_solarized/solarized-dark.css	/^html {$/;"	s
+i	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> i$/;"	m
+i	st/st/st-0.8.6.2/st.h	/^	int i;$/;"	m	union:__anonbc8329cb020a	typeref:typename:int
+ibfont	st/st/st-0.8.6.2/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon344215770808	typeref:typename:Font	file:
+icharset	st/st/st-0.8.6.2/st.c	/^	int icharset; \/* selected charset for sequence *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+ifont	st/st/st-0.8.6.2/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon344215770808	typeref:typename:Font	file:
+ignore	i3blocks/.config/i3blocks_/scripts/usb	/^def ignore(path, udev_attributes_dict):$/;"	f
+ignoremod	st/st/st-0.8.6.2/config.def.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+ignoremod	st/st/st-0.8.6.2/config.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+ignoremod	st/st/st-0.8.6.2/config.orig.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+img	qutebrowser_dark_solarized/solarized-dark.css	/^img {$/;"	s
+img.thumbimage	qutebrowser_dark_solarized/solarized-dark.css	/^img.thumbimage {$/;"	c
+input	qutebrowser_dark_solarized/solarized-dark.css	/^input,$/;"	s
+input#lst-ib	qutebrowser_dark_solarized/solarized-dark.css	/^input#lst-ib,$/;"	i
+install	st/st/st-0.8.6.2/Makefile	/^install: st$/;"	t
+installed_version	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^installed_version = {}$/;"	v
+iofd	st/st/st-0.8.6.2/st.c	/^static int iofd = 1;$/;"	v	typeref:typename:int	file:
+ip	ipython/.ipython/profile_default/startup/01-keybindings.py	/^ip = get_ipython()$/;"	v
+isExtendedPartitionMarker	i3blocks/.config/i3blocks_/scripts/usb	/^def isExtendedPartitionMarker(path):$/;"	f
+isLUKSPartition	i3blocks/.config/i3blocks_/scripts/usb	/^def isLUKSPartition(path):$/;"	f
+isReadOnly	i3blocks/.config/i3blocks_/scripts/usb	/^def isReadOnly(path):$/;"	f
+isSwapPartition	i3blocks/.config/i3blocks_/scripts/usb	/^def isSwapPartition(path):$/;"	f
+is_vim	tmux/.tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+isfixed	st/st/st-0.8.6.2/x.c	/^	int isfixed; \/* is fixed geometry? *\/$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+jk	nvim/.config/nvim/init.vim	/^    inoremap jk <esc>| $/;"	m
+k	st/st/st-0.8.6.2/x.c	/^	KeySym k;$/;"	m	struct:__anon344215770308	typeref:typename:KeySym	file:
+key	st/st/st-0.8.6.2/config.def.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+key	st/st/st-0.8.6.2/config.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+key	st/st/st-0.8.6.2/config.orig.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+keysym	st/st/st-0.8.6.2/x.c	/^	KeySym keysym;$/;"	m	struct:__anon344215770108	typeref:typename:KeySym	file:
+kmap	st/st/st-0.8.6.2/x.c	/^kmap(KeySym k, uint state)$/;"	f	typeref:typename:char *
+kpress	st/st/st-0.8.6.2/x.c	/^kpress(XEvent *ev)$/;"	f	typeref:typename:void
+kscrolldown	st/st/st-0.8.6.2/st.c	/^kscrolldown(const Arg* a)$/;"	f	typeref:typename:void
+kscrollup	st/st/st-0.8.6.2/st.c	/^kscrollup(const Arg* a)$/;"	f	typeref:typename:void
+l	bash/.local/aliases.d/100.ls.sh	/^alias l='ls -CF'$/;"	a
+l	st/st/st-0.8.6.2/x.c	/^	int l, t; \/* left and top offset *\/$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+la	bash/.local/aliases.d/100.ls.sh	/^alias la='ls -A'$/;"	a
+lbearing	st/st/st-0.8.6.2/x.c	/^	short lbearing;$/;"	m	struct:__anon344215770708	typeref:typename:short	file:
+leaves	i3blocks/.config/i3blocks_/scripts/usb	/^leaves = (path for path in leaves if not ignore(path, attributeMaps[path]))$/;"	v
+leaves	i3blocks/.config/i3blocks_/scripts/usb	/^leaves = [path for path in leaves if not fastIgnore(path)]$/;"	v
+leaves	i3blocks/.config/i3blocks_/scripts/usb	/^leaves = getLeafDevicePaths()$/;"	v
+left	ranger/.config/ranger/rc.conf	/^cmap <a-left>   eval fm.ui.console.move_word(left=1)$/;"	k
+left	ranger/.config/ranger/rc.conf	/^cmap <left>  eval fm.ui.console.move(left=1)$/;"	k
+len	st/st/st-0.8.6.2/st.c	/^	int len;               \/* raw string length *\/$/;"	m	struct:__anonbc8329c60508	typeref:typename:int	file:
+len	st/st/st-0.8.6.2/st.c	/^	int len;               \/* raw string length *\/$/;"	m	struct:__anonbc8329c60608	typeref:typename:int	file:
+li	qutebrowser_dark_solarized/custom_solarized.css	/^li,$/;"	s
+line	st/st/st-0.8.6.2/st.c	/^	Line *line;   \/* screen *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:Line *	file:
+ll	bash/.local/aliases.d/100.ls.sh	/^alias ll='ls -alF'$/;"	a
+ls	bash/.local/bashrc.d/001.kde.sh	/^	alias ls='ls --color=auto'$/;"	a
+ls	bash/.local/bashrc.d/100.auto-color.sh	/^alias ls='ls --color=auto'$/;"	a
+main	qutebrowser_dark_solarized/custom_solarized.css	/^main,$/;"	s
+main	st/st/st-0.8.6.2/x.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+makeAttributeMap	i3blocks/.config/i3blocks_/scripts/usb	/^def makeAttributeMap(path):$/;"	f
+map	ranger/.config/ranger/rc.conf	/^map :  console$/;"	k
+map	ranger/.config/ranger/rc.conf	/^map =  chmod$/;"	k
+map J  move down	ranger/.config/ranger/rc.conf	/^map J  move down=0.5  pages=True$/;"	k
+map K  move up	ranger/.config/ranger/rc.conf	/^map K  move up=0.5    pages=True$/;"	k
+map N  search_next forward	ranger/.config/ranger/rc.conf	/^map N  search_next forward=False$/;"	k
+map ca search_next order	ranger/.config/ranger/rc.conf	/^map ca search_next order=atime$/;"	k
+map cc search_next order	ranger/.config/ranger/rc.conf	/^map cc search_next order=ctime$/;"	k
+map ci search_next order	ranger/.config/ranger/rc.conf	/^map ci search_next order=mimetype$/;"	k
+map cm search_next order	ranger/.config/ranger/rc.conf	/^map cm search_next order=mtime$/;"	k
+map cs search_next order	ranger/.config/ranger/rc.conf	/^map cs search_next order=size$/;"	k
+map ct search_next order	ranger/.config/ranger/rc.conf	/^map ct search_next order=tag$/;"	k
+map da cut mode	ranger/.config/ranger/rc.conf	/^map da cut mode=add$/;"	k
+map dr cut mode	ranger/.config/ranger/rc.conf	/^map dr cut mode=remove$/;"	k
+map dt cut mode	ranger/.config/ranger/rc.conf	/^map dt cut mode=toggle$/;"	k
+map oA chain set sort	ranger/.config/ranger/rc.conf	/^map oA chain set sort=atime;     set sort_reverse=True$/;"	k
+map oB chain set sort	ranger/.config/ranger/rc.conf	/^map oB chain set sort=basename;  set sort_reverse=True$/;"	k
+map oC chain set sort	ranger/.config/ranger/rc.conf	/^map oC chain set sort=ctime;     set sort_reverse=True$/;"	k
+map oE chain set sort	ranger/.config/ranger/rc.conf	/^map oE chain set sort=extension; set sort_reverse=True$/;"	k
+map oM chain set sort	ranger/.config/ranger/rc.conf	/^map oM chain set sort=mtime;     set sort_reverse=True$/;"	k
+map oN chain set sort	ranger/.config/ranger/rc.conf	/^map oN chain set sort=natural;   set sort_reverse=True$/;"	k
+map oS chain set sort	ranger/.config/ranger/rc.conf	/^map oS chain set sort=size;      set sort_reverse=True$/;"	k
+map oT chain set sort	ranger/.config/ranger/rc.conf	/^map oT chain set sort=type;      set sort_reverse=True$/;"	k
+map oa chain set sort	ranger/.config/ranger/rc.conf	/^map oa chain set sort=atime;     set sort_reverse=False$/;"	k
+map ob chain set sort	ranger/.config/ranger/rc.conf	/^map ob chain set sort=basename;  set sort_reverse=False$/;"	k
+map oc chain set sort	ranger/.config/ranger/rc.conf	/^map oc chain set sort=ctime;     set sort_reverse=False$/;"	k
+map oe chain set sort	ranger/.config/ranger/rc.conf	/^map oe chain set sort=extension; set sort_reverse=False$/;"	k
+map om chain set sort	ranger/.config/ranger/rc.conf	/^map om chain set sort=mtime;     set sort_reverse=False$/;"	k
+map on chain set sort	ranger/.config/ranger/rc.conf	/^map on chain set sort=natural;   set sort_reverse=False$/;"	k
+map os chain set sort	ranger/.config/ranger/rc.conf	/^map os chain set sort=size;      set sort_reverse=False$/;"	k
+map ot chain set sort	ranger/.config/ranger/rc.conf	/^map ot chain set sort=type;      set sort_reverse=False$/;"	k
+map oz set sort	ranger/.config/ranger/rc.conf	/^map oz set sort=random$/;"	k
+map pL paste_symlink relative	ranger/.config/ranger/rc.conf	/^map pL paste_symlink relative=True$/;"	k
+map pO paste overwrite	ranger/.config/ranger/rc.conf	/^map pO paste overwrite=True append=True$/;"	k
+map pP paste append	ranger/.config/ranger/rc.conf	/^map pP paste append=True$/;"	k
+map pl paste_symlink relative	ranger/.config/ranger/rc.conf	/^map pl paste_symlink relative=False$/;"	k
+map po paste overwrite	ranger/.config/ranger/rc.conf	/^map po paste overwrite=True$/;"	k
+map uV      toggle_visual_mode reverse	ranger/.config/ranger/rc.conf	/^map uV      toggle_visual_mode reverse=True$/;"	k
+map uv      mark_files all	ranger/.config/ranger/rc.conf	/^map uv      mark_files all=True val=False$/;"	k
+map v       mark_files all	ranger/.config/ranger/rc.conf	/^map v       mark_files all=True toggle=True$/;"	k
+map ya copy mode	ranger/.config/ranger/rc.conf	/^map ya copy mode=add$/;"	k
+map yr copy mode	ranger/.config/ranger/rc.conf	/^map yr copy mode=remove$/;"	k
+map yt copy mode	ranger/.config/ranger/rc.conf	/^map yt copy mode=toggle$/;"	k
+mapleader	nvim/.config/nvim/init.vim	/^let mapleader = "\\<SPACE>" " Map leader key$/;"	v
+mappedkeys	st/st/st-0.8.6.2/config.def.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+mappedkeys	st/st/st-0.8.6.2/config.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+mappedkeys	st/st/st-0.8.6.2/config.orig.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+mask	st/st/st-0.8.6.2/x.c	/^	uint mask;$/;"	m	struct:__anon344215770208	typeref:typename:uint	file:
+mask	st/st/st-0.8.6.2/x.c	/^	uint mask;$/;"	m	struct:__anon344215770308	typeref:typename:uint	file:
+match	st/st/st-0.8.6.2/x.c	/^	XftFont *match;$/;"	m	struct:__anon344215770708	typeref:typename:XftFont *	file:
+match	st/st/st-0.8.6.2/x.c	/^match(uint mask, uint state)$/;"	f	typeref:typename:int
+mf	nvim/.config/nvim/init.vim	/^nnoremap  mf za " Enable folding$/;"	m
+mod	st/st/st-0.8.6.2/x.c	/^	uint mod;$/;"	m	struct:__anon344215770108	typeref:typename:uint	file:
+mode	st/st/st-0.8.6.2/st.c	/^	char mode[2];$/;"	m	struct:__anonbc8329c60508	typeref:typename:char[2]	file:
+mode	st/st/st-0.8.6.2/st.c	/^	int mode;     \/* terminal mode flags *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+mode	st/st/st-0.8.6.2/st.c	/^	int mode;$/;"	m	struct:__anonbc8329c60208	typeref:typename:int	file:
+mode	st/st/st-0.8.6.2/st.h	/^	ushort mode;      \/* attribute flags *\/$/;"	m	struct:__anonbc8329cb0108	typeref:typename:ushort
+mode	st/st/st-0.8.6.2/x.c	/^	int mode; \/* window state\/mode flags *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+more	bash/.local/bashrc.d/001.kde.sh	/^alias more=less$/;"	a
+mousebg	st/st/st-0.8.6.2/config.def.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousebg	st/st/st-0.8.6.2/config.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousebg	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousefg	st/st/st-0.8.6.2/config.def.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousefg	st/st/st-0.8.6.2/config.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousefg	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousereport	st/st/st-0.8.6.2/x.c	/^mousereport(XEvent *e)$/;"	f	typeref:typename:void
+mousesel	st/st/st-0.8.6.2/x.c	/^mousesel(XEvent *e, int done)$/;"	f	typeref:typename:void
+mouseshape	st/st/st-0.8.6.2/config.def.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+mouseshape	st/st/st-0.8.6.2/config.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+mouseshape	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+msg	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    msg = "<span color='{0}'>{1} AUR updates<\/span>"$/;"	v
+mshortcuts	st/st/st-0.8.6.2/config.def.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+mshortcuts	st/st/st-0.8.6.2/config.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+mshortcuts	st/st/st-0.8.6.2/config.orig.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+n_updates	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^n_updates = len(updates)$/;"	v
+narg	st/st/st-0.8.6.2/st.c	/^	int narg;              \/* nb of args *\/$/;"	m	struct:__anonbc8329c60508	typeref:typename:int	file:
+narg	st/st/st-0.8.6.2/st.c	/^	int narg;              \/* nb of args *\/$/;"	m	struct:__anonbc8329c60608	typeref:typename:int	file:
+nav	qutebrowser_dark_solarized/custom_solarized.css	/^nav,$/;"	s
+nb	st/st/st-0.8.6.2/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anonbc8329c60208	typeref:struct:__anonbc8329c60208::__anonbc8329c60308	file:
+ne	st/st/st-0.8.6.2/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anonbc8329c60208	typeref:struct:__anonbc8329c60208::__anonbc8329c60308	file:
+net	bash/.local/aliases.d/100.netctl.sh	/^alias net='sudo netctl switch-to'$/;"	a
+netl	bash/.local/aliases.d/100.netctl.sh	/^alias netl='netctl list'$/;"	a
+netwmname	st/st/st-0.8.6.2/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon344215770508	typeref:typename:Atom	file:
+netwmpid	st/st/st-0.8.6.2/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon344215770508	typeref:typename:Atom	file:
+newFastIgnore	i3blocks/.config/i3blocks_/scripts/usb	/^        def newFastIgnore(path):$/;"	f	function:setParsedArgs	file:
+norvpn	bash/.local/aliases.d/100.vpn.sh	/^alias norvpn="sudo systemctl stop openvpn-client@gerrit.egnew-bastion-rlr-euc1-mgmt.service"$/;"	a
+novpn	bash/.local/aliases.d/100.vpn.sh	/^alias novpn="sudo systemctl stop openvpn-client@eliot.service;sudo iptables -F;sudo iptables -X"$/;"	a
+np	bash/.local/bashrc.d/001.kde.sh	/^alias np='nano -w PKGBUILD'$/;"	a
+numlock	st/st/st-0.8.6.2/x.c	/^numlock(const Arg *dummy)$/;"	f	typeref:typename:void
+ob	st/st/st-0.8.6.2/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anonbc8329c60208	typeref:struct:__anonbc8329c60208::__anonbc8329c60308	file:
+ocx	st/st/st-0.8.6.2/st.c	/^	int ocx;      \/* old cursor col *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+ocy	st/st/st-0.8.6.2/st.c	/^	int ocy;      \/* old cursor row *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+oe	st/st/st-0.8.6.2/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anonbc8329c60208	typeref:struct:__anonbc8329c60208::__anonbc8329c60308	file:
+oldbutton	st/st/st-0.8.6.2/x.c	/^static int oldbutton = 3; \/* button event on startup: 3 = release *\/$/;"	v	typeref:typename:int	file:
+opt_alpha	st/st/st-0.8.6.2/x.c	/^static char *opt_alpha = NULL;$/;"	v	typeref:typename:char *	file:
+opt_class	st/st/st-0.8.6.2/x.c	/^static char *opt_class = NULL;$/;"	v	typeref:typename:char *	file:
+opt_cmd	st/st/st-0.8.6.2/x.c	/^static char **opt_cmd  = NULL;$/;"	v	typeref:typename:char **	file:
+opt_embed	st/st/st-0.8.6.2/x.c	/^static char *opt_embed = NULL;$/;"	v	typeref:typename:char *	file:
+opt_font	st/st/st-0.8.6.2/x.c	/^static char *opt_font  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_io	st/st/st-0.8.6.2/x.c	/^static char *opt_io    = NULL;$/;"	v	typeref:typename:char *	file:
+opt_line	st/st/st-0.8.6.2/x.c	/^static char *opt_line  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_name	st/st/st-0.8.6.2/x.c	/^static char *opt_name  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_title	st/st/st-0.8.6.2/x.c	/^static char *opt_title = NULL;$/;"	v	typeref:typename:char *	file:
+options	st/st/st-0.8.6.2/Makefile	/^options:$/;"	t
+output	i3blocks/.config/i3blocks_/scripts/usb	/^    output = "<span color='{}'>{}<\/span>".format(INFO_TEXT_COLOR, output)$/;"	v
+output	i3blocks/.config/i3blocks_/scripts/usb	/^output = SEPARATOR.join(outputs)$/;"	v
+outputs	i3blocks/.config/i3blocks_/scripts/usb	/^outputs = filter(None, map(getOutput, leaves))$/;"	v
+p	i3blocks/.config/i3blocks_/scripts/battery2.py	/^            p = int(commasplitstatus[1].rstrip("%\\n"))$/;"	v
+p	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> p$/;"	m
+p	qutebrowser_dark_solarized/custom_solarized.css	/^p,$/;"	s
+packages	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^packages = sp.check_output(['pacman', '-Qm']).decode('utf8')$/;"	v
+pangoEscape	i3blocks/.config/i3blocks_/scripts/usb	/^def pangoEscape(text):$/;"	f
+parseArguments	i3blocks/.config/i3blocks_/scripts/usb	/^def parseArguments():$/;"	f
+pattern	st/st/st-0.8.6.2/x.c	/^	FcPattern *pattern;$/;"	m	struct:__anon344215770708	typeref:typename:FcPattern *	file:
+percentleft	i3blocks/.config/i3blocks_/scripts/battery2.py	/^        percentleft = int(sum(percentleft_batteries)\/len(percentleft_batteries))$/;"	v
+percentleft	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    percentleft = 100$/;"	v
+percentleft_batteries	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    percentleft_batteries=[]$/;"	v
+pf	bash/.local/aliases.d/100.xclip.sh	/^alias pf='xclip -o -sel clip >'$/;"	a
+pid	st/st/st-0.8.6.2/st.c	/^static pid_t pid;$/;"	v	typeref:typename:pid_t	file:
+pkg	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    pkg, ver = pkg.split()$/;"	v
+position	ranger/.config/ranger/rc.conf	/^map I  eval fm.open_console('rename ' + fm.thisfile.relative_path.replace("%", "%%"), position=7/;"	k
+pp	bash/.local/aliases.d/100.xclip.sh	/^alias pp='xclip -o -sel clip'$/;"	a
+pre	qutebrowser_dark_solarized/solarized-dark.css	/^pre {$/;"	s
+pre code	qutebrowser_dark_solarized/solarized-dark.css	/^pre code {$/;"	s
+pre code .atn	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .atn {$/;"	c
+pre code .atv	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .atv {$/;"	c
+pre code .com	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .com {$/;"	c
+pre code .kwd	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .kwd {$/;"	c
+pre code .lit	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .lit {$/;"	c
+pre code .pln	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .pln,$/;"	c
+pre code .pun	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .pun {$/;"	c
+pre code .str	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .str {$/;"	c
+pre code .tag	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .tag {$/;"	c
+pre code .typ	qutebrowser_dark_solarized/solarized-dark.css	/^pre code .typ {$/;"	c
+prepare_launcher	i3blocks/.config/i3blocks_/scripts/shutdown_menu.sh	/^function prepare_launcher() {$/;"	f
+primary	st/st/st-0.8.6.2/x.c	/^	char *primary, *clipboard;$/;"	m	struct:__anon344215770608	typeref:typename:char *	file:
+print_output	i3blocks/.config/i3blocks_/scripts/openvpn	/^sub print_output {$/;"	s
+printscreen	st/st/st-0.8.6.2/st.c	/^printscreen(const Arg *arg)$/;"	f	typeref:typename:void
+printsel	st/st/st-0.8.6.2/st.c	/^printsel(const Arg *arg)$/;"	f	typeref:typename:void
+priv	st/st/st-0.8.6.2/st.c	/^	char priv;$/;"	m	struct:__anonbc8329c60508	typeref:typename:char	file:
+propnotify	st/st/st-0.8.6.2/x.c	/^propnotify(XEvent *e)$/;"	f	typeref:typename:void
+props	i3blocks/.config/i3blocks_/scripts/spotify.py	/^    props = spotify_iface.Get('org.mpris.MediaPlayer2.Player', 'Metadata')$/;"	v
+q	nvim/.config/nvim/init.vim	/^  nnoremap <silent><buffer><expr> q$/;"	m
+qul.branches-list	qutebrowser_dark_solarized/solarized-dark.css	/^qul.branches-list {$/;"	c
+qul.branches-list *	qutebrowser_dark_solarized/solarized-dark.css	/^qul.branches-list * {$/;"	s
+r	bash/.local/aliases.d/100.ranger.sh	/^alias r='ranger'$/;"	a
+ranger	bash/.local/aliases.d/100.ranger.sh	/^alias ranger='ranger --choosedir=$HOME\/rangerdir; LASTDIR=`cat $HOME\/rangerdir`; cd "$LASTDIR"/;"	a
+rbearing	st/st/st-0.8.6.2/x.c	/^	short rbearing;$/;"	m	struct:__anon344215770708	typeref:typename:short	file:
+redraw	st/st/st-0.8.6.2/st.c	/^redraw(void)$/;"	f	typeref:typename:void
+registry	ipython/.ipython/profile_default/startup/01-keybindings.py	/^   registry = ip.pt_app.key_bindings$/;"	v
+resettitle	st/st/st-0.8.6.2/st.c	/^resettitle(void)$/;"	f	typeref:typename:void
+resize	st/st/st-0.8.6.2/x.c	/^resize(XEvent *e)$/;"	f	typeref:typename:void
+right	ranger/.config/ranger/rc.conf	/^cmap <a-right>  eval fm.ui.console.move_word(right=1)$/;"	k
+right	ranger/.config/ranger/rc.conf	/^cmap <end>   eval fm.ui.console.move(right=-1, absolute=True)$/;"	k
+right	ranger/.config/ranger/rc.conf	/^cmap <home>  eval fm.ui.console.move(right=0, absolute=True)$/;"	k
+right	ranger/.config/ranger/rc.conf	/^cmap <right> eval fm.ui.console.move(right=1)$/;"	k
+row	st/st/st-0.8.6.2/st.c	/^	int row;      \/* nb row *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+rows	st/st/st-0.8.6.2/config.def.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+rows	st/st/st-0.8.6.2/config.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+rows	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+rr	bash/.local/aliases.d/100.ranger.sh	/^alias rr='sudo ranger'$/;"	a
+run	st/st/st-0.8.6.2/x.c	/^run(void)$/;"	f	typeref:typename:void
+rvpn	bash/.local/aliases.d/100.vpn.sh	/^alias rvpn="sudo systemctl start openvpn-client@gerrit.egnew-bastion-rlr-euc1-mgmt.service"$/;"	a
+s	st/st/st-0.8.6.2/x.c	/^	char *s;$/;"	m	struct:__anon344215770208	typeref:typename:char *	file:
+s	st/st/st-0.8.6.2/x.c	/^	char *s;$/;"	m	struct:__anon344215770308	typeref:typename:char *	file:
+s:denite_my_settings	nvim/.config/nvim/init.vim	/^function! s:denite_my_settings() abort$/;"	f
+scr	st/st/st-0.8.6.2/st.c	/^	int scr;      \/* scroll back *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+scr	st/st/st-0.8.6.2/x.c	/^	int scr;$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+section	qutebrowser_dark_solarized/custom_solarized.css	/^section,$/;"	s
+sel	st/st/st-0.8.6.2/st.c	/^static Selection sel;$/;"	v	typeref:typename:Selection	file:
+selclear	st/st/st-0.8.6.2/st.c	/^selclear(void)$/;"	f	typeref:typename:void
+selclear_	st/st/st-0.8.6.2/x.c	/^selclear_(XEvent *e)$/;"	f	typeref:typename:void
+selected	st/st/st-0.8.6.2/st.c	/^selected(int x, int y)$/;"	f	typeref:typename:int
+selection_mode	st/st/st-0.8.6.2/st.h	/^enum selection_mode {$/;"	g
+selection_snap	st/st/st-0.8.6.2/st.h	/^enum selection_snap {$/;"	g
+selection_type	st/st/st-0.8.6.2/st.h	/^enum selection_type {$/;"	g
+selextend	st/st/st-0.8.6.2/st.c	/^selextend(int col, int row, int type, int done)$/;"	f	typeref:typename:void
+selinit	st/st/st-0.8.6.2/st.c	/^selinit(void)$/;"	f	typeref:typename:void
+selmasks	st/st/st-0.8.6.2/config.def.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selmasks	st/st/st-0.8.6.2/config.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selmasks	st/st/st-0.8.6.2/config.orig.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selnormalize	st/st/st-0.8.6.2/st.c	/^selnormalize(void)$/;"	f	typeref:typename:void
+selnotify	st/st/st-0.8.6.2/x.c	/^selnotify(XEvent *e)$/;"	f	typeref:typename:void
+selpaste	st/st/st-0.8.6.2/x.c	/^selpaste(const Arg *dummy)$/;"	f	typeref:typename:void
+selrequest	st/st/st-0.8.6.2/x.c	/^selrequest(XEvent *e)$/;"	f	typeref:typename:void
+selscroll	st/st/st-0.8.6.2/st.c	/^selscroll(int orig, int n)$/;"	f	typeref:typename:void
+selsnap	st/st/st-0.8.6.2/st.c	/^selsnap(int *x, int *y, int direction)$/;"	f	typeref:typename:void
+selstart	st/st/st-0.8.6.2/st.c	/^selstart(int col, int row, int snap)$/;"	f	typeref:typename:void
+sendbreak	st/st/st-0.8.6.2/st.c	/^sendbreak(const Arg *arg)$/;"	f	typeref:typename:void
+set	st/st/st-0.8.6.2/x.c	/^	FcFontSet *set;$/;"	m	struct:__anon344215770708	typeref:typename:FcFontSet *	file:
+setParsedArgs	i3blocks/.config/i3blocks_/scripts/usb	/^def setParsedArgs(args):$/;"	f
+setsel	st/st/st-0.8.6.2/x.c	/^setsel(char *str, Time t)$/;"	f	typeref:typename:void
+shell	st/st/st-0.8.6.2/config.def.h	/^static char *shell = "\/bin\/sh";$/;"	v	typeref:typename:char *
+shell	st/st/st-0.8.6.2/config.h	/^static char *shell = "\/bin\/sh";$/;"	v	typeref:typename:char *
+shell	st/st/st-0.8.6.2/config.orig.h	/^static char *shell = "\/bin\/sh";$/;"	v	typeref:typename:char *
+shortcuts	st/st/st-0.8.6.2/config.def.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+shortcuts	st/st/st-0.8.6.2/config.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+shortcuts	st/st/st-0.8.6.2/config.orig.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+sigchld	st/st/st-0.8.6.2/st.c	/^sigchld(int a)$/;"	f	typeref:typename:void
+sixd_to_16bit	st/st/st-0.8.6.2/x.c	/^sixd_to_16bit(int x)$/;"	f	typeref:typename:ushort
+snap	st/st/st-0.8.6.2/st.c	/^	int snap;$/;"	m	struct:__anonbc8329c60208	typeref:typename:int	file:
+soulseek	bash/.local/aliases.d/100.soulseek.sh	/^alias soulseek='\/opt\/Soulseek\/SoulseekQt-2016-1-17-64bit'$/;"	a
+sp	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^import subprocess as sp$/;"	I
+span	qutebrowser_dark_solarized/custom_solarized.css	/^span,$/;"	s
+specbuf	st/st/st-0.8.6.2/x.c	/^	GlyphFontSpec *specbuf; \/* font spec buffer used for rendering *\/$/;"	m	struct:__anon344215770508	typeref:typename:GlyphFontSpec *	file:
+spotify	i3blocks/.config/i3blocks_/scripts/spotify.py	/^    spotify = bus.get_object("org.mpris.MediaPlayer2.spotify", "\/org\/mpris\/MediaPlayer2")$/;"	v
+spotify_iface	i3blocks/.config/i3blocks_/scripts/spotify.py	/^    spotify_iface = dbus.Interface(spotify, 'org.freedesktop.DBus.Properties')$/;"	v
+st	st/st/st-0.8.6.2/Makefile	/^st: $(OBJ)$/;"	t
+st.o	st/st/st-0.8.6.2/Makefile	/^st.o: config.h st.h win.h$/;"	t
+state	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    state = state_batteries[0]$/;"	v
+state	st/st/st-0.8.6.2/st.c	/^	char state;$/;"	m	struct:__anonbc8329c60108	typeref:typename:char	file:
+state_batteries	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    state_batteries=[]$/;"	v
+status	i3blocks/.config/i3blocks_/scripts/battery2.py	/^status = check_output(['acpi'], universal_newlines=True)$/;"	v
+strdump	st/st/st-0.8.6.2/st.c	/^strdump(void)$/;"	f	typeref:typename:void
+strescseq	st/st/st-0.8.6.2/st.c	/^static STREscape strescseq;$/;"	v	typeref:typename:STREscape	file:
+strhandle	st/st/st-0.8.6.2/st.c	/^strhandle(void)$/;"	f	typeref:typename:void
+strong	qutebrowser_dark_solarized/custom_solarized.css	/^strong {$/;"	s
+strparse	st/st/st-0.8.6.2/st.c	/^strparse(void)$/;"	f	typeref:typename:void
+strreset	st/st/st-0.8.6.2/st.c	/^strreset(void)$/;"	f	typeref:typename:void
+stty	st/st/st-0.8.6.2/st.c	/^stty(char **args)$/;"	f	typeref:typename:void
+stty_args	st/st/st-0.8.6.2/config.def.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+stty_args	st/st/st-0.8.6.2/config.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+stty_args	st/st/st-0.8.6.2/config.orig.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+style bg	tmux/.tmux.conf	/^set -g message-style bg=colour235,fg=red$/;"	k
+style bg	tmux/.tmux.conf	/^set -g status-style bg=colour235,fg=colour6$/;"	k
+style bg	tmux/.tmux.conf	/^setw -g mode-style bg=colour11,fg=colour13,bold$/;"	k
+style bg	tmux/.tmux.conf	/^setw -g window-status-current-style bg=default,fg=red$/;"	k
+style bg	tmux/.tmux.conf	/^setw -g window-status-style bg=default,fg=colour15$/;"	k
+style fg	tmux/.tmux.conf	/^set -g pane-active-border-style fg=green$/;"	k
+style fg	tmux/.tmux.conf	/^set -g pane-border-style fg=colour8$/;"	k
+style fg	tmux/.tmux.conf	/^set -g status-style fg=colour136,bg=colour235$/;"	k
+summary	qutebrowser_dark_solarized/custom_solarized.css	/^summary,$/;"	s
+switch_to_navigation_mode	ipython/.ipython/profile_default/startup/01-keybindings.py	/^def switch_to_navigation_mode(event):$/;"	f
+t	st/st/st-0.8.6.2/x.c	/^	int l, t; \/* left and top offset *\/$/;"	m	struct:__anon344215770508	typeref:typename:int	file:
+t<C-f>	nvim/.config/nvim/init.vim	/^nmap <silent> t<C-f> :TestFile<CR>$/;"	m
+t<C-g>	nvim/.config/nvim/init.vim	/^nmap <silent> t<C-g> :TestVisit<CR>$/;"	m
+t<C-l>	nvim/.config/nvim/init.vim	/^nmap <silent> t<C-l> :TestLast<CR>$/;"	m
+t<C-n>	nvim/.config/nvim/init.vim	/^nmap <silent> t<C-n> :TestNearest<CR>$/;"	m
+t<C-s>	nvim/.config/nvim/init.vim	/^nmap <silent> t<C-s> :TestSuite<CR>$/;"	m
+table	qutebrowser_dark_solarized/solarized-dark.css	/^table {$/;"	s
+table.OddEven tr:nth-child(even)	qutebrowser_dark_solarized/solarized-dark.css	/^table.OddEven tr:nth-child(even) {$/;"	s
+table.OddEven tr:nth-child(odd)	qutebrowser_dark_solarized/solarized-dark.css	/^table.OddEven tr:nth-child(odd) {$/;"	s
+table.wikitable	qutebrowser_dark_solarized/solarized-dark.css	/^table.wikitable {$/;"	c
+table.wikitable > * > tr > th	qutebrowser_dark_solarized/solarized-dark.css	/^table.wikitable > * > tr > th {$/;"	s
+tabs	st/st/st-0.8.6.2/st.c	/^	int *tabs;$/;"	m	struct:__anonbc8329c60408	typeref:typename:int *	file:
+tabspaces	st/st/st-0.8.6.2/config.def.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tabspaces	st/st/st-0.8.6.2/config.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tabspaces	st/st/st-0.8.6.2/config.orig.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tattrset	st/st/st-0.8.6.2/st.c	/^tattrset(int attr)$/;"	f	typeref:typename:int
+tclearregion	st/st/st-0.8.6.2/st.c	/^tclearregion(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+tclick1	st/st/st-0.8.6.2/x.c	/^	struct timespec tclick1;$/;"	m	struct:__anon344215770608	typeref:struct:timespec	file:
+tclick2	st/st/st-0.8.6.2/x.c	/^	struct timespec tclick2;$/;"	m	struct:__anon344215770608	typeref:struct:timespec	file:
+tcontrolcode	st/st/st-0.8.6.2/st.c	/^tcontrolcode(uchar ascii)$/;"	f	typeref:typename:void
+tcursor	st/st/st-0.8.6.2/st.c	/^tcursor(int mode)$/;"	f	typeref:typename:void
+td	qutebrowser_dark_solarized/custom_solarized.css	/^td,$/;"	s
+tdectest	st/st/st-0.8.6.2/st.c	/^tdectest(char c)$/;"	f	typeref:typename:void
+tdefcolor	st/st/st-0.8.6.2/st.c	/^tdefcolor(int *attr, int *npar, int l)$/;"	f	typeref:typename:int32_t
+tdeftran	st/st/st-0.8.6.2/st.c	/^tdeftran(char ascii)$/;"	f	typeref:typename:void
+tdefutf8	st/st/st-0.8.6.2/st.c	/^tdefutf8(char ascii)$/;"	f	typeref:typename:void
+tdeletechar	st/st/st-0.8.6.2/st.c	/^tdeletechar(int n)$/;"	f	typeref:typename:void
+tdeleteline	st/st/st-0.8.6.2/st.c	/^tdeleteline(int n)$/;"	f	typeref:typename:void
+tdump	st/st/st-0.8.6.2/st.c	/^tdump(void)$/;"	f	typeref:typename:void
+tdumpline	st/st/st-0.8.6.2/st.c	/^tdumpline(int n)$/;"	f	typeref:typename:void
+tdumpsel	st/st/st-0.8.6.2/st.c	/^tdumpsel(void)$/;"	f	typeref:typename:void
+term	st/st/st-0.8.6.2/st.c	/^static Term term;$/;"	v	typeref:typename:Term	file:
+term_mode	st/st/st-0.8.6.2/st.c	/^enum term_mode {$/;"	g	file:
+termname	st/st/st-0.8.6.2/config.def.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+termname	st/st/st-0.8.6.2/config.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+termname	st/st/st-0.8.6.2/config.orig.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+test#strategy	nvim/.config/nvim/init.vim	/^let test#strategy = "neovim"$/;"	v
+textarea	qutebrowser_dark_solarized/solarized-dark.css	/^textarea {$/;"	s
+tfulldirt	st/st/st-0.8.6.2/st.c	/^tfulldirt(void)$/;"	f	typeref:typename:void
+th	st/st/st-0.8.6.2/x.c	/^	int tw, th; \/* tty width and height *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+th.navbox-group	qutebrowser_dark_solarized/solarized-dark.css	/^th.navbox-group,$/;"	c
+time	i3blocks/.config/i3blocks_/scripts/battery2.py	/^                    time = ":".join(time.groups())$/;"	v
+time	i3blocks/.config/i3blocks_/scripts/battery2.py	/^                time = commasplitstatus[-1].strip()$/;"	v
+time	i3blocks/.config/i3blocks_/scripts/battery2.py	/^                time = re.match(r"(\\d+):(\\d+)", time)$/;"	v
+time	i3blocks/.config/i3blocks_/scripts/battery2.py	/^    time = ""$/;"	v
+timeleft	i3blocks/.config/i3blocks_/scripts/battery2.py	/^                    timeleft = " ({})".format(time)$/;"	v
+timeleft	i3blocks/.config/i3blocks_/scripts/battery2.py	/^        timeleft = ""$/;"	v
+tinsertblank	st/st/st-0.8.6.2/st.c	/^tinsertblank(int n)$/;"	f	typeref:typename:void
+tinsertblankline	st/st/st-0.8.6.2/st.c	/^tinsertblankline(int n)$/;"	f	typeref:typename:void
+tlinelen	st/st/st-0.8.6.2/st.c	/^tlinelen(int y)$/;"	f	typeref:typename:int
+tmoveato	st/st/st-0.8.6.2/st.c	/^tmoveato(int x, int y)$/;"	f	typeref:typename:void
+tmoveto	st/st/st-0.8.6.2/st.c	/^tmoveto(int x, int y)$/;"	f	typeref:typename:void
+tnew	st/st/st-0.8.6.2/st.c	/^tnew(int col, int row)$/;"	f	typeref:typename:void
+tnewline	st/st/st-0.8.6.2/st.c	/^tnewline(int first_col)$/;"	f	typeref:typename:void
+toggleprinter	st/st/st-0.8.6.2/st.c	/^toggleprinter(const Arg *arg)$/;"	f	typeref:typename:void
+token_dev	bash/.local/profile.d/900.dev_cloud_access_token.sh	/^alias token_dev="curl --fail -v -d 'username=g&password=bliss&org=backed-analytics' 'https:\/\/d/;"	a
+top	st/st/st-0.8.6.2/st.c	/^	int top;      \/* top    scroll limit *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:int	file:
+tprinter	st/st/st-0.8.6.2/st.c	/^tprinter(char *s, size_t len)$/;"	f	typeref:typename:void
+tputc	st/st/st-0.8.6.2/st.c	/^tputc(Rune u)$/;"	f	typeref:typename:void
+tputtab	st/st/st-0.8.6.2/st.c	/^tputtab(int n)$/;"	f	typeref:typename:void
+tr.Even	qutebrowser_dark_solarized/solarized-dark.css	/^tr.Even {$/;"	c
+tr.external	qutebrowser_dark_solarized/solarized-dark.css	/^tr.external {$/;"	c
+tr:hover	qutebrowser_dark_solarized/solarized-dark.css	/^tr:hover,$/;"	s
+trantbl	st/st/st-0.8.6.2/st.c	/^	char trantbl[4]; \/* charset table translation *\/$/;"	m	struct:__anonbc8329c60408	typeref:typename:char[4]	file:
+treset	st/st/st-0.8.6.2/st.c	/^treset(void)$/;"	f	typeref:typename:void
+tresize	st/st/st-0.8.6.2/st.c	/^tresize(int col, int row)$/;"	f	typeref:typename:void
+tripleclicktimeout	st/st/st-0.8.6.2/config.def.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+tripleclicktimeout	st/st/st-0.8.6.2/config.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+tripleclicktimeout	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+tscrolldown	st/st/st-0.8.6.2/st.c	/^tscrolldown(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
+tscrollup	st/st/st-0.8.6.2/st.c	/^tscrollup(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
+tsetattr	st/st/st-0.8.6.2/st.c	/^tsetattr(int *attr, int l)$/;"	f	typeref:typename:void
+tsetchar	st/st/st-0.8.6.2/st.c	/^tsetchar(Rune u, Glyph *attr, int x, int y)$/;"	f	typeref:typename:void
+tsetdirt	st/st/st-0.8.6.2/st.c	/^tsetdirt(int top, int bot)$/;"	f	typeref:typename:void
+tsetdirtattr	st/st/st-0.8.6.2/st.c	/^tsetdirtattr(int attr)$/;"	f	typeref:typename:void
+tsetmode	st/st/st-0.8.6.2/st.c	/^tsetmode(int priv, int set, int *args, int narg)$/;"	f	typeref:typename:void
+tsetscroll	st/st/st-0.8.6.2/st.c	/^tsetscroll(int t, int b)$/;"	f	typeref:typename:void
+tstrsequence	st/st/st-0.8.6.2/st.c	/^tstrsequence(uchar c)$/;"	f	typeref:typename:void
+tswapscreen	st/st/st-0.8.6.2/st.c	/^tswapscreen(void)$/;"	f	typeref:typename:void
+ttyhangup	st/st/st-0.8.6.2/st.c	/^ttyhangup()$/;"	f	typeref:typename:void
+ttynew	st/st/st-0.8.6.2/st.c	/^ttynew(char *line, char *cmd, char *out, char **args)$/;"	f	typeref:typename:int
+ttyread	st/st/st-0.8.6.2/st.c	/^ttyread(void)$/;"	f	typeref:typename:size_t
+ttyresize	st/st/st-0.8.6.2/st.c	/^ttyresize(int tw, int th)$/;"	f	typeref:typename:void
+ttywrite	st/st/st-0.8.6.2/st.c	/^ttywrite(const char *s, size_t n, int may_echo)$/;"	f	typeref:typename:void
+ttywriteraw	st/st/st-0.8.6.2/st.c	/^ttywriteraw(const char *s, size_t n)$/;"	f	typeref:typename:void
+tw	st/st/st-0.8.6.2/x.c	/^	int tw, th; \/* tty width and height *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+twrite	st/st/st-0.8.6.2/st.c	/^twrite(const char *buf, int buflen, int show_ctrl)$/;"	f	typeref:typename:int
+type	st/st/st-0.8.6.2/st.c	/^	char type;             \/* ESC type ... *\/$/;"	m	struct:__anonbc8329c60608	typeref:typename:char	file:
+type	st/st/st-0.8.6.2/st.c	/^	int type;$/;"	m	struct:__anonbc8329c60208	typeref:typename:int	file:
+u	st/st/st-0.8.6.2/st.h	/^	Rune u;           \/* character code *\/$/;"	m	struct:__anonbc8329cb0108	typeref:typename:Rune
+uchar	st/st/st-0.8.6.2/st.h	/^typedef unsigned char uchar;$/;"	t	typeref:typename:unsigned char
+ui	st/st/st-0.8.6.2/st.h	/^	uint ui;$/;"	m	union:__anonbc8329cb020a	typeref:typename:uint
+uint	st/st/st-0.8.6.2/st.h	/^typedef unsigned int uint;$/;"	t	typeref:typename:unsigned int
+ul.comparison-list	qutebrowser_dark_solarized/solarized-dark.css	/^ul.comparison-list {$/;"	c
+ul.comparison-list > li.title	qutebrowser_dark_solarized/solarized-dark.css	/^ul.comparison-list > li.title {$/;"	c
+ul.makeMenu	qutebrowser_dark_solarized/solarized-dark.css	/^ul.makeMenu {$/;"	c
+ulong	st/st/st-0.8.6.2/st.h	/^typedef unsigned long ulong;$/;"	t	typeref:typename:unsigned long
+unicodep	st/st/st-0.8.6.2/x.c	/^	Rune unicodep;$/;"	m	struct:__anon344215770a08	typeref:typename:Rune	file:
+uninstall	st/st/st-0.8.6.2/Makefile	/^uninstall:$/;"	t
+unmap	st/st/st-0.8.6.2/x.c	/^unmap(XEvent *ev)$/;"	f	typeref:typename:void
+updates	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^updates = []$/;"	v
+usage	st/st/st-0.8.6.2/x.c	/^usage(void)$/;"	f	typeref:typename:void
+usedfont	st/st/st-0.8.6.2/x.c	/^static char *usedfont = NULL;$/;"	v	typeref:typename:char *	file:
+usedfontsize	st/st/st-0.8.6.2/x.c	/^static double usedfontsize = 0;$/;"	v	typeref:typename:double	file:
+ushort	st/st/st-0.8.6.2/st.h	/^typedef unsigned short ushort;$/;"	t	typeref:typename:unsigned short
+utf8decode	st/st/st-0.8.6.2/st.c	/^utf8decode(const char *c, Rune *u, size_t clen)$/;"	f	typeref:typename:size_t
+utf8decodebyte	st/st/st-0.8.6.2/st.c	/^utf8decodebyte(char c, size_t *i)$/;"	f	typeref:typename:Rune
+utf8encode	st/st/st-0.8.6.2/st.c	/^utf8encode(Rune u, char *c)$/;"	f	typeref:typename:size_t
+utf8encodebyte	st/st/st-0.8.6.2/st.c	/^utf8encodebyte(Rune u, size_t i)$/;"	f	typeref:typename:char
+utf8strchr	st/st/st-0.8.6.2/st.c	/^utf8strchr(char *s, Rune u)$/;"	f	typeref:typename:char *
+utf8validate	st/st/st-0.8.6.2/st.c	/^utf8validate(Rune *u, size_t i)$/;"	f	typeref:typename:size_t
+utfbyte	st/st/st-0.8.6.2/st.c	/^static uchar utfbyte[UTF_SIZ + 1] = {0x80,    0, 0xC0, 0xE0, 0xF0};$/;"	v	typeref:typename:uchar[]	file:
+utfmask	st/st/st-0.8.6.2/st.c	/^static uchar utfmask[UTF_SIZ + 1] = {0xC0, 0x80, 0xE0, 0xF0, 0xF8};$/;"	v	typeref:typename:uchar[]	file:
+utfmax	st/st/st-0.8.6.2/st.c	/^static Rune utfmax[UTF_SIZ + 1] = {0x10FFFF, 0x7F, 0x7FF, 0xFFFF, 0x10FFFF};$/;"	v	typeref:typename:Rune[]	file:
+utfmin	st/st/st-0.8.6.2/st.c	/^static Rune utfmin[UTF_SIZ + 1] = {       0,    0,  0x80,  0x800,  0x10000};$/;"	v	typeref:typename:Rune[]	file:
+utmp	st/st/st-0.8.6.2/config.def.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+utmp	st/st/st-0.8.6.2/config.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+utmp	st/st/st-0.8.6.2/config.orig.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+v	st/st/st-0.8.6.2/st.h	/^	const void *v;$/;"	m	union:__anonbc8329cb020a	typeref:typename:const void *
+v_aur	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    v_aur = version_in_aur(pkg)$/;"	v
+v_inst	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    v_inst = installed_version[pkg]$/;"	v
+vcs_version	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^def vcs_version(pkg, ver):$/;"	f
+ver	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^    pkg, ver = pkg.split()$/;"	v
+version_in_aur	i3blocks/.config/i3blocks_/scripts/aur-update.py	/^def version_in_aur(pkg):$/;"	f
+vim	bash/.local/bashrc.d/100.neovim-default.sh	/^    alias vim='nvim'$/;"	a
+vis	st/st/st-0.8.6.2/x.c	/^	Visual *vis;$/;"	m	struct:__anon344215770508	typeref:typename:Visual *	file:
+visibility	st/st/st-0.8.6.2/x.c	/^visibility(XEvent *ev)$/;"	f	typeref:typename:void
+vpn	bash/.local/aliases.d/100.vpn.sh	/^alias vpn="sudo systemctl start openvpn-client@eliot.service"$/;"	a
+vtiden	st/st/st-0.8.6.2/config.def.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+vtiden	st/st/st-0.8.6.2/config.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+vtiden	st/st/st-0.8.6.2/config.orig.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+vv	nvim/.config/nvim/init.vim	/^    nnoremap <silent> vv <C-w>v$/;"	m
+w	st/st/st-0.8.6.2/x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon344215770408	typeref:typename:int	file:
+w!!	nvim/.config/nvim/init.vim	/^    cmap w!! w !sudo tee > \/dev\/null %$/;"	m
+weather	bash/.local/aliases.d/100.weather.sh	/^alias weather='. ~\/bin\/weather.sh'$/;"	a
+width	st/st/st-0.8.6.2/x.c	/^	int width;$/;"	m	struct:__anon344215770708	typeref:typename:int	file:
+win	st/st/st-0.8.6.2/x.c	/^	Window win;$/;"	m	struct:__anon344215770508	typeref:typename:Window	file:
+win	st/st/st-0.8.6.2/x.c	/^static TermWindow win;$/;"	v	typeref:typename:TermWindow	file:
+win_mode	st/st/st-0.8.6.2/win.h	/^enum win_mode {$/;"	g
+wmdeletewin	st/st/st-0.8.6.2/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon344215770508	typeref:typename:Atom	file:
+worddelimiters	st/st/st-0.8.6.2/config.def.h	/^char *worddelimiters = " ";$/;"	v	typeref:typename:char *
+worddelimiters	st/st/st-0.8.6.2/config.h	/^char *worddelimiters = " ";$/;"	v	typeref:typename:char *
+worddelimiters	st/st/st-0.8.6.2/config.orig.h	/^char *worddelimiters = " ";$/;"	v	typeref:typename:char *
+x	st/st/st-0.8.6.2/st.c	/^		int x, y;$/;"	m	struct:__anonbc8329c60208::__anonbc8329c60308	typeref:typename:int	file:
+x	st/st/st-0.8.6.2/st.c	/^	int x;$/;"	m	struct:__anonbc8329c60108	typeref:typename:int	file:
+x.o	st/st/st-0.8.6.2/Makefile	/^x.o: arg.h config.h st.h win.h$/;"	t
+xbell	st/st/st-0.8.6.2/x.c	/^xbell(void)$/;"	f	typeref:typename:void
+xclear	st/st/st-0.8.6.2/x.c	/^xclear(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+xclip	bash/.local/aliases.d/100.xclip.sh	/^alias xclip='xclip -selection c'$/;"	a
+xclipcopy	st/st/st-0.8.6.2/x.c	/^xclipcopy(void)$/;"	f	typeref:typename:void
+xdrawcursor	st/st/st-0.8.6.2/x.c	/^xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og)$/;"	f	typeref:typename:void
+xdrawglyph	st/st/st-0.8.6.2/x.c	/^xdrawglyph(Glyph g, int x, int y)$/;"	f	typeref:typename:void
+xdrawglyphfontspecs	st/st/st-0.8.6.2/x.c	/^xdrawglyphfontspecs(const XftGlyphFontSpec *specs, Glyph base, int len, int x, int y)$/;"	f	typeref:typename:void
+xdrawline	st/st/st-0.8.6.2/x.c	/^xdrawline(Line line, int x1, int y1, int x2)$/;"	f	typeref:typename:void
+xembed	st/st/st-0.8.6.2/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon344215770508	typeref:typename:Atom	file:
+xfinishdraw	st/st/st-0.8.6.2/x.c	/^xfinishdraw(void)$/;"	f	typeref:typename:void
+xfps	st/st/st-0.8.6.2/config.def.h	/^static unsigned int xfps = 120;$/;"	v	typeref:typename:unsigned int
+xfps	st/st/st-0.8.6.2/config.h	/^static unsigned int xfps = 120;$/;"	v	typeref:typename:unsigned int
+xfps	st/st/st-0.8.6.2/config.orig.h	/^static unsigned int xfps = 120;$/;"	v	typeref:typename:unsigned int
+xgeommasktogravity	st/st/st-0.8.6.2/x.c	/^xgeommasktogravity(int mask)$/;"	f	typeref:typename:int
+xhints	st/st/st-0.8.6.2/x.c	/^xhints(void)$/;"	f	typeref:typename:void
+xic	st/st/st-0.8.6.2/x.c	/^	XIC xic;$/;"	m	struct:__anon344215770508	typeref:typename:XIC	file:
+xim	st/st/st-0.8.6.2/x.c	/^	XIM xim;$/;"	m	struct:__anon344215770508	typeref:typename:XIM	file:
+xinit	st/st/st-0.8.6.2/x.c	/^xinit(int cols, int rows)$/;"	f	typeref:typename:void
+xloadcolor	st/st/st-0.8.6.2/x.c	/^xloadcolor(int i, const char *name, Color *ncolor)$/;"	f	typeref:typename:int
+xloadcols	st/st/st-0.8.6.2/x.c	/^xloadcols(void)$/;"	f	typeref:typename:void
+xloadfont	st/st/st-0.8.6.2/x.c	/^xloadfont(Font *f, FcPattern *pattern)$/;"	f	typeref:typename:int
+xloadfonts	st/st/st-0.8.6.2/x.c	/^xloadfonts(char *fontstr, double fontsize)$/;"	f	typeref:typename:void
+xmakeglyphfontspecs	st/st/st-0.8.6.2/x.c	/^xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len, int x, int y)$/;"	f	typeref:typename:int
+xmalloc	st/st/st-0.8.6.2/st.c	/^xmalloc(size_t len)$/;"	f	typeref:typename:void *
+xrealloc	st/st/st-0.8.6.2/st.c	/^xrealloc(void *p, size_t len)$/;"	f	typeref:typename:void *
+xresize	st/st/st-0.8.6.2/x.c	/^xresize(int col, int row)$/;"	f	typeref:typename:void
+xsel	st/st/st-0.8.6.2/x.c	/^static XSelection xsel;$/;"	v	typeref:typename:XSelection	file:
+xsetcolorname	st/st/st-0.8.6.2/x.c	/^xsetcolorname(int x, const char *name)$/;"	f	typeref:typename:int
+xsetcursor	st/st/st-0.8.6.2/x.c	/^xsetcursor(int cursor)$/;"	f	typeref:typename:int
+xsetenv	st/st/st-0.8.6.2/x.c	/^xsetenv(void)$/;"	f	typeref:typename:void
+xsetmode	st/st/st-0.8.6.2/x.c	/^xsetmode(int set, unsigned int flags)$/;"	f	typeref:typename:void
+xsetpointermotion	st/st/st-0.8.6.2/x.c	/^xsetpointermotion(int set)$/;"	f	typeref:typename:void
+xsetsel	st/st/st-0.8.6.2/x.c	/^xsetsel(char *str)$/;"	f	typeref:typename:void
+xsettitle	st/st/st-0.8.6.2/x.c	/^xsettitle(char *p)$/;"	f	typeref:typename:void
+xseturgency	st/st/st-0.8.6.2/x.c	/^xseturgency(int add)$/;"	f	typeref:typename:void
+xstartdraw	st/st/st-0.8.6.2/x.c	/^xstartdraw(void)$/;"	f	typeref:typename:int
+xstrdup	st/st/st-0.8.6.2/st.c	/^xstrdup(char *s)$/;"	f	typeref:typename:char *
+xtarget	st/st/st-0.8.6.2/x.c	/^	Atom xtarget;$/;"	m	struct:__anon344215770608	typeref:typename:Atom	file:
+xunloadfont	st/st/st-0.8.6.2/x.c	/^xunloadfont(Font *f)$/;"	f	typeref:typename:void
+xunloadfonts	st/st/st-0.8.6.2/x.c	/^xunloadfonts(void)$/;"	f	typeref:typename:void
+xw	st/st/st-0.8.6.2/x.c	/^static XWindow xw;$/;"	v	typeref:typename:XWindow	file:
+xwrite	st/st/st-0.8.6.2/st.c	/^xwrite(int fd, const char *s, size_t len)$/;"	f	typeref:typename:ssize_t
+y	st/st/st-0.8.6.2/st.c	/^		int x, y;$/;"	m	struct:__anonbc8329c60208::__anonbc8329c60308	typeref:typename:int	file:
+y	st/st/st-0.8.6.2/st.c	/^	int y;$/;"	m	struct:__anonbc8329c60108	typeref:typename:int	file:
+yi	bash/.local/aliases.d/100.xclip.sh	/^alias yi='xclip -sel clip -t image\/png'$/;"	a
+yy	bash/.local/aliases.d/100.xclip.sh	/^alias yy='xclip'$/;"	a
+yy1	bash/.local/aliases.d/100.xclip.sh	/^alias yy1='-selection primary'$/;"	a
+yy2	bash/.local/aliases.d/100.xclip.sh	/^alias yy2='-selection secondary'$/;"	a
+zoom	st/st/st-0.8.6.2/x.c	/^zoom(const Arg *arg)$/;"	f	typeref:typename:void
+zoomabs	st/st/st-0.8.6.2/x.c	/^zoomabs(const Arg *arg)$/;"	f	typeref:typename:void
+zoomreset	st/st/st-0.8.6.2/x.c	/^zoomreset(const Arg *arg)$/;"	f	typeref:typename:void
+zz	nvim/.config/nvim/init.vim	/^    nnoremap <silent> zz <C-w>s$/;"	m

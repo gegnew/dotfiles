@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# fix mailspring
+dbus-update-activation-environment --systemd DISPLAY
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
+# Adjust keyboard typematic delay and rate
+xset r rate 310 10
+
+# Merge & load configuration from .Xresources
+xrdb -merge ~/.Xresources
+
+# Let QT and GTK autodetect screen and autoadjust
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
+
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+
+{%@@ if profile == "eva" @@%}
+# set background
+feh --bg-scale ~/Pictures/desktop.jpg
+
+# Force KDE environment when running i3
+export QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_PLUGIN_PATH=$HOME/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/
+XDG_CURRENT_DESKTOP=KDE
+export DESKTOP_SESSION=kde
+
+{%@@ elif profile == "eliot" @@%}
+#fok some wallpaper shiz
+export wallp=$(ls /home/g/Pictures/wallpaper/good_ones/* | shuf -n 1) 
+feh --bg-fill $wallp
+# Start Xorg server at this DPI
+xrandr --dpi 190
+# Finally start i3wm
+exec i3
+
+{%@@ endif @@%}

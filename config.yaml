@@ -1,0 +1,86 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_st-0.8.2:
+    src: st-0.8.2
+    dst: ~/st-0.8.2
+  d_aliases.d:
+    src: local/aliases.d
+    dst: ~/.local/aliases.d
+  d_bashrc.d:
+    src: local/bashrc.d
+    dst: ~/.local/bashrc.d
+  d_profile.d:
+    src: local/profile.d
+    dst: ~/.local/profile.d
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
+  f_conkyrc:
+    src: conkyrc
+    dst: ~/.conkyrc
+  f_config:
+    src: config/i3/config
+    dst: ~/.config/i3/config
+  d_i3blocks:
+    src: config/i3blocks
+    dst: ~/.config/i3blocks
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  d_ipython:
+    src: ipython
+    dst: ~/.ipython
+  f_rc.conf:
+    src: config/ranger/rc.conf
+    dst: ~/.config/ranger/rc.conf
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
+  f_xinitrc:
+    src: xinitrc
+    dst: ~/.xinitrc
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
+  f_xmodmap:
+    src: Xmodmap
+    dst: ~/.Xmodmap
+profiles:
+  eliot:
+    dotfiles:
+    - d_st-0.8.2
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_conkyrc
+    - f_config
+    - d_i3blocks
+    - d_nvim
+    - d_ipython
+    - f_rc.conf
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xresources
+  eva:
+    dotfiles:
+    - d_st-0.8.2
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_config
+    - d_nvim
+    - d_ipython
+    - f_rc.conf
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xmodmap
