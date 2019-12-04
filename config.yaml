@@ -51,6 +51,9 @@ dotfiles:
   f_xmodmap:
     src: Xmodmap
     dst: ~/.Xmodmap
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
 profiles:
   eliot:
     dotfiles:
@@ -84,3 +87,4 @@ profiles:
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
+    - f_gitconfig
