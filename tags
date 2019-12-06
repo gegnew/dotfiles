@@ -528,7 +528,7 @@ __str__	dotdrop/dotdrop/action.py	/^    def __str__(self):$/;"	m	class:Cmd
 __str__	dotdrop/dotdrop/dotfile.py	/^    def __str__(self):$/;"	m	class:Dotfile
 __str__	dotdrop/dotdrop/linktypes.py	/^    def __str__(self):$/;"	m	class:LinkTypes
 __str__	dotdrop/dotdrop/profile.py	/^    def __str__(self):$/;"	m	class:Profile
-__version__	dotdrop/dotdrop/version.py	/^__version__ = '0.29.5'$/;"	v
+__version__	dotdrop/dotdrop/version.py	/^__version__ = '0.30.0'$/;"	v
 _adjust_yaml_keys	dotdrop/dotdrop/action.py	/^    def _adjust_yaml_keys(cls, value):$/;"	m	class:Cmd
 _adjust_yaml_keys	dotdrop/dotdrop/dictparser.py	/^    def _adjust_yaml_keys(cls, value):$/;"	m	class:DictParser
 _adjust_yaml_keys	dotdrop/dotdrop/dotfile.py	/^    def _adjust_yaml_keys(cls, value):$/;"	m	class:Dotfile
@@ -915,6 +915,7 @@ fulltext	dotfiles/config/i3blocks/scripts/battery2.py	/^        fulltext = FA_QU
 fulltext	dotfiles/config/i3blocks/scripts/battery2.py	/^    fulltext = "<span color='red'><span font='FontAwesome'>\\uf00d \\uf240<\/span><\/span>"$/;"	v
 func	dotfiles/st-0.8.2/x.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon3ca15e100108	typeref:typename:void (*)(const Arg *)	file:
 g	dotfiles/local/aliases.d/100.gcalcli.sh	/^alias g='gcalcli'$/;"	a
+g	dotfiles/local/aliases.d/100.github.sh	/^alias g='git'$/;"	a
 g:SimpylFold_docstring_preview	dotfiles/config/nvim/init.vim	/^let g:SimpylFold_docstring_preview=1$/;"	v
 g:SuperTabDefaultCompletionType	dotfiles/config/nvim/init.vim	/^let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top$/;"	v
 g:UltiSnipsExpandTrigger	dotfiles/config/nvim/init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v
@@ -922,6 +923,7 @@ g:UltiSnipsJumpBackwardTrigger	dotfiles/config/nvim/init.vim	/^let g:UltiSnipsJu
 g:UltiSnipsJumpForwardTrigger	dotfiles/config/nvim/init.vim	/^let g:UltiSnipsJumpForwardTrigger="<tab>"$/;"	v
 g:UltiSnipsSnippetDirectories	dotfiles/config/nvim/init.vim	/^let g:UltiSnipsSnippetDirectories=[$HOME.'.config\/nvim\/UltiSnips']$/;"	v
 g:airline_theme	dotfiles/config/nvim/init.vim	/^let g:airline_theme='neodark'  " Set airline theme$/;"	v
+g:black_skip_string_normalization	dotfiles/config/nvim/init.vim	/^let g:black_skip_string_normalization = 1$/;"	v
 g:deoplete#custom#option#on_insert_enter	dotfiles/config/nvim/init.vim	/^let g:deoplete#custom#option#on_insert_enter = 'false'$/;"	v
 g:deoplete#enable_at_startup	dotfiles/config/nvim/init.vim	/^let g:deoplete#enable_at_startup = 1$/;"	v
 g:deoplete#ignore_sources	dotfiles/config/nvim/init.vim	/^let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})$/;"	v

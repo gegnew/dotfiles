@@ -5,3 +5,4 @@
 # alias git log
 alias gl='git log --oneline --all --graph'
 alias git='hub'
+alias g='git'

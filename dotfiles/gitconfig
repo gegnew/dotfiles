@@ -1,0 +1,31 @@
+[user]
+	email = gerrit.egnew@relayr.io
+	name = gegnew
+[init]
+	templatedir = /home/g/.git-templates/
+; [merge]
+;     tool = nvimdiff4
+; [mergetool "nvimdiff4"]
+;     cmd = nvim -d $LOCAL $BASE $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+; [mergetool "nfugitive"]
+;     cmd = nvim -f -c "Gdiff" "$MERGED"
+; [diff]
+;     tool = nvimdiff2
+; [difftool "nvimdiff2"]
+;     cmd = nvim -d $LOCAL $REMOTE
+
+[mergetool "fugitive"]
+	cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+[merge]
+	tool = fugitive
+[alias]
+    s = status
+    co = checkout
+    s = status
+    b = branch
+    c = commit -a -m
+    l = log --stat
+    g = log --graph
+    m = merge --no-ff
+    pa = push origin --all
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short 

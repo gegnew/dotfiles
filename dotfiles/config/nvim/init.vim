@@ -93,8 +93,9 @@ let g:neodark#use_256color = 1
 
 " Run Black on save
 " autocmd BufWritePre *.py execute ':Black'
+let g:black_skip_string_normalization = 1
 " Run flake8 on  save
-autocmd BufWritePost *.py call flake8#Flake8()
+" autocmd BufWritePost *.py call flake8#Flake8()
 
 " nvim-ipy settings
 let g:nvim_ipy_perform_mappings = 0  " obliterate mappings
