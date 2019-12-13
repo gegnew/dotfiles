@@ -1,4 +1,4 @@
- " Plugins
+" Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neomake/neomake'
 Plug 'psf/black'
@@ -13,9 +13,11 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dadbod'
 Plug 'tpope/vim-fugitive'
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
+Plug 'junegunn/gv.vim'
 " Plug 'jiangmiao/auto-pairs'
-" TODO
 Plug 'jpribyl/vim-ipython' " Johnny's fix for vim-ipython on Arch
+" Plug 'benmills/vimux'
+" Plug 'jgors/vimux-ipy'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tmhedberg/SimpylFold'
@@ -42,7 +44,8 @@ Plug 'janko/vim-test' " run tests at the speed of thought!
 " Plug 'SkyLeach/pudb.vim' " integration for pudb
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-Plug 'ludovicchabant/vim-gutentags' " take care of ctags management
+Plug 'vim-scripts/gtags.vim'
+Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
 Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
 Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
@@ -90,6 +93,8 @@ let NERDTreeDirArrows = 1
 colorscheme neodark " I like neodark but the highlighting makes it hard to read things
 let g:neodark#terminal_transparent = 1
 let g:neodark#use_256color = 1
+let g:airline_theme='neodark'  " Set airline theme
+hi Search ctermfg=black
 
 " Run Black on save
 " autocmd BufWritePre *.py execute ':Black'
@@ -121,6 +126,9 @@ if has('nvim')
 endif
 
 " LeaderF
+let g:Lf_ShortcutF = "<leader>ff"
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_PreviewInPopup = 1
 " search word under cursor, the pattern is treated as regex, and enter normal mode directly
 noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
 " search word under cursor, the pattern is treated as regex,
@@ -133,14 +141,29 @@ xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#vi
 " recall last search. If the result window is closed, reopen it.
 noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
 
+" should use `Leaderf gtags --update` first
+" let g:Lf_GtagsAutoGenerate = 1
+" let g:Lf_Gtagslabel = 'new-ctags'
+" noremap <Leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
+" noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
+" noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
+" noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
+" noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
+
 " Snippets
 let g:UltiSnipsSnippetDirectories=[$HOME.'.config/nvim/UltiSnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
-"Supertab
+" Supertab
 let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
+
+" Vimux and Vimux-Ipy
+" map <Leader>vp :call VimuxIpy()<CR>
+" vmap <silent> <Leader>e :python run_visual_code()<CR>
+" noremap <silent> <Leader>c :python run_cell(save_position=False, cell_delim='##')<CR>
+
 
 
 "===========SETTINGS============
@@ -184,7 +207,6 @@ let mapleader = "\<SPACE>" " Map leader key
     map <Leader>w :w<Enter>
     map <Leader>wq :wq<Enter>
     map <Leader>q :q!<Enter>
-let g:airline_theme='neodark'  " Set airline theme
 "split navigations
     nnoremap <C-J> <C-W><C-J>
     nnoremap <C-K> <C-W><C-K>

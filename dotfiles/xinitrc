@@ -5,6 +5,9 @@ dbus-update-activation-environment --systemd DISPLAY
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
 
+# run xbanish to hide mouse when tying
+xbanish &
+
 # Adjust keyboard typematic delay and rate
 xset r rate 310 10
 
@@ -20,7 +23,7 @@ export GDK_DPI_SCALE=0.5
 
 {%@@ if profile == "eva" @@%}
 # set background
-feh --bg-scale ~/Pictures/desktop.jpg
+feh --bg-fill ~/Pictures/cottonwood.jpg
 
 # Force KDE environment when running i3
 export QT_QPA_PLATFORMTHEME="qt5ct"

@@ -54,6 +54,12 @@ dotfiles:
   f_gitconfig:
     src: gitconfig
     dst: ~/.gitconfig
+  f_tmux.conf.local:
+    src: tmux.conf.local
+    dst: ~/.tmux.conf.local
+  f_init.vim:
+    src: config/nvim/init.vim
+    dst: ~/.config/nvim/init.vim
 profiles:
   eliot:
     dotfiles:
@@ -88,3 +94,5 @@ profiles:
     - f_xinitrc
     - f_xmodmap
     - f_gitconfig
+    - f_tmux.conf.local
+    - f_init.vim

@@ -11,7 +11,7 @@ smart_borders on
 gaps inner 4
 gaps outer 2
 # remove window borders 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 
 
 #================BINDINGS=================

@@ -916,6 +916,9 @@ fulltext	dotfiles/config/i3blocks/scripts/battery2.py	/^    fulltext = "<span co
 func	dotfiles/st-0.8.2/x.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon3ca15e100108	typeref:typename:void (*)(const Arg *)	file:
 g	dotfiles/local/aliases.d/100.gcalcli.sh	/^alias g='gcalcli'$/;"	a
 g	dotfiles/local/aliases.d/100.github.sh	/^alias g='git'$/;"	a
+g:Lf_PreviewInPopup	dotfiles/config/nvim/init.vim	/^let g:Lf_PreviewInPopup = 1$/;"	v
+g:Lf_ShortcutF	dotfiles/config/nvim/init.vim	/^let g:Lf_ShortcutF = "<leader>ff"$/;"	v
+g:Lf_WindowPosition	dotfiles/config/nvim/init.vim	/^let g:Lf_WindowPosition = 'popup'$/;"	v
 g:SimpylFold_docstring_preview	dotfiles/config/nvim/init.vim	/^let g:SimpylFold_docstring_preview=1$/;"	v
 g:SuperTabDefaultCompletionType	dotfiles/config/nvim/init.vim	/^let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top$/;"	v
 g:UltiSnipsExpandTrigger	dotfiles/config/nvim/init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v
@@ -1015,7 +1018,6 @@ isLUKSPartition	dotfiles/config/i3blocks/scripts/usb	/^def isLUKSPartition(path)
 isReadOnly	dotfiles/config/i3blocks/scripts/usb	/^def isReadOnly(path):$/;"	f
 isSwapPartition	dotfiles/config/i3blocks/scripts/usb	/^def isSwapPartition(path):$/;"	f
 is_template	dotdrop/dotdrop/templategen.py	/^    def is_template(path):$/;"	m	class:Templategen
-is_vim	dotfiles/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
 isfixed	dotfiles/st-0.8.2/x.c	/^	int isfixed; \/* is fixed geometry? *\/$/;"	m	struct:__anon3ca15e100508	typeref:typename:int	file:
 jhelpers	dotdrop/dotdrop/templategen.py	/^import dotdrop.jhelpers as jhelpers$/;"	I
 jk	dotfiles/config/nvim/init.vim	/^    inoremap jk <esc>| $/;"	m
