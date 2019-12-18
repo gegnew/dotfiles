@@ -60,6 +60,12 @@ dotfiles:
   f_init.vim:
     src: config/nvim/init.vim
     dst: ~/.config/nvim/init.vim
+  f_ipython_config.py:
+    src: ipython/profile_default/ipython_config.py
+    dst: ~/.ipython/profile_default/ipython_config.py
+  f_01-keybindings.py:
+    src: ipython/profile_default/startup/01-keybindings.py
+    dst: ~/.ipython/profile_default/startup/01-keybindings.py
 profiles:
   eliot:
     dotfiles:
@@ -96,3 +102,5 @@ profiles:
     - f_gitconfig
     - f_tmux.conf.local
     - f_init.vim
+    - f_ipython_config.py
+    - f_01-keybindings.py

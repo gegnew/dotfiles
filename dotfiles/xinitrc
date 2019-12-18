@@ -31,6 +31,9 @@ export QT_PLUGIN_PATH=$HOME/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/
 XDG_CURRENT_DESKTOP=KDE
 export DESKTOP_SESSION=kde
 
+feh --randomize --recursive --bg-fill ~/Pictures/wallpapers/
+source ~/.fehbg
+
 {%@@ elif profile == "eliot" @@%}
 #fok some wallpaper shiz
 export wallp=$(ls /home/g/Pictures/wallpaper/good_ones/* | shuf -n 1) 
