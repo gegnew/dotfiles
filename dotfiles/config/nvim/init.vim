@@ -1,175 +1,199 @@
+let mapleader = "\<SPACE>" " Map leader key
+filetype off
+
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neomake/neomake'
-Plug 'psf/black'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'python', 'css', 'less', 'scss', 'json','markdown', 'yaml', 'html'] }
-Plug 'nvie/vim-flake8'
+
+" Themes
+Plug 'KeitaNakamura/neodark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" tpope
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dadbod'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-speeddating'
+
+
+Plug 'psf/black' " autoformat python the right way
+Plug 'prettier/vim-prettier' " for other filetypes
+Plug 'nvie/vim-flake8'
+
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
 Plug 'junegunn/gv.vim'
-" Plug 'jiangmiao/auto-pairs'
-Plug 'jpribyl/vim-ipython' " Johnny's fix for vim-ipython on Arch
-" Plug 'benmills/vimux'
-" Plug 'jgors/vimux-ipy'
-Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
+
+Plug 'junegunn/limelight.vim'
+Plug 'junegunn/goyo.vim'
+
+" REPLs 'n stuff
+Plug 'kassio/neoterm'
+Plug 'Vigemus/iron.nvim'
+Plug 'janko/vim-test' " run tests at the speed of thought!
+
 Plug 'tmhedberg/SimpylFold'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'prettier/vim-prettier'
-Plug 'KeitaNakamura/neodark.vim'
-Plug 'flrnprz/plastic.vim'
-" For deoplete
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+
+" Deoplete
+    if has('nvim')
+      Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    else
+      Plug 'roxma/nvim-yarp'
+      Plug 'roxma/vim-hug-neovim-rpc'
+    endif
+Plug 'Shougo/vimfiler.vim'
+Plug 'Shougo/unite.vim'
 Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay -S words`)
+
 Plug 'ujihisa/neco-look' " Dictionary completion
 Plug 'deoplete-plugins/deoplete-jedi' " Python completion
 Plug 'wellle/tmux-complete.vim' " Complete words in adjacent tmux panes
 Plug 'prabirshrestha/async.vim' " Async for tmux-complete, needed for deoplete integration
 Plug 'prabirshrestha/asyncomplete.vim' " ditto
-Plug 'bfredl/nvim-ipy'
-Plug 'lambdalisue/suda.vim'
-Plug 'janko/vim-test' " run tests at the speed of thought!
-" Plug 'SkyLeach/pudb.vim' " integration for pudb
-Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
+
+Plug 'lambdalisue/suda.vim' " save files as sudo
+
+" Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'vim-scripts/gtags.vim'
 Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
+Plug 'majutsushi/tagbar'
+
 Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
 Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
 
+
+
 call plug#end()
 
- 
+luafile $HOME/.config/nvim/plugins.lua
+
 " Plugin Configs
+" Neoterm
+    let &runtimepath.=',/home/g/.local/share/nvim/plugged/neoterm'
+    command! -nargs=* T split | terminal <args> " hack for :terminal
+    command! -nargs=* VT vsplit | terminal <args> " hack for :terminal
+    command! -nargs=+ TT Topen | T <args>
+    " let g:neoterm#autoscroll=1
+    " silent! helptags ALL " helptags for neoterm
+    " nmap <leader>s :TREPLSendFile<Enter>
+    " nmap <leader>l :TREPLSendLine<Enter>
+    " vmap <leader>s :TREPLSendSelection<Enter>
+    " filetype plugin on " neoterm
 
-" Use deoplete
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-let g:tmuxcomplete#trigger = ''
-" let g:python3_host_prog = '/home/g/.pyenv/versions/3.7.4/bin/python' "pynvim for deoplete
-" Ignore english autocomplete in python
-let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
-let g:deoplete#ignore_sources.python = ['look']
-let g:deoplete#custom#option#on_insert_enter = 'false'
 
-" Run NeoMake on read and write operations
-autocmd! BufReadPost,BufWritePost * Neomake
-" Disable inherited syntastic
-let g:syntastic_mode_map = {
-			\"mode": "passive",
-			\"active_filetypes": [],
-			\"passive_filetypes": [] }
-
-let g:neomake_serialize = 1
-let g:neomake_serialize_abort_on_error = 1
-
-" NerdTree config
-set nu " turn in line numbering in nerdtree
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore .pyc files in NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
-let NERDTreeToggleQuitOnOpen = 1
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-let NERDTreeAutoDeleteBuffer = 1
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
+" Use Deoplete
+    let g:deoplete#enable_at_startup = 1
+    inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+    let g:tmuxcomplete#trigger = ''
+    " let g:python3_host_prog = '/home/g/.pyenv/versions/3.7.4/bin/python' "pynvim for deoplete
+    " Ignore english autocomplete in python
+    let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
+    let g:deoplete#ignore_sources.python = ['look']
+    let g:deoplete#custom#option#on_insert_enter = 'false'
 
 " Neodark colorscheme config
-colorscheme neodark " I like neodark but the highlighting makes it hard to read things
-let g:neodark#terminal_transparent = 1
-let g:neodark#use_256color = 1
-let g:airline_theme='neodark'  " Set airline theme
-hi Search ctermfg=black
+    colorscheme neodark " I like neodark but the highlighting makes it hard to read things
+    let g:neodark#terminal_transparent = 1
+    let g:neodark#use_256color = 1
+    let g:airline_theme='neodark'  " Set airline theme
+    hi Search ctermfg=white
+
+" vimfiler
+    let g:vimfiler_as_default_explorer = 1
+    map <silent><leader>n :VimFiler -split -simple -winwidth=35 -toggle -no-quit <Enter>
+
+" Limelight
+    map <silent> <leader>l :Limelight!!<Enter>
+    " Color name (:help cterm-colors) or ANSI code
+    let g:limelight_conceal_ctermfg = 'gray'
+    let g:limelight_conceal_ctermfg = 243
+
+    " Color name (:help gui-colors) or RGB color
+    let g:limelight_conceal_guifg = 'DarkGray'
+    let g:limelight_conceal_guifg = '#777777'
+
+    " Default: 0.5
+    let g:limelight_default_coefficient = 0.7
+
+    " Number of preceding/following paragraphs to include (default: 0)
+    let g:limelight_paragraph_span = 1
+
+    " Beginning/end of paragraph
+    "   When there's no empty line between the paragraphs
+    "   and each paragraph starts with indentation
+    let g:limelight_bop = '^\s'
+    let g:limelight_eop = '\ze\n^\s'
+
+    " Highlighting priority (default: 10)
+    "   Set it to -1 not to overrule hlsearch
+    let g:limelight_priority = -1
 
 " Run Black on save
-" autocmd BufWritePre *.py execute ':Black'
-let g:black_skip_string_normalization = 1
-" Run flake8 on  save
-" autocmd BufWritePost *.py call flake8#Flake8()
+    " autocmd BufWritePre *.py execute ':Black'
+    let g:black_skip_string_normalization = 1
 
-" nvim-ipy settings
-let g:nvim_ipy_perform_mappings = 0  " obliterate mappings
-map <silent> <c-s> <Plug>(Ipy-Run)
-map <silent> <leader>a <Plug>(Ipy-RunAll
-let g:ipy_celldef = "##"
-map <silent> <leader>c <Plug>(Ipy-RunCell)
+" Run flake8 on  save
+    " autocmd BufWritePost *.py call flake8#Flake8()
 
 " vim-test keymaps
-nmap <silent> t<C-n> :TestNearest<CR>
-nmap <silent> t<C-f> :TestFile<CR>
-" nnoremap <leader>tf :TestFile<cr>
-nmap <silent> t<C-s> :TestSuite<CR>
-nmap <silent> t<C-l> :TestLast<CR>
-nmap <silent> t<C-g> :TestVisit<CR>
-" make test commands execute with :terminal in a split window
-let test#strategy = "neovim"
-" pudb integration (https://github.com/SkyLeach/pudb.vim)
-" Nvim python environment settings
-if has('nvim')
-    tmap <C-o> <C-\><C-n> " vim-pytest remap to normal mode for scrolling
-    " let g:pudb_breakpoint_symbol='☠'
-endif
+    nmap <silent> t<C-n> :TestNearest<CR>
+    nmap <silent> t<C-f> :TestFile<CR>
+    " nnoremap <leader>tf :TestFile<cr>
+    nmap <silent> t<C-s> :TestSuite<CR>
+    nmap <silent> t<C-l> :TestLast<CR>
+    nmap <silent> t<C-g> :TestVisit<CR>
+    " make test commands execute with :terminal in a split window
+    let test#strategy = "neovim"
+
+" Gutentags
+    let g:gutentags_cache_dir = $HOME.'/.gutentags/'
+    nnoremap <silent><Leader>t :TagbarToggle<CR>
 
 " LeaderF
-let g:Lf_ShortcutF = "<leader>ff"
-let g:Lf_WindowPosition = 'popup'
-let g:Lf_PreviewInPopup = 1
-" search word under cursor, the pattern is treated as regex, and enter normal mode directly
-noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
-" search word under cursor, the pattern is treated as regex,
-" append the result to previous search results.
-noremap <C-G> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
-" search word under cursor literally only in current buffer
-noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg -F --current-buffer -e %s ", expand("<cword>"))<CR>
-" search visually selected text literally, don't quit LeaderF after accepting an entry
-xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
-" recall last search. If the result window is closed, reopen it.
-noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
-
-" should use `Leaderf gtags --update` first
-" let g:Lf_GtagsAutoGenerate = 1
-" let g:Lf_Gtagslabel = 'new-ctags'
-" noremap <Leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
-" noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
-" noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
-" noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
-" noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
+    let g:Lf_ShortcutF = "<leader>f"
+    let g:Lf_Ctags = '/usr/bin/ctags/'
+    let g:Lf_WindowPosition = 'popup'
+    let g:Lf_PreviewInPopup = 1
+    let g:Lf_DefaultExternalTool = 'rg'
+    " search word under cursor, the pattern is treated as regex, and enter normal mode directly
+     noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+    " search word under cursor, the pattern is treated as regex, append the result to previous search results.
+    noremap <C-H> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
+    " search word under cursor literally only in current buffer
+    noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg -F --current-buffer -e %s ", expand("<cword>"))<CR>
+    " search visually selected text literally, don't quit LeaderF after accepting an entry
+    xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
+    " recall last search. If the result window is closed, reopen it.
+    noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
 
 " Snippets
-let g:UltiSnipsSnippetDirectories=[$HOME.'.config/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+    let g:UltiSnipsSnippetDirectories=[$HOME.'.config/nvim/UltiSnips/'] " this doesn't appear to work
+    let g:UltiSnipsExpandTrigger="<c-e>"
+    let g:UltiSnipsListSnippets="<c-l>"
+    let g:UltiSnipsJumpForwardTrigger="<c-j>"
+    let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " Supertab
-let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
+    let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
 
 " Vimux and Vimux-Ipy
 " map <Leader>vp :call VimuxIpy()<CR>
 " vmap <silent> <Leader>e :python run_visual_code()<CR>
 " noremap <silent> <Leader>c :python run_cell(save_position=False, cell_delim='##')<CR>
 
-
-
 "===========SETTINGS============
 " General
 set nocompatible
-filetype off
+" turn off syntax highlighting for inactive windows:
+syntax manual
+autocmd BufEnter * set syntax=on
+autocmd BufLeave * set syntax=off
 syntax on
 set number
 set relativenumber
@@ -187,7 +211,7 @@ set splitbelow " New window goes below
 set splitright " New window goes right
 set foldmethod=indent " Enable folding
 set foldlevel=99 
-nnoremap  mf za " Enable folding
+nnoremap  <leader>h za " Enable folding
 let g:SimpylFold_docstring_preview=1
 set ignorecase
 set nowrap
@@ -195,7 +219,6 @@ set scrolloff=3
 set shortmess=atI " Don't show the vim intro message
 set undofile " Persistent undo
 set wrapscan " Wrap searches around end of file
-let mapleader = "\<SPACE>" " Map leader key
 "remap escape key to jk
     inoremap jk <esc>| 
 " Set proper tabs
@@ -212,8 +235,6 @@ let mapleader = "\<SPACE>" " Map leader key
     nnoremap <C-K> <C-W><C-K>
     nnoremap <C-L> <C-W><C-L>
     nnoremap <C-H> <C-W><C-H>
-" Allow saving of files as sudo when I forgot to start vim using sudo.
-    cmap w!! w !sudo tee > /dev/null %
 " Generate splits
     nnoremap <silent> vv <C-w>v
     nnoremap <silent> zz <C-w>s

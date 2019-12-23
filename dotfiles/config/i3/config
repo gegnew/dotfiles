@@ -160,7 +160,11 @@ exec feh --bg-fill ~/Pictures/desktop.jpg
 {%@@ endif @@%}
 exec --no-startup-id compton
 exec --no-startup-id sh -c "guake"
-#exec_always --no-startup-id betterlockscreen -u ~/Pictures/
+bindsym $mod+g exec "guake-toggle"
+
+# lock screen
+exec_always --no-startup-id betterlockscreen -u ~/Pictures/wallpapers/
+bindsym $mod+shift+x exec betterlockscreen -l dim
 
 #=========================================
 
@@ -168,7 +172,7 @@ exec --no-startup-id sh -c "guake"
 #============FLOATING WINDOWS=============
 
 # move focused floating window to the center of all outputs
-bindsym $mod+g move absolute position center
+bindsym $mod+c move absolute position center
 
 # set a window to stick to the glass
 bindsym $mod+Shift+s sticky toggle

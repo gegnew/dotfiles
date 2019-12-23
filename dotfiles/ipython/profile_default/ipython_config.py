@@ -184,7 +184,7 @@ c.InteractiveShell.banner1 = ""
 #c.InteractiveShell.color_info = True
 
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
-c.InteractiveShell.colors = 'Linux'
+c.InteractiveShell.colors = 'Neutral'
 
 ## 
 #c.InteractiveShell.debug = False
@@ -628,12 +628,12 @@ if 'VIRTUAL_ENV' in environ:
     virtual_env_name = virtual_env_dir.split(sep)[-1]
     message = '[using virtualenv "{0}" ({1})]'.format(virtual_env_name,
                                                       virtual_env_dir)
-    print(message)
+    # print(message)
     # If you don't want to change your IPython prompt to match your virtualenv
     # (the way your shell prompt changes), then comment this bit out.
-    conf = get_config()
-    conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
-    del virtual_env_dir
+    # conf = get_config()
+    # conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
+    # del virtual_env_dir
 del environ, join, sep, version_info
 
 

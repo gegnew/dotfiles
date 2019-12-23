@@ -1,2 +1,2 @@
 #remap gcalcli
-alias g='gcalcli'
+alias gc='gcalcli'
