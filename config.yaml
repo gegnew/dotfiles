@@ -69,6 +69,12 @@ dotfiles:
   f_config.h:
     src: st-0.8.2/config.h
     dst: ~/st-0.8.2/config.h
+  d_startup:
+    src: ipython/profile_default/startup
+    dst: ~/.ipython/profile_default/startup
+  f_pdbrc.py:
+    src: pdbrc.py
+    dst: ~/.pdbrc.py
 profiles:
   eliot:
     dotfiles:
@@ -108,3 +114,5 @@ profiles:
     - f_ipython_config.py
     - f_01-keybindings.py
     - f_config.h
+    - d_startup
+    - f_pdbrc.py

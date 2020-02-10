@@ -150,6 +150,9 @@ luafile $HOME/.config/nvim/plugins.lua
     nmap <silent> t<C-g> :TestVisit<CR>
     " make test commands execute with :terminal in a split window
     let test#strategy = "neovim"
+    if has('nvim')
+      tmap <C-o> <C-\><C-n>
+    endif
 
 " Gutentags
     let g:gutentags_cache_dir = $HOME.'/.gutentags/'
@@ -186,6 +189,12 @@ luafile $HOME/.config/nvim/plugins.lua
 " map <Leader>vp :call VimuxIpy()<CR>
 " vmap <silent> <Leader>e :python run_visual_code()<CR>
 " noremap <silent> <Leader>c :python run_cell(save_position=False, cell_delim='##')<CR>
+
+" for pdbpp, in insert or command mode, move with hjkl by using Ctrl
+tnoremap <C-h> <Left>
+tnoremap <C-j> <Down>
+tnoremap <C-k> <Up>
+tnoremap <C-l> <Right>
 
 "===========SETTINGS============
 " General
