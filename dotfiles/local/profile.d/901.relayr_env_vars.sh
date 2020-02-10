@@ -1,0 +1,1 @@
+export CONSUL_HTTP_TOKEN=fd8d4314-6f68-4f4b-9e39-424bfbe897e5

@@ -21,6 +21,8 @@ for_window [class="^.*"] border pixel 2
 set $mod Mod4
 {%@@ elif profile == "eliot" @@%}
 set $mod Mod1
+{%@@ elif profile == "frankie" @@%}
+set $mod Mod1
 {%@@ endif @@%}
 
 # start a terminal
@@ -46,7 +48,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # set split in horizontal orientation
-bindsym $mod+c split h
+bindsym $mod+b split h
 
 # set split in vertical orientation
 bindsym $mod+v split v
@@ -157,6 +159,8 @@ exec --no-startup-id sh -c "xfce4-power-manager"
 #start compton (for transparent guake and st terminals)
 {%@@ elif profile == "eva" @@%}
 exec feh --bg-fill ~/Pictures/desktop.jpg 
+{%@@ elif profile == "frankie" @@%}
+exec feh --bg-fill ~/Pictures/desktop.jpg 
 {%@@ endif @@%}
 exec --no-startup-id compton
 exec --no-startup-id sh -c "guake"
@@ -213,6 +217,8 @@ bindsym $mod+r mode "resize"
 font pango:Sudo 8
 {%@@ elif profile == "eliot" @@%}
 font pango:Sudo 14
+{%@@ elif profile == "frankie" @@%}
+font pango:Sudo 12
 {%@@ endif @@%}
 
 # reload the configuration file
@@ -271,7 +277,7 @@ set $urgent-bg-color		#E53935
 #==============MODIFICATIONS==============
 #
 
-{%@@ if profile == "eva" @@%}
+{%@@ if (profile == "eva") or (profile == "frankie") @@%}
 #================Plasma Integration=================
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace
 # and hides everythiing)
