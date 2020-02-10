@@ -67,10 +67,7 @@ Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
 Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
 
-
-
 call plug#end()
-
 luafile $HOME/.config/nvim/plugins.lua
 
 " Plugin Configs
@@ -96,13 +93,6 @@ luafile $HOME/.config/nvim/plugins.lua
     let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
     let g:deoplete#ignore_sources.python = ['look']
     let g:deoplete#custom#option#on_insert_enter = 'false'
-
-" Neodark colorscheme config
-    colorscheme neodark " I like neodark but the highlighting makes it hard to read things
-    let g:neodark#terminal_transparent = 1
-    let g:neodark#use_256color = 1
-    let g:airline_theme='neodark'  " Set airline theme
-    hi Search ctermfg=white
 
 " vimfiler
     let g:vimfiler_as_default_explorer = 1
@@ -137,6 +127,7 @@ luafile $HOME/.config/nvim/plugins.lua
 " Run Black on save
     " autocmd BufWritePre *.py execute ':Black'
     let g:black_skip_string_normalization = 1
+    let g:black_linelength = 120
 
 " Run flake8 on  save
     " autocmd BufWritePost *.py call flake8#Flake8()
@@ -150,6 +141,9 @@ luafile $HOME/.config/nvim/plugins.lua
     nmap <silent> t<C-g> :TestVisit<CR>
     " make test commands execute with :terminal in a split window
     let test#strategy = "neovim"
+    if has('nvim')
+      tmap <C-o> <C-\><C-n>
+    endif
 
 " Gutentags
     let g:gutentags_cache_dir = $HOME.'/.gutentags/'
@@ -182,10 +176,18 @@ luafile $HOME/.config/nvim/plugins.lua
 " Supertab
     let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
 
+" Neodark colorscheme config
+    colorscheme neodark " I like neodark but the highlighting makes it hard to read things
+    let g:neodark#terminal_transparent = 1
+    let g:neodark#use_256color = 1
+    let g:neodark#solid_vertsplit = 1
+    let g:airline_theme='neodark'  " Set airline theme
+
 " Vimux and Vimux-Ipy
 " map <Leader>vp :call VimuxIpy()<CR>
 " vmap <silent> <Leader>e :python run_visual_code()<CR>
 " noremap <silent> <Leader>c :python run_cell(save_position=False, cell_delim='##')<CR>
+
 
 "===========SETTINGS============
 " General
@@ -219,10 +221,13 @@ set scrolloff=3
 set shortmess=atI " Don't show the vim intro message
 set undofile " Persistent undo
 set wrapscan " Wrap searches around end of file
+" set search highlighting (overrides Neodark)
+hi Search ctermfg=black
+hi Search ctermbg=yellow
 "remap escape key to jk
     inoremap jk <esc>| 
 " Set proper tabs
-    set tabstop=4
+"    set tabstop=4
     set shiftwidth=4
     set smarttab
     set expandtab
@@ -247,5 +252,10 @@ set wrapscan " Wrap searches around end of file
    map <Leader>b :ls<Enter>
 " Useful commands
 "nvim +checkhealth
-" Change spaces to tabs in makefiles
-autocmd FileType make setlocal noexpandtab
+augroup FileTypeSpecificAutocommands
+    " Two spaces for tabs in R files
+    autocmd FileType r setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    " Change spaces to tabs in makefiles
+    autocmd FileType make setlocal noexpandtab
+augroup END
+

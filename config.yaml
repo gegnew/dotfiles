@@ -108,3 +108,20 @@ profiles:
     - f_ipython_config.py
     - f_01-keybindings.py
     - f_config.h
+  frankie:
+    dotfiles:
+    - d_st-0.8.2
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_config
+    - d_nvim
+    - d_ipython
+    - f_rc.conf
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xmodmap
+    - f_gitconfig
+    - d_ipython
