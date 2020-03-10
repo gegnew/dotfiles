@@ -20,6 +20,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 
 
+" Formatting
 Plug 'psf/black' " autoformat python the right way
 Plug 'prettier/vim-prettier' " for other filetypes
 Plug 'nvie/vim-flake8'
@@ -35,7 +36,9 @@ Plug 'kassio/neoterm'
 Plug 'Vigemus/iron.nvim'
 Plug 'janko/vim-test' " run tests at the speed of thought!
 
+" Navigation
 Plug 'tmhedberg/SimpylFold'
+Plug 'unblevable/quick-scope'
 Plug 'christoomey/vim-tmux-navigator'
 
 " Deoplete
@@ -73,15 +76,16 @@ luafile $HOME/.config/nvim/plugins.lua
 " Plugin Configs
 " Neoterm
     let &runtimepath.=',/home/g/.local/share/nvim/plugged/neoterm'
+    filetype plugin on " neoterm
     command! -nargs=* T split | terminal <args> " hack for :terminal
     command! -nargs=* VT vsplit | terminal <args> " hack for :terminal
     command! -nargs=+ TT Topen | T <args>
     " let g:neoterm#autoscroll=1
+    let g:neoterm_default_mod='belowright'
     " silent! helptags ALL " helptags for neoterm
     " nmap <leader>s :TREPLSendFile<Enter>
     " nmap <leader>l :TREPLSendLine<Enter>
     " vmap <leader>s :TREPLSendSelection<Enter>
-    " filetype plugin on " neoterm
 
 
 " Use Deoplete
@@ -97,6 +101,15 @@ luafile $HOME/.config/nvim/plugins.lua
 " vimfiler
     let g:vimfiler_as_default_explorer = 1
     map <silent><leader>n :VimFiler -split -simple -winwidth=35 -toggle -no-quit <Enter>
+
+" quick-scope
+    let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] " Trigger a highlight in the appropriate direction when pressing these keys:
+    " let g:qs_highlight_on_keys = ['t', 'T'] " Trigger a highlight only when pressing f and F.
+    augroup qs_colors
+      autocmd!
+      autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+      autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+    augroup END
 
 " Limelight
     map <silent> <leader>l :Limelight!!<Enter>
@@ -133,12 +146,12 @@ luafile $HOME/.config/nvim/plugins.lua
     " autocmd BufWritePost *.py call flake8#Flake8()
 
 " vim-test keymaps
-    nmap <silent> t<C-n> :TestNearest<CR>
-    nmap <silent> t<C-f> :TestFile<CR>
+    nmap <silent> g<C-n> :TestNearest<CR>
+    nmap <silent> g<C-f> :TestFile<CR>
     " nnoremap <leader>tf :TestFile<cr>
-    nmap <silent> t<C-s> :TestSuite<CR>
-    nmap <silent> t<C-l> :TestLast<CR>
-    nmap <silent> t<C-g> :TestVisit<CR>
+    nmap <silent> g<C-s> :TestSuite<CR>
+    nmap <silent> g<C-l> :TestLast<CR>
+    nmap <silent> g<C-g> :TestVisit<CR>
     " make test commands execute with :terminal in a split window
     let test#strategy = "neovim"
     if has('nvim')
@@ -167,7 +180,7 @@ luafile $HOME/.config/nvim/plugins.lua
     noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
 
 " Snippets
-    let g:UltiSnipsSnippetDirectories=[$HOME.'.config/nvim/UltiSnips/'] " this doesn't appear to work
+    " let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips/', $HOME.'/.local/share/nvim/plugged/vim-snippets/snippets/']
     let g:UltiSnipsExpandTrigger="<c-e>"
     let g:UltiSnipsListSnippets="<c-l>"
     let g:UltiSnipsJumpForwardTrigger="<c-j>"
@@ -260,7 +273,7 @@ hi Search ctermbg=yellow
 augroup FileTypeSpecificAutocommands
     " Two spaces for tabs in R files
     autocmd FileType r setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType '.Rd' setlocal tabstop=2 softtabstop=2 shiftwidth=2
     " Change spaces to tabs in makefiles
     autocmd FileType make setlocal noexpandtab
 augroup END
-

@@ -75,6 +75,9 @@ dotfiles:
   f_pdbrc.py:
     src: pdbrc.py
     dst: ~/.pdbrc.py
+  f_fonts.conf:
+    src: config/fontconfig/fonts.conf
+    dst: ~/.config/fontconfig/fonts.conf
 profiles:
   eliot:
     dotfiles:
@@ -114,10 +117,10 @@ profiles:
     - f_ipython_config.py
     - f_01-keybindings.py
     - f_config.h
-<<<<<<< HEAD
     - d_startup
     - f_pdbrc.py
-=======
+
+    - f_fonts.conf
   frankie:
     dotfiles:
     - d_st-0.8.2
@@ -135,4 +138,3 @@ profiles:
     - f_xmodmap
     - f_gitconfig
     - d_ipython
->>>>>>> 657653c4d6fdc1b14614162e46f584d365cd1f31
