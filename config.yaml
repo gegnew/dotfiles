@@ -138,3 +138,16 @@ profiles:
     - f_xmodmap
     - f_gitconfig
     - d_ipython
+  RLYLTPZ198.local:
+    dotfiles:
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - d_nvim
+    - d_ipython
+    - f_tmux.conf
+    - f_tmux.conf.local
+    - f_gitconfig
+    - f_rc.conf
