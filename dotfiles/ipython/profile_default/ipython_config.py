@@ -127,7 +127,7 @@
 
 ## If a command or file is given via the command-line, e.g. 'ipython foo.py',
 #  start an interactive shell after executing the file or command.
-c.TerminalIPythonApp.force_interact = False
+#c.TerminalIPythonApp.force_interact = False
 
 ## Class to use to instantiate the TerminalInteractiveShell object. Useful for
 #  custom Frontends
@@ -162,10 +162,10 @@ c.TerminalIPythonApp.force_interact = False
 #c.InteractiveShell.autoindent = True
 
 ## Enable magic commands to be called without the leading %.
-c.InteractiveShell.automagic = True
+#c.InteractiveShell.automagic = True
 
 ## The part of the banner to be printed before the profile
-c.InteractiveShell.banner1 = ""
+#c.InteractiveShell.banner1 = "Python 3.7.0 (default, Sep 15 2018, 19:13:07) \nType 'copyright', 'credits' or 'license' for more information\nIPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.\n"
 
 ## The part of the banner to be printed after the profile
 #c.InteractiveShell.banner2 = ''
@@ -184,7 +184,7 @@ c.InteractiveShell.banner1 = ""
 #c.InteractiveShell.color_info = True
 
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
-c.InteractiveShell.colors = 'Neutral'
+#c.InteractiveShell.colors = 'Neutral'
 
 ## 
 #c.InteractiveShell.debug = False
@@ -279,20 +279,20 @@ c.InteractiveShell.colors = 'Neutral'
 ## Options for displaying tab completions, 'column', 'multicolumn', and
 #  'readlinelike'. These options are for `prompt_toolkit`, see `prompt_toolkit`
 #  documentation for more information.
-c.TerminalInteractiveShell.display_completions = 'column'
+#c.TerminalInteractiveShell.display_completions = 'multicolumn'
 
 ## Shortcut style to use at the prompt. 'vi' or 'emacs'.
 c.TerminalInteractiveShell.editing_mode = 'vi'
 
 ## Set the editor used by IPython (default to $EDITOR/vi/notepad).
-c.TerminalInteractiveShell.editor = 'nvim'
+c.TerminalInteractiveShell.editor = 'vim'
 
 ## Allows to enable/disable the prompt toolkit history search
 #c.TerminalInteractiveShell.enable_history_search = True
 
 ## Enable vi (v) or Emacs (C-X C-E) shortcuts to open an external editor. This is
 #  in addition to the F2 binding, which is always enabled.
-c.TerminalInteractiveShell.extra_open_editor_shortcuts = True
+#c.TerminalInteractiveShell.extra_open_editor_shortcuts = False
 
 ## Provide an alternative handler to be called when the user presses Return. This
 #  is an advanced option intended for debugging, which may be changed or removed
@@ -300,11 +300,11 @@ c.TerminalInteractiveShell.extra_open_editor_shortcuts = True
 #c.TerminalInteractiveShell.handle_return = None
 
 ## Highlight matching brackets.
-c.TerminalInteractiveShell.highlight_matching_brackets = True
+#c.TerminalInteractiveShell.highlight_matching_brackets = True
 
 ## The name or class of a Pygments style to use for syntax highlighting. To see
 #  available styles, run `pygmentize -L styles`.
-c.TerminalInteractiveShell.highlighting_style = 'native'
+#c.TerminalInteractiveShell.highlighting_style = traitlets.Undefined
 
 ## Override highlighting format for specific tokens
 #c.TerminalInteractiveShell.highlighting_style_overrides = {}
@@ -518,7 +518,7 @@ c.TerminalInteractiveShell.highlighting_style = 'native'
 #c.Completer.jedi_compute_type_timeout = 400
 
 ## Experimental: Use Jedi to generate autocompletions. Off by default.
-c.Completer.use_jedi = True
+#c.Completer.use_jedi = False
 
 #------------------------------------------------------------------------------
 # IPCompleter(Completer) configuration
@@ -628,12 +628,12 @@ if 'VIRTUAL_ENV' in environ:
     virtual_env_name = virtual_env_dir.split(sep)[-1]
     message = '[using virtualenv "{0}" ({1})]'.format(virtual_env_name,
                                                       virtual_env_dir)
-    # print(message)
+    print(message)
     # If you don't want to change your IPython prompt to match your virtualenv
     # (the way your shell prompt changes), then comment this bit out.
-    # conf = get_config()
-    # conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
-    # del virtual_env_dir
+    conf = get_config()
+    conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
+    del virtual_env_dir
 del environ, join, sep, version_info
 
 

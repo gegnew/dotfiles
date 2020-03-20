@@ -15,13 +15,14 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dadbod'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
-
+Plug 'tpope/vim-abolish'
 
 " Formatting
-Plug 'psf/black' " autoformat python the right way
+Plug 'psf/black', { 'tag': '19.10b0' } " force upgrade black (https://github.com/psf/black/issues/1293)
 Plug 'prettier/vim-prettier' " for other filetypes
 Plug 'nvie/vim-flake8'
 
@@ -62,8 +63,8 @@ Plug 'lambdalisue/suda.vim' " save files as sudo
 
 " Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-Plug 'vim-scripts/gtags.vim'
-Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
+" Plug 'vim-scripts/gtags.vim'
+" Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
 Plug 'majutsushi/tagbar'
 
 Plug 'SirVer/ultisnips' " snippets part 1
@@ -139,8 +140,8 @@ luafile $HOME/.config/nvim/plugins.lua
 
 " Run Black on save
     " autocmd BufWritePre *.py execute ':Black'
-    let g:black_skip_string_normalization = 1
-    let g:black_linelength = 120
+    " let g:black_skip_string_normalization = 1
+    " let g:black_linelength = 120
 
 " Run flake8 on  save
     " autocmd BufWritePost *.py call flake8#Flake8()
@@ -158,13 +159,13 @@ luafile $HOME/.config/nvim/plugins.lua
       tmap <C-o> <C-\><C-n>
     endif
 
-" Gutentags
-    let g:gutentags_cache_dir = $HOME.'/.gutentags/'
+" " Gutentags (disabled for now per  testing https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html)
+"     let g:gutentags_cache_dir = $HOME.'/.gutentags/'
     nnoremap <silent><Leader>t :TagbarToggle<CR>
 
 " LeaderF
     let g:Lf_ShortcutF = "<leader>f"
-    let g:Lf_Ctags = '/usr/bin/ctags/'
+    " let g:Lf_Ctags = '/usr/bin/ctags/'
     let g:Lf_WindowPosition = 'popup'
     let g:Lf_PreviewInPopup = 1
     let g:Lf_DefaultExternalTool = 'rg'

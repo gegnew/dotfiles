@@ -33,9 +33,6 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
-  d_ipython:
-    src: ipython
-    dst: ~/.ipython
   f_rc.conf:
     src: config/ranger/rc.conf
     dst: ~/.config/ranger/rc.conf
@@ -78,6 +75,9 @@ dotfiles:
   f_fonts.conf:
     src: config/fontconfig/fonts.conf
     dst: ~/.config/fontconfig/fonts.conf
+  d_git_template:
+    src: git_template
+    dst: ~/.git_template
 profiles:
   eliot:
     dotfiles:
@@ -91,7 +91,6 @@ profiles:
     - f_config
     - d_i3blocks
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
@@ -106,12 +105,12 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
     - f_gitconfig
+    - d_git_template
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
@@ -119,7 +118,6 @@ profiles:
     - f_config.h
     - d_startup
     - f_pdbrc.py
-
     - f_fonts.conf
   frankie:
     dotfiles:
@@ -131,13 +129,12 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
     - f_gitconfig
-    - d_ipython
+    - d_git_template
   RLYLTPZ198.local:
     dotfiles:
     - d_aliases.d
@@ -145,9 +142,11 @@ profiles:
     - d_profile.d
     - f_bashrc
     - f_bash_profile
+    - f_init.vim
     - d_nvim
-    - d_ipython
+    - f_ipython_config.py
     - f_tmux.conf
     - f_tmux.conf.local
     - f_gitconfig
+    - d_git_template
     - f_rc.conf
