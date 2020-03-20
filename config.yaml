@@ -78,6 +78,9 @@ dotfiles:
   d_git_template:
     src: git_template
     dst: ~/.git_template
+  d_hooks:
+    src: git_template/hooks
+    dst: ~/.git_template/hooks
 profiles:
   eliot:
     dotfiles:
@@ -152,3 +155,4 @@ profiles:
     - d_git_template
     - f_rc.conf
     - d_startup
+    - d_hooks
