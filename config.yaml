@@ -33,9 +33,6 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
-  d_ipython:
-    src: ipython
-    dst: ~/.ipython
   f_rc.conf:
     src: config/ranger/rc.conf
     dst: ~/.config/ranger/rc.conf
@@ -63,9 +60,6 @@ dotfiles:
   f_ipython_config.py:
     src: ipython/profile_default/ipython_config.py
     dst: ~/.ipython/profile_default/ipython_config.py
-  f_01-keybindings.py:
-    src: ipython/profile_default/startup/01-keybindings.py
-    dst: ~/.ipython/profile_default/startup/01-keybindings.py
   f_config.h:
     src: st-0.8.2/config.h
     dst: ~/st-0.8.2/config.h
@@ -91,7 +85,6 @@ profiles:
     - f_config
     - d_i3blocks
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
@@ -106,7 +99,6 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
@@ -115,11 +107,9 @@ profiles:
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_01-keybindings.py
     - f_config.h
     - d_startup
     - f_pdbrc.py
-
     - f_fonts.conf
   frankie:
     dotfiles:
@@ -131,10 +121,9 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - d_ipython
     - f_rc.conf
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
     - f_gitconfig
-    - d_ipython
+    - f_ipython_config.py
