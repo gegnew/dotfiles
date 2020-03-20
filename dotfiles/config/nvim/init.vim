@@ -28,9 +28,9 @@ Plug 'nvie/vim-flake8'
 
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
 Plug 'junegunn/gv.vim'
-
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/goyo.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " REPLs 'n stuff
 Plug 'kassio/neoterm'
@@ -179,6 +179,9 @@ luafile $HOME/.config/nvim/plugins.lua
     xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
     " recall last search. If the result window is closed, reopen it.
     noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
+
+" FZF
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.4, 'border': 'rounded'}}
 
 " Snippets
     " let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips/', $HOME.'/.local/share/nvim/plugged/vim-snippets/snippets/']

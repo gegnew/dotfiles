@@ -135,6 +135,7 @@ profiles:
     - f_xmodmap
     - f_gitconfig
     - d_git_template
+    - f_ipython_config.py
   RLYLTPZ198.local:
     dotfiles:
     - d_aliases.d
