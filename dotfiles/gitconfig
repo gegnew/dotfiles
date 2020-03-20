@@ -2,7 +2,7 @@
 	email = gerrit.egnew@relayr.io
 	name = gegnew
 [init]
-	templatedir = /home/g/.git-templates/
+	templatedir = ~/.git_template
 ; [merge]
 ;     tool = nvimdiff4
 ; [mergetool "nvimdiff4"]
@@ -29,3 +29,4 @@
     m = merge --no-ff
     pa = push origin --all
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short 
+	ctags = !.git/hooks/ctags

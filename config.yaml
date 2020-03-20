@@ -151,3 +151,4 @@ profiles:
     - f_gitconfig
     - d_git_template
     - f_rc.conf
+    - d_startup
