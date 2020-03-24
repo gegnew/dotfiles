@@ -172,3 +172,4 @@ profiles:
     - f_fzf
     - f_fzf.bash
     - f_102.forgit.sh
+    - f_ideavimrc
