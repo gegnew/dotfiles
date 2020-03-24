@@ -87,6 +87,9 @@ dotfiles:
   f_fzf.bash:
     src: fzf.bash
     dst: ~/.fzf.bash
+  f_102.forgit.sh:
+    src: local/profile.d/102.forgit.sh
+    dst: ~/.local/profile.d/102.forgit.sh
 profiles:
   eliot:
     dotfiles:
@@ -164,3 +167,4 @@ profiles:
     - d_hooks
     - f_fzf
     - f_fzf.bash
+    - f_102.forgit.sh
