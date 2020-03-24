@@ -90,6 +90,9 @@ dotfiles:
   f_102.forgit.sh:
     src: local/profile.d/102.forgit.sh
     dst: ~/.local/profile.d/102.forgit.sh
+  f_ideavimrc:
+    src: ideavimrc
+    dst: ~/.ideavimrc
 profiles:
   eliot:
     dotfiles:
@@ -131,6 +134,7 @@ profiles:
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
+    - f_ideavimrc
   frankie:
     dotfiles:
     - d_st-0.8.2
