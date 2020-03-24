@@ -81,6 +81,12 @@ dotfiles:
   d_hooks:
     src: git_template/hooks
     dst: ~/.git_template/hooks
+  f_fzf:
+    src: fzf
+    dst: ~/.fzf
+  f_fzf.bash:
+    src: fzf.bash
+    dst: ~/.fzf.bash
 profiles:
   eliot:
     dotfiles:
@@ -156,3 +162,5 @@ profiles:
     - f_rc.conf
     - d_startup
     - d_hooks
+    - f_fzf
+    - f_fzf.bash
