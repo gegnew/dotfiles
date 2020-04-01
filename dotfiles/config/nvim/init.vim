@@ -20,17 +20,23 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-apathy'
+Plug 'tpope/vim-dispatch'
 
 " Formatting
+Plug 'sheerun/vim-polyglot' " language support
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'yarn install',
+"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'psf/black', { 'tag': '19.10b0' } " force upgrade black (https://github.com/psf/black/issues/1293)
-Plug 'prettier/vim-prettier' " for other filetypes
-Plug 'nvie/vim-flake8'
+" Plug 'nvie/vim-flake8'
 
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/vim-peekaboo'
 
 " REPLs 'n stuff
 Plug 'kassio/neoterm'
@@ -39,25 +45,68 @@ Plug 'janko/vim-test' " run tests at the speed of thought!
 
 " Navigation
 Plug 'tmhedberg/SimpylFold'
-Plug 'unblevable/quick-scope'
+Plug 'rhysd/clever-f.vim' " tentative replacement for quick-scope
+" Plug 'unblevable/quick-scope'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'mbbill/undotree'
 
 " Deoplete
-    if has('nvim')
-      Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-    else
-      Plug 'roxma/nvim-yarp'
-      Plug 'roxma/vim-hug-neovim-rpc'
-    endif
+    " if has('nvim')
+    "   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " else
+    "   Plug 'roxma/nvim-yarp'
+    "   Plug 'roxma/vim-hug-neovim-rpc'
+    " endif
 Plug 'Shougo/vimfiler.vim'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay -S words`)
 
-Plug 'ujihisa/neco-look' " Dictionary completion
-Plug 'deoplete-plugins/deoplete-jedi' " Python completion
-Plug 'wellle/tmux-complete.vim' " Complete words in adjacent tmux panes
-Plug 'prabirshrestha/async.vim' " Async for tmux-complete, needed for deoplete integration
-Plug 'prabirshrestha/asyncomplete.vim' " ditto
+"Completion 
+    " Try mucomplete
+    "Plug 'lifepillar/vim-mucomplete'
+    "Plug 'davidhalter/jedi-vim'
+    "  set belloff+=ctrlg " If Vim beeps during completion
+    "  set completeopt+=longest,menuone,noinsert
+    "  " set completeopt-=preview
+      " set shortmess+=c   " Shut off completion messages
+    "  let g:jedi#popup_on_dot = 0  " It may be 1 as well
+    "  let g:mucomplete#enable_auto_at_startup = 1
+    "  "sql settings
+    "  let g:mucomplete#user_mappings = { 'sqla' : "\<c-c>a" }
+    "  let g:mucomplete#chains = { 'sql' : ['file', 'sqla', 'keyn'] }
+
+    "  let g:jedi#goto_command = "<leader>d"
+    "  let g:jedi#goto_assignments_command = "<C-]>"
+    "  let g:jedi#goto_stubs_command = "<leader>s"
+    "  let g:jedi#goto_definitions_commakd = ""
+    "  let g:jedi#documentation_command = "K"
+    "  let g:jedi#usages_command = "<C-n>"
+    "  let g:jedi#completions_command = "<C-Space>"
+    "  let g:jedi#rename_command = "<leader>r"
+
+    " Try deoplete
+    " Plug 'ujihisa/neco-look' " Dictionary completion
+    " Plug 'deoplete-plugins/deoplete-jedi' " Python completion
+    " Plug 'wellle/tmux-complete.vim' " Complete words in adjacent tmux panes
+    " Plug 'prabirshrestha/async.vim' " Async for tmux-complete, needed for deoplete integration
+    " Plug 'prabirshrestha/asyncomplete.vim' " ditto
+    " Use Deoplete
+        " let g:deoplete#enable_at_startup = 1
+        " inoremap <expr><TAB>  pumvisible() ? /"\<C-n>" : /"\<TAB>" " <- fix
+        " let g:tmuxcomplete#trigger = ''
+        " " pynvim for deoplete:
+        " " let g:python3_host_prog = '/home/g/.pyenv/versions/3.7.4/bin/python' 
+        " " Ignore english autocomplete in python
+        " let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
+        " let g:deoplete#ignore_sources.python = ['look']
+        " let g:deoplete#custom#option#on_insert_enter = 'false'
+
+    
+    " Try completor
+    " Plug 'maralla/completor.vim'
+
+
+Plug 'machakann/vim-swap' " swap items in lists
 
 Plug 'lambdalisue/suda.vim' " save files as sudo
 
@@ -88,29 +137,24 @@ luafile $HOME/.config/nvim/plugins.lua
     " nmap <leader>l :TREPLSendLine<Enter>
     " vmap <leader>s :TREPLSendSelection<Enter>
 
-
-" Use Deoplete
-    let g:deoplete#enable_at_startup = 1
-    inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-    let g:tmuxcomplete#trigger = ''
-    " let g:python3_host_prog = '/home/g/.pyenv/versions/3.7.4/bin/python' "pynvim for deoplete
-    " Ignore english autocomplete in python
-    let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
-    let g:deoplete#ignore_sources.python = ['look']
-    let g:deoplete#custom#option#on_insert_enter = 'false'
-
 " vimfiler
     let g:vimfiler_as_default_explorer = 1
     map <silent><leader>n :VimFiler -split -simple -winwidth=35 -toggle -no-quit <Enter>
 
+" Undotree
+nnoremap <leader>u :UndotreeToggle<cr>
+
+" clever-f
+let g:clever_f_smart_case = 1
+
 " quick-scope
-    let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] " Trigger a highlight in the appropriate direction when pressing these keys:
+    " let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] " Trigger a highlight in the appropriate direction when pressing these keys:
     " let g:qs_highlight_on_keys = ['t', 'T'] " Trigger a highlight only when pressing f and F.
-    augroup qs_colors
-      autocmd!
-      autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
-      autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
-    augroup END
+    " augroup qs_colors
+    "   autocmd!
+    "   autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+    "   autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+    " augroup END
 
 " Limelight
     map <silent> <leader>l :Limelight!!<Enter>
@@ -146,6 +190,9 @@ luafile $HOME/.config/nvim/plugins.lua
 " Run flake8 on  save
     " autocmd BufWritePost *.py call flake8#Flake8()
 
+" Prettier
+let g:prettier#autoformat = 0
+
 " vim-test keymaps
     nmap <silent> g<C-n> :TestNearest<CR>
     nmap <silent> g<C-f> :TestFile<CR>
@@ -153,13 +200,18 @@ luafile $HOME/.config/nvim/plugins.lua
     nmap <silent> g<C-s> :TestSuite<CR>
     nmap <silent> g<C-l> :TestLast<CR>
     nmap <silent> g<C-g> :TestVisit<CR>
-    " make test commands execute with :terminal in a split window
-    let test#strategy = "neovim"
+    " strategies for display tests [neovim, vtr, tmuxify, dispatch]
+    let test#strategy = "dispatch"
     if has('nvim')
       tmap <C-o> <C-\><C-n>
     endif
 
-" " Gutentags (disabled for now per  testing https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html)
+" Fugitive Conflict Resolution
+nnoremap <leader>gd :Gvdiff<CR>
+nnoremap gdh :diffget //2<CR>
+nnoremap gdl :diffget //3<CR>
+
+" Gutentags (disabled for now per  testing https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html)
 "     let g:gutentags_cache_dir = $HOME.'/.gutentags/'
     nnoremap <silent><Leader>t :TagbarToggle<CR>
 
@@ -211,6 +263,13 @@ tnoremap <C-j> <Down>
 tnoremap <C-k> <Up>
 tnoremap <C-l> <Right>
 
+"===========TEST_SETTINGS============
+" These are from https://www.hillelwayne.com/post/intermediate-vim/
+" Let's see how I like them
+nnoremap Q @@ " repeat last macro
+nnoremap Y y$ "yank to end of line
+set lazyredraw
+
 "===========SETTINGS============
 " General
 set nocompatible
@@ -228,7 +287,11 @@ set autoread " Set to autoread when a file is changed from the outside
 set ignorecase " ignore case while searching
 set smartcase " unless a search term starts with a capital letter
 set backspace=indent,eol,start
-set clipboard=unnamedplus
+" pasting sanity
+    set clipboard=unnamedplus
+    set pastetoggle=<leader>p
+    set showmode
+set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P " percentage through file
 set cursorline
     hi CursorLine term=bold cterm=bold guibg=Grey40 ctermbg=NONE
 set splitbelow " New window goes below
@@ -243,9 +306,17 @@ set scrolloff=3
 set shortmess=atI " Don't show the vim intro message
 set undofile " Persistent undo
 set wrapscan " Wrap searches around end of file
+" set italicized comments
+highlight Comment cterm=italic
 " set search highlighting (overrides Neodark)
 hi Search ctermfg=black
 hi Search ctermbg=yellow
+" set highlighting for vim-dispatch quickfix window
+    highlight TestOk    ctermbg=green
+    highlight TestError ctermbg=red
+
+    syn match TestOk    "\<Ok:"
+    syn match TestError "\<Err:"
 "remap escape key to jk
     inoremap jk <esc>| 
 " Set proper tabs

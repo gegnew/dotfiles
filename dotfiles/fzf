@@ -62,3 +62,22 @@ bind '"\C-g\C-t": "$(gt)\e\C-e\er"'
 bind '"\C-g\C-h": "$(gh)\e\C-e\er"'
 bind '"\C-g\C-r": "$(gr)\e\C-e\er"'
 
+ghelp () {
+echo "
+FZF:
+    gf - diff
+    gb - log
+    gt - something?
+    gh - git commit diffs?
+    gr - remote log
+
+Forgit:
+    ga - add
+    grh - reset
+    glo - log oneline
+    gd - diff
+    gi - create gitignore
+    gcf - clean
+    gss - show stash
+"
+}
