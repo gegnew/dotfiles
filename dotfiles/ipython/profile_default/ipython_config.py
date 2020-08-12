@@ -5,13 +5,13 @@
 #------------------------------------------------------------------------------
 
 ## A Mixin for applications that start InteractiveShell instances.
-#  
+#
 #  Provides configurables for loading extensions and executing files as part of
 #  configuring a Shell environment.
-#  
+#
 #  The following methods should be called by the :meth:`initialize` method of the
 #  subclass:
-#  
+#
 #    - :meth:`init_path`
 #    - :meth:`init_shell` (to be implemented by the subclass)
 #    - :meth:`init_gui_pylab`
@@ -60,7 +60,7 @@
 
 ## If true, IPython will populate the user namespace with numpy, pylab, etc. and
 #  an ``import *`` is done from numpy and pylab, when using pylab mode.
-#  
+#
 #  When False, pylab mode should not import any names into the user namespace.
 #c.InteractiveShellApp.pylab_import_all = True
 
@@ -98,7 +98,7 @@
 #c.BaseIPythonApplication.copy_config_files = False
 
 ## Path to an extra config file to load.
-#  
+#
 #  If specified, load this config file in addition to any other IPython config.
 #c.BaseIPythonApplication.extra_config_file = ''
 
@@ -186,7 +186,7 @@ c.InteractiveShell.banner1 = ""
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
 c.InteractiveShell.colors = 'Neutral'
 
-## 
+##
 #c.InteractiveShell.debug = False
 
 ## Don't call post-execute functions that have failed in the past.
@@ -206,7 +206,7 @@ c.InteractiveShell.colors = 'Neutral'
 #  startup.
 #c.InteractiveShell.history_load_length = 1000
 
-## 
+##
 #c.InteractiveShell.ipython_dir = ''
 
 ## Start logging to the given file in append mode. Use `logfile` to specify a log
@@ -220,7 +220,7 @@ c.InteractiveShell.colors = 'Neutral'
 #  specify a log file to **append** logs to.
 #c.InteractiveShell.logstart = False
 
-## 
+##
 #c.InteractiveShell.object_info_string_level = 0
 
 ## Automatically call the pdb debugger after every exception.
@@ -242,16 +242,16 @@ c.InteractiveShell.colors = 'Neutral'
 #  TerminalInteractiveShell.prompts object directly.
 #c.InteractiveShell.prompts_pad_left = True
 
-## 
+##
 #c.InteractiveShell.quiet = False
 
-## 
+##
 #c.InteractiveShell.separate_in = '\n'
 
-## 
+##
 #c.InteractiveShell.separate_out = ''
 
-## 
+##
 #c.InteractiveShell.separate_out2 = ''
 
 ## Show rewritten input, e.g. for autocall.
@@ -261,7 +261,7 @@ c.InteractiveShell.colors = 'Neutral'
 #  module).
 #c.InteractiveShell.sphinxify_docstring = False
 
-## 
+##
 #c.InteractiveShell.wildcards_case_sensitive = True
 
 ## Switch modes for the IPython exception handlers.
@@ -317,11 +317,11 @@ c.TerminalInteractiveShell.highlighting_style = 'native'
 #c.TerminalInteractiveShell.prompts_class = 'IPython.terminal.prompts.Prompts'
 
 ## Use `raw_input` for the REPL, without completion and prompt colors.
-#  
+#
 #  Useful when controlling IPython as a subprocess, and piping STDIN/OUT/ERR.
 #  Known usage are: IPython own testing machinery, and emacs inferior-shell
 #  integration through elpy.
-#  
+#
 #  This mode default to `True` if the `IPY_TEST_SIMPLE_PROMPT` environment
 #  variable is set, or the current terminal is not a tty.
 #c.TerminalInteractiveShell.simple_prompt = False
@@ -346,35 +346,35 @@ c.TerminalInteractiveShell.highlighting_style = 'native'
 #------------------------------------------------------------------------------
 
 ## Access the history database without adding to it.
-#  
+#
 #  This is intended for use by standalone history tools. IPython shells use
 #  HistoryManager, below, which is a subclass of this.
 
 ## Options for configuring the SQLite connection
-#  
+#
 #  These options are passed as keyword args to sqlite3.connect when establishing
 #  database connections.
 #c.HistoryAccessor.connection_options = {}
 
 ## enable the SQLite history
-#  
+#
 #  set enabled=False to disable the SQLite history, in which case there will be
 #  no stored history, no SQLite connection, and no background saving thread.
 #  This may be necessary in some threaded environments where IPython is embedded.
 #c.HistoryAccessor.enabled = True
 
 ## Path to file to use for SQLite history database.
-#  
+#
 #  By default, IPython will put the history database in the IPython profile
 #  directory.  If you would rather share one history among profiles, you can set
 #  this value in each, so that they are consistent.
-#  
+#
 #  Due to an issue with fcntl, SQLite is known to misbehave on some NFS mounts.
 #  If you see IPython hanging, try setting this to something on a local disk,
 #  e.g::
-#  
+#
 #      ipython --HistoryManager.hist_file=/tmp/ipython_hist.sqlite
-#  
+#
 #  you can also use the specific value `:memory:` (including the colon at both
 #  end but not the back ticks), to avoid creating an history file.
 #c.HistoryAccessor.hist_file = ''
@@ -397,10 +397,10 @@ c.TerminalInteractiveShell.highlighting_style = 'native'
 #------------------------------------------------------------------------------
 
 ## An object to manage the profile directory and its resources.
-#  
+#
 #  The profile directory is used by all IPython applications, to manage
 #  configuration, logging and security.
-#  
+#
 #  This object knows how to find, create and manage these directories. This
 #  should be used by any code that wants to handle profiles.
 
@@ -413,7 +413,7 @@ c.TerminalInteractiveShell.highlighting_style = 'native'
 #------------------------------------------------------------------------------
 
 ## A base formatter class that is configurable.
-#  
+#
 #  This formatter should usually be used as the base class of all formatters. It
 #  is a traited :class:`Configurable` class and includes an extensible API for
 #  users to determine how their objects are formatted. The following logic is
@@ -607,33 +607,33 @@ c.Completer.use_jedi = True
 # Code taken from Ahmed Soliman's post at:
 #   (http://www.ahmedsoliman.com/2011/09/27/use-virtualenv-with-ipython-0-11/)
 # Tweaked by Rami Chowdhury
-from os import environ
-from os.path import join, sep
-from sys import version_info
+# from os import environ
+# from os.path import join, sep
+# from sys import version_info
 
-if version_info[0] > 2:
-    # Python 3.x doesn't define this, so for convenience, we do.
-    def execfile(fname, global_vars):
-        with open(fname) as fh:
-            exec(compile(fh.read(), fname, "exec"), global_vars)
+# if version_info[0] > 2:
+#     # Python 3.x doesn't define this, so for convenience, we do.
+#     def execfile(fname, global_vars):
+#         with open(fname) as fh:
+#             exec(compile(fh.read(), fname, "exec"), global_vars)
 
-if 'VIRTUAL_ENV' in environ:
-    # OK, we're running in a virtualenv - run virtualenv's own activation
-    # script to set it up just as if we were using the environment's Python
-    virtual_env_dir = environ['VIRTUAL_ENV']
-    activate_this = join(virtual_env_dir, "bin", "activate_this.py")
-    execfile(activate_this, dict(__file__=activate_this))
-    # At this point everything should be set up, so just print an informative
-    # message, and optionally change the IPython prompt, and we're done
-    virtual_env_name = virtual_env_dir.split(sep)[-1]
-    message = '[using virtualenv "{0}" ({1})]'.format(virtual_env_name,
-                                                      virtual_env_dir)
-    # print(message)
-    # If you don't want to change your IPython prompt to match your virtualenv
-    # (the way your shell prompt changes), then comment this bit out.
-    # conf = get_config()
-    # conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
-    # del virtual_env_dir
-del environ, join, sep, version_info
+# if 'VIRTUAL_ENV' in environ:
+#     # OK, we're running in a virtualenv - run virtualenv's own activation
+#     # script to set it up just as if we were using the environment's Python
+#     virtual_env_dir = environ['VIRTUAL_ENV']
+#     activate_this = join(virtual_env_dir, "bin", "activate_this.py")
+#     execfile(activate_this, dict(__file__=activate_this))
+#     # At this point everything should be set up, so just print an informative
+#     # message, and optionally change the IPython prompt, and we're done
+#     virtual_env_name = virtual_env_dir.split(sep)[-1]
+#     message = '[using virtualenv "{0}" ({1})]'.format(virtual_env_name,
+#                                                       virtual_env_dir)
+#     # print(message)
+#     # If you don't want to change your IPython prompt to match your virtualenv
+#     # (the way your shell prompt changes), then comment this bit out.
+#     # conf = get_config()
+#     # conf.PromptManager.in_template = virtual_env_name + " [\\#]: "
+#     # del virtual_env_dir
+# del environ, join, sep, version_info
 
 

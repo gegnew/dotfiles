@@ -20,7 +20,10 @@ set commentary
 " https://github.com/Valloric/dotfiles/blob/master/intellij/ideavimrc
 " https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 set surround
-let mapleader = ","
+let mapleader = "\<SPACE>" " Map leader key
+
+" Remap save
+    map <Leader>w :w<Enter>
 
 " These are leader-based alternative shortcuts for actions whose corresponding
 " idea shortcuts require hand-stretching combinations, function keys, Home or
@@ -28,7 +31,7 @@ let mapleader = ","
 "
 " Shift + F6 in idea.
 " Alt + R, then R (through the menu bar) also seems to work fine.
-" map <Leader>r :action RenameElement<CR>
+map <Leader>r :action RenameElement<CR>
 " Ctrl + F12 in idea.
 map <Leader>s :action FileStructurePopup<CR>
 " Perhaps just use the Idea shortcut Ctrl-Alt-B

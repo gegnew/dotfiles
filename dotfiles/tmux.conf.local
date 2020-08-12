@@ -23,6 +23,9 @@ tmux_conf_theme_left_separator_sub='\uE0B1'
 tmux_conf_theme_right_separator_main='\uEjB2'
 tmux_conf_theme_right_separator_sub='\uE0B3'
 
+# super fast way to reach copy-mode and search upwards
+bind-key / copy-mode \; send-key ?
+
 # if thumbs doesn't exist yet, do
 # git clone https://github.com/fcsonline/tmux-thumbs ~/.tmux/plugins/tmux-thumbs
 # cd ~/.tmux/plugins/tmux-thumbs

@@ -1,6 +1,12 @@
 let mapleader = "\<SPACE>" " Map leader key
 filetype off
 
+" Install vim-plug if not already installed
+" if empty(glob('~/.config/nvim/autoload/plug.vim'))
+"   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+"     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" endif
+
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neomake/neomake'
@@ -9,6 +15,9 @@ Plug 'neomake/neomake'
 Plug 'KeitaNakamura/neodark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+Plug 'vimwiki/vimwiki'
+" Plug 'starcraftman/vim-eclim'
 
 " tpope
 Plug 'tpope/vim-commentary'
@@ -61,28 +70,10 @@ Plug 'Shougo/vimfiler.vim'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay -S words`)
 
-"Completion 
-    " Try mucomplete
-    "Plug 'lifepillar/vim-mucomplete'
-    "Plug 'davidhalter/jedi-vim'
-    "  set belloff+=ctrlg " If Vim beeps during completion
-    "  set completeopt+=longest,menuone,noinsert
-    "  " set completeopt-=preview
-      " set shortmess+=c   " Shut off completion messages
-    "  let g:jedi#popup_on_dot = 0  " It may be 1 as well
-    "  let g:mucomplete#enable_auto_at_startup = 1
-    "  "sql settings
-    "  let g:mucomplete#user_mappings = { 'sqla' : "\<c-c>a" }
-    "  let g:mucomplete#chains = { 'sql' : ['file', 'sqla', 'keyn'] }
+" Plug 'ervandew/supertab'
 
-    "  let g:jedi#goto_command = "<leader>d"
-    "  let g:jedi#goto_assignments_command = "<C-]>"
-    "  let g:jedi#goto_stubs_command = "<leader>s"
-    "  let g:jedi#goto_definitions_commakd = ""
-    "  let g:jedi#documentation_command = "K"
-    "  let g:jedi#usages_command = "<C-n>"
-    "  let g:jedi#completions_command = "<C-Space>"
-    "  let g:jedi#rename_command = "<leader>r"
+" Completion 
+     " Try mucomplete
 
     " Try deoplete
     " Plug 'ujihisa/neco-look' " Dictionary completion
@@ -102,9 +93,24 @@ Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay 
         " let g:deoplete#custom#option#on_insert_enter = 'false'
 
     
-    " Try completor
+    " " Try completor
     " Plug 'maralla/completor.vim'
+    " Plug 'ferreum/completor-tmux'
+    " " Use tab to trigger auto completion.  Default suggests completions as you type.
+    " let g:completor_auto_trigger = 1
+    " let g:completor_complete_options = 'menuone,noselect,preview'
+    " noremap <silent> <leader>d :call completor#do('definition')<CR>
+    " noremap <silent> <leader>c :call completor#do('doc')<CR>
+    " noremap <silent> <leader>r :call completor#do('format')<CR>
+    " noremap <silent> <leader>s :call completor#do('hover')<CR>
+    
+    Plug 'ajh17/VimCompletesMe'
 
+    " Try coc.nvim
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'antoinemadec/coc-fzf'
+    " source ~/.config/nvim/coc.vim
+    " let g:coc_global_extensions = ['coc-emoji', 'coc-eslint', 'coc-prettier', 'coc-tsserver', 'coc-tslint', 'coc-tslint-plugin', 'coc-css', 'coc-json', 'coc-yaml', 'coc-ultisnips' ]
 
 Plug 'machakann/vim-swap' " swap items in lists
 
@@ -118,7 +124,7 @@ Plug 'majutsushi/tagbar'
 
 Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
-Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
+" Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
 
 call plug#end()
 luafile $HOME/.config/nvim/plugins.lua
@@ -185,7 +191,7 @@ let g:clever_f_smart_case = 1
 " Run Black on save
     " autocmd BufWritePre *.py execute ':Black'
     " let g:black_skip_string_normalization = 1
-    " let g:black_linelength = 120
+    let g:black_linelength = 88
 
 " Run flake8 on  save
     " autocmd BufWritePost *.py call flake8#Flake8()
@@ -200,6 +206,8 @@ let g:prettier#autoformat = 0
     nmap <silent> g<C-s> :TestSuite<CR>
     nmap <silent> g<C-l> :TestLast<CR>
     nmap <silent> g<C-g> :TestVisit<CR>
+    let test#java#runner = 'gradletest'
+    let test#python#runner = 'pytest'
     " strategies for display tests [neovim, vtr, tmuxify, dispatch]
     let test#strategy = "dispatch"
     if has('nvim')
@@ -241,9 +249,23 @@ let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.4, 'border': 'rounded
     let g:UltiSnipsListSnippets="<c-l>"
     let g:UltiSnipsJumpForwardTrigger="<c-j>"
     let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+    let g:ultisnips_python_style='google'
 
-" Supertab
-    let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
+" " Supertab
+"     let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
+
+" VimWiki
+let g:vimwiki_list = [{'path': '~/share/mywiki/',
+                      \ 'path_html': '~/share/mywiki_html',
+                      \ 'syntax': 'markdown',
+                      \ 'ext': '.md'}]
+let g:GPGFilePattern = '*.\(gpg\|asc\|pgp\)\(.md\)\='
+" Make new diary entries using a template
+au BufNewFile ~/share/mywiki/diary/*.md :silent 0r !~/share/mywiki/diary/template '%'
+nnoremap <leader>dn :VimwikiMakeDiaryNote<cr>
+nnoremap <leader>dt :VimwikiMakeTomorrowDiaryNote<cr>
+nnoremap <leader>dy :VimwikiMakeYesterdayDiaryNote<cr>
+nnoremap <leader>di :VimwikiDiaryGenerateLinks<cr> :VimwikiDiaryIndex<cr>
 
 " Neodark colorscheme config
     colorscheme neodark " I like neodark but the highlighting makes it hard to read things
@@ -324,10 +346,10 @@ hi Search ctermbg=yellow
     set shiftwidth=4
     set smarttab
     set expandtab
-" Remap save
-    map <Leader>w :w<Enter>
+" Remap save and quit
+    " map <Leader>ww :w<Enter>
     map <Leader>wq :wq<Enter>
-    map <Leader>q :q!<Enter>
+    map <Leader>qq :q!<Enter>
 "split navigations
     nnoremap <C-J> <C-W><C-J>
     nnoremap <C-K> <C-W><C-K>

@@ -12,5 +12,6 @@
     # get italics for iterm (may for other things too?)
     # curl -L https://gist.githubusercontent.com/sos4nt/3187620/raw/bca247b4f86da6be4f60a69b9b380a11de804d1e/xterm-256color-italic.terminfo -o xterm-256color-italic.terminfo
     # tic xterm-256color-italic.terminfo
+    export CLICOLOR=1
     export TERM=xterm-256color-italic
  fi
