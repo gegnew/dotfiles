@@ -93,6 +93,15 @@ dotfiles:
   f_ideavimrc:
     src: ideavimrc
     dst: ~/.ideavimrc
+  f_user.json:
+    src: config/exercism/user.json
+    dst: ~/.config/exercism/user.json
+  f_test.json:
+    src: config/karabiner/assets/complex_modifications/test.json
+    dst: ~/.config/karabiner/assets/complex_modifications/test.json
+  d_ssh:
+    src: ssh
+    dst: ~/.ssh
 profiles:
   eliot:
     dotfiles:
@@ -173,3 +182,6 @@ profiles:
     - f_fzf.bash
     - f_102.forgit.sh
     - f_ideavimrc
+    - f_user.json
+    - f_test.json
+    - d_ssh

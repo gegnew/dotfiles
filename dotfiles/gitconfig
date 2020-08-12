@@ -1,5 +1,5 @@
 [user]
-	email = gerrit.egnew@relayr.io
+	email = g.egnew@gmail.com
 	name = gegnew
 [init]
 	templatedir = ~/.git_template
@@ -23,10 +23,15 @@
     co = checkout
     s = status
     b = branch
-    c = commit -a -m
+    c = commit -m
+    ca = commit --amend
     l = log --stat
     g = log --graph
     m = merge --no-ff
+    cc = diff --check
+    d = diff --name-only --diff-filter=U
     pa = push origin --all
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short 
 	ctags = !.git/hooks/ctags
+[core]
+	autocrlf = false

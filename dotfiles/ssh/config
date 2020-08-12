@@ -1,0 +1,57 @@
+Host mccall.local
+    HostName 192.168.254.254
+
+Host jane
+    User g
+    HostName 167.71.191.224
+Host jane.vpn
+    User g
+    HostName 10.0.0.1
+Host eva.vpn
+    User g
+    HostName 10.0.0.3 
+Host mac.vpn
+    User g
+    HostName 10.0.0.4
+Host freddie.local
+    User g
+    HostName 192.168.1.180
+Host eva.ce.fwd
+    user g
+    HostName 10.0.0.3
+    LocalForward 3000 localhost:3000
+
+Host jvpn
+    User arch
+    HostName 167.114.67.167
+
+Host bastion-dev
+  HostName 10.63.44.33
+  User gerrit.egnew
+  ForwardAgent yes
+Host emr-master-dev
+    hostname emr-hdfs.rlr-eu-dev
+    User gerrit.egnew
+    port 22
+    ProxyCommand ssh bastion-dev -W %h:%p
+
+Host bastion-stg
+  HostName 10.64.32.21
+  User gerrit.egnew
+  ForwardAgent yes
+Host emr-master-stg
+    hostname emr-hdfs.rlr-eu-stg
+    User gerrit.egnew
+    port 22
+    ProxyCommand ssh bastion-stg -W %h:%p
+
+Host spark-emr
+    User hadoop
+    hostname ec2-54-188-163-25.us-west-2.compute.amazonaws.com
+    IdentityFile ~/.ssh/spark-cluster.pem
+    LocalForward 8157 ec2-54-188-163-25.us-west-2.compute.amazonaws.com:8088
+
+# This ^ is not the same as below
+# ssh -v -i ~/.ssh/spark-cluster.pem -N -L 
+# 8157:ec2-54-188-163-25.us-west-2.compute.amazonaws.com:8088 
+# hadoop@ec2-54-188-163-25.us-west-2.compute.amazonaws.com
