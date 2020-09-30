@@ -102,6 +102,12 @@ dotfiles:
   d_ssh:
     src: ssh
     dst: ~/.ssh
+  f_st_config.h:
+    src: st/config.h
+    dst: ~/st/config.h
+  f_bashrc.remote:
+    src: local/bashrc.remote
+    dst: ~/.local/bashrc.remote
 profiles:
   eliot:
     dotfiles:
@@ -185,3 +191,30 @@ profiles:
     - f_user.json
     - f_test.json
     - d_ssh
+  verena:
+    dotfiles:
+    - d_st-0.8.2
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_config
+    - d_nvim
+    - f_ipython_config.py
+    - f_rc.conf
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xmodmap
+    - f_gitconfig
+    - d_git_template
+    - f_tmux.conf.local
+    - f_init.vim
+    - f_ipython_config.py
+    - f_config.h
+    - d_startup
+    - f_pdbrc.py
+    - f_fonts.conf
+    - f_ideavimrc
+    - f_st_config.h
+    - f_bashrc.remote
