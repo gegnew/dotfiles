@@ -636,4 +636,5 @@ c.Completer.use_jedi = True
 #     # del virtual_env_dir
 # del environ, join, sep, version_info
 
-
+c.InteractiveShellApp.extensions = ['autoreload']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2']

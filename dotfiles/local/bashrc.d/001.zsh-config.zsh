@@ -17,6 +17,11 @@ zstyle :compinstall filename '/home/g/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+autoload bashcompinit
+bashcompinit
+for bcfile in ~/.bash_completion.d/* ; do
+  . $bcfile
+done
 
 
 ### Added by Zinit's installer
@@ -41,4 +46,11 @@ zinit light-mode for \
     zinit-zsh/z-a-bin-gem-node
 
 ### End of Zinit's installer chunk
+#
 
+# python venvs
+if [[ -n $VIRTUAL_ENV && -e "${VIRTUAL_ENV}/bin/activate" ]]; then
+  source "${VIRTUAL_ENV}/bin/activate"
+fi
+
+export LC_CTYPE=en_US.UTF-8

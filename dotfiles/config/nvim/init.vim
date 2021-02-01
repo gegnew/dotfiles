@@ -1,5 +1,4 @@
 let mapleader = "\<SPACE>" " Map leader key
-filetype off
 
 " Install vim-plug if not already installed
 " if empty(glob('~/.config/nvim/autoload/plug.vim'))
@@ -7,22 +6,23 @@ filetype off
 "     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " endif
 
+set shortmess=atIAF " Don't show the vim intro message
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'neomake/neomake'
 
 " Themes
 Plug 'KeitaNakamura/neodark.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 
 Plug 'vimwiki/vimwiki'
-" Plug 'starcraftman/vim-eclim'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 " tpope
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
+Plug 'kristijanhusak/vim-dadbod-completion'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
@@ -31,86 +31,55 @@ Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-apathy'
 Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-sleuth'  " automatic tab formatting
 
 " Formatting
 Plug 'sheerun/vim-polyglot' " language support
+Plug 'neomake/neomake'
+Plug 'sbdchd/neoformat'
 " Plug 'prettier/vim-prettier', {
-"   \ 'do': 'yarn install',
-"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'markdown', 'vue', 'yaml', 'html'] }
+" \ 'do': 'yarn install',
+" \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'psf/black', { 'tag': '19.10b0' } " force upgrade black (https://github.com/psf/black/issues/1293)
 " Plug 'nvie/vim-flake8'
+Plug 'alfredodeza/jacinto.vim'
+Plug 'elzr/vim-json'
 
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
 Plug 'junegunn/gv.vim'
-Plug 'junegunn/limelight.vim'
-Plug 'junegunn/goyo.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-peekaboo'
+Plug 'junegunn/goyo.vim'
 
 " REPLs 'n stuff
 Plug 'kassio/neoterm'
+Plug 'voldikss/vim-floaterm'
 Plug 'Vigemus/iron.nvim'
 Plug 'janko/vim-test' " run tests at the speed of thought!
 
 " Navigation
 Plug 'tmhedberg/SimpylFold'
-Plug 'rhysd/clever-f.vim' " tentative replacement for quick-scope
-" Plug 'unblevable/quick-scope'
+Plug 'unblevable/quick-scope'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'mbbill/undotree'
+Plug 'jeetsukumaran/vim-buffergator'
+Plug 'ap/vim-buftabline'
+Plug 'ptzz/lf.vim' " depends on bclose
+Plug 'rbgrouleff/bclose.vim'
+Plug 'justinmk/vim-dirvish'
+" Plug 'airblade/vim-gitgutter'
 
-" Deoplete
-    " if has('nvim')
-    "   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-    " else
-    "   Plug 'roxma/nvim-yarp'
-    "   Plug 'roxma/vim-hug-neovim-rpc'
-    " endif
-Plug 'Shougo/vimfiler.vim'
+
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay -S words`)
 
-" Plug 'ervandew/supertab'
-
 " Completion 
-     " Try mucomplete
-
-    " Try deoplete
-    " Plug 'ujihisa/neco-look' " Dictionary completion
-    " Plug 'deoplete-plugins/deoplete-jedi' " Python completion
-    " Plug 'wellle/tmux-complete.vim' " Complete words in adjacent tmux panes
-    " Plug 'prabirshrestha/async.vim' " Async for tmux-complete, needed for deoplete integration
-    " Plug 'prabirshrestha/asyncomplete.vim' " ditto
-    " Use Deoplete
-        " let g:deoplete#enable_at_startup = 1
-        " inoremap <expr><TAB>  pumvisible() ? /"\<C-n>" : /"\<TAB>" " <- fix
-        " let g:tmuxcomplete#trigger = ''
-        " " pynvim for deoplete:
-        " " let g:python3_host_prog = '/home/g/.pyenv/versions/3.7.4/bin/python' 
-        " " Ignore english autocomplete in python
-        " let g:deoplete#ignore_sources = get(g:,'deoplete#ignore_sources',{})
-        " let g:deoplete#ignore_sources.python = ['look']
-        " let g:deoplete#custom#option#on_insert_enter = 'false'
-
-    
-    " " Try completor
-    " Plug 'maralla/completor.vim'
-    " Plug 'ferreum/completor-tmux'
-    " " Use tab to trigger auto completion.  Default suggests completions as you type.
-    " let g:completor_auto_trigger = 1
-    " let g:completor_complete_options = 'menuone,noselect,preview'
-    " noremap <silent> <leader>d :call completor#do('definition')<CR>
-    " noremap <silent> <leader>c :call completor#do('doc')<CR>
-    " noremap <silent> <leader>r :call completor#do('format')<CR>
-    " noremap <silent> <leader>s :call completor#do('hover')<CR>
-    
-    Plug 'ajh17/VimCompletesMe'
-
-    " Try coc.nvim
-    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Plug 'antoinemadec/coc-fzf'
-    " source ~/.config/nvim/coc.vim
-    " let g:coc_global_extensions = ['coc-emoji', 'coc-eslint', 'coc-prettier', 'coc-tsserver', 'coc-tslint', 'coc-tslint-plugin', 'coc-css', 'coc-json', 'coc-yaml', 'coc-ultisnips' ]
+" Plug 'ujihisa/neco-look' " Dictionary completion
+" Plug 'ajh17/VimCompletesMe'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'machakann/vim-swap' " swap items in lists
 
@@ -119,146 +88,181 @@ Plug 'lambdalisue/suda.vim' " save files as sudo
 " Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 " Plug 'vim-scripts/gtags.vim'
-" Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
+Plug 'ludovicchabant/vim-gutentags' " take care of gtags management
 Plug 'majutsushi/tagbar'
 
 Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
-" Plug 'ervandew/supertab' " hopefully this fixes the tab-completion/snippet problem
 
 call plug#end()
 luafile $HOME/.config/nvim/plugins.lua
 
 " Plugin Configs
 " Neoterm
-    let &runtimepath.=',/home/g/.local/share/nvim/plugged/neoterm'
-    filetype plugin on " neoterm
-    command! -nargs=* T split | terminal <args> " hack for :terminal
-    command! -nargs=* VT vsplit | terminal <args> " hack for :terminal
-    command! -nargs=+ TT Topen | T <args>
-    " let g:neoterm#autoscroll=1
-    let g:neoterm_default_mod='belowright'
-    " silent! helptags ALL " helptags for neoterm
-    " nmap <leader>s :TREPLSendFile<Enter>
-    " nmap <leader>l :TREPLSendLine<Enter>
-    " vmap <leader>s :TREPLSendSelection<Enter>
-
-" vimfiler
-    let g:vimfiler_as_default_explorer = 1
-    map <silent><leader>n :VimFiler -split -simple -winwidth=35 -toggle -no-quit <Enter>
+let &runtimepath.=',/home/g/.local/share/nvim/plugged/neoterm'
+filetype plugin on " neoterm
+command! -nargs=* T split | terminal <args> " hack for :terminal
+command! -nargs=* VT vsplit | terminal <args> " hack for :terminal
+command! -nargs=+ TT Topen | T <args>
+let g:neoterm#autoscroll=1
+let g:neoterm_default_mod='belowright'
+" silent! helptags ALL " helptags for neoterm
+nmap <leader>if :TREPLSendFile<Enter>
+nmap <leader>il :TREPLSendLine<Enter>
+vmap <leader>is :TREPLSendSelection<Enter>
 
 " Undotree
 nnoremap <leader>u :UndotreeToggle<cr>
 
-" clever-f
-let g:clever_f_smart_case = 1
+" Navigation
+    " netrw + vinegar
+    let g:netrw_liststyle = 3
+    let g:lf_map_keys = 0
+    map <leader>r :Lf<CR>
+
+" Dadbod + DadbodUI
+    let g:db_ui_auto_execute_table_helpers = 1
+    autocmd FileType sql setlocal omnifunc=vim_dadbod_completion#omni
 
 " quick-scope
-    " let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] " Trigger a highlight in the appropriate direction when pressing these keys:
+    " Move across wrapped lines like regular lines
+    let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] " Trigger a highlight in the appropriate direction when pressing these keys:
     " let g:qs_highlight_on_keys = ['t', 'T'] " Trigger a highlight only when pressing f and F.
-    " augroup qs_colors
-    "   autocmd!
-    "   autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
-    "   autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
-    " augroup END
-
-" Limelight
-    map <silent> <leader>l :Limelight!!<Enter>
-    " Color name (:help cterm-colors) or ANSI code
-    let g:limelight_conceal_ctermfg = 'gray'
-    let g:limelight_conceal_ctermfg = 243
-
-    " Color name (:help gui-colors) or RGB color
-    let g:limelight_conceal_guifg = 'DarkGray'
-    let g:limelight_conceal_guifg = '#777777'
-
-    " Default: 0.5
-    let g:limelight_default_coefficient = 0.7
-
-    " Number of preceding/following paragraphs to include (default: 0)
-    let g:limelight_paragraph_span = 1
-
-    " Beginning/end of paragraph
-    "   When there's no empty line between the paragraphs
-    "   and each paragraph starts with indentation
-    let g:limelight_bop = '^\s'
-    let g:limelight_eop = '\ze\n^\s'
-
-    " Highlighting priority (default: 10)
-    "   Set it to -1 not to overrule hlsearch
-    let g:limelight_priority = -1
+    augroup qs_colors
+      autocmd!
+      autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=99 cterm=underline
+      autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=125 cterm=underline
+    augroup END
 
 " Run Black on save
-    " autocmd BufWritePre *.py execute ':Black'
-    " let g:black_skip_string_normalization = 1
-    let g:black_linelength = 88
+" autocmd BufWritePre *.py execute ':Black'
+" let g:black_skip_string_normalization = 1
+let g:black_linelength = 88
 
-" Run flake8 on  save
-    " autocmd BufWritePost *.py call flake8#Flake8()
 
-" Prettier
-let g:prettier#autoformat = 0
+" Neomake (linting)
+let g:neomake_javascript_enabled_makers  = ['semistandard']
+let g:neomake_open_list = 0
+autocmd! BufWritePost,BufEnter * Neomake
+
+" Neoformat
+" let g:neoformat_try_formatprg = 1
+let g:neoformat_enabled_javascript = ['semistandard']
+let g:neoformat_verbose = 0
+let g:neoformat_only_msg_on_error = 1
+augroup NeoformatAutoFormat
+    autocmd!
+    autocmd FileType javascript setlocal formatprg=semistandard
+    autocmd BufWritePre *.js Neoformat
+augroup END
+let g:neoformat_javascript_semistandard = {
+            \ 'exe': 'semistandard',
+            \ 'args': ['--stdin', '--env mocha', '--fix'],
+            \ 'stdin': 1, 
+            \ 'valid_exit_codes': [0, 1],
+            \ }
+
+let s:formatprg_for_filetype = {
+      \ "javascript" : 'prettier-standard\ --stdin --stdin-filepath\ %'
+      \}
+for [ft, fp] in items(s:formatprg_for_filetype)
+  execute 'autocmd FileType '.ft." let &l:formatprg=\"".fp."\" | setlocal formatexpr="
+endfor
 
 " vim-test keymaps
-    nmap <silent> g<C-n> :TestNearest<CR>
-    nmap <silent> g<C-f> :TestFile<CR>
-    " nnoremap <leader>tf :TestFile<cr>
-    nmap <silent> g<C-s> :TestSuite<CR>
-    nmap <silent> g<C-l> :TestLast<CR>
-    nmap <silent> g<C-g> :TestVisit<CR>
-    let test#java#runner = 'gradletest'
-    let test#python#runner = 'pytest'
-    " strategies for display tests [neovim, vtr, tmuxify, dispatch]
-    let test#strategy = "dispatch"
-    if has('nvim')
-      tmap <C-o> <C-\><C-n>
-    endif
+nmap <silent> t<C-n> :TestNearest<CR>
+nmap <silent> t<C-f> :TestFile<CR>
+nmap <silent> t<C-s> :TestSuite<CR>
+nmap <silent> t<C-l> :TestLast<CR>
+nmap <silent> t<C-g> :TestVisit<CR>
+let test#java#runner = 'gradletest'
+let test#python#runner = 'pytest'
+" strategies for display tests [neovim, vtr, tmuxify, dispatch]
+let test#strategy = "neovim"
+if has('nvim')
+  tmap <C-o> <C-\><C-n>
+endif
 
+" tpope
 " Fugitive Conflict Resolution
 nnoremap <leader>gd :Gvdiff<CR>
 nnoremap gdh :diffget //2<CR>
 nnoremap gdl :diffget //3<CR>
 
 " Gutentags (disabled for now per  testing https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html)
-"     let g:gutentags_cache_dir = $HOME.'/.gutentags/'
-    nnoremap <silent><Leader>t :TagbarToggle<CR>
+let g:gutentags_cache_dir = $HOME.'/.gutentags/'
+let g:gutentags_add_default_project_roots = 0
+let g:gutentags_project_root = ['package.json', '.git', 'composer.json']
+let g:gutentags_generate_on_new = 1
+let g:gutentags_generate_on_missing = 1
+let g:gutentags_generate_on_write = 1
+let g:gutentags_generate_on_empty_buffer = 0
+let g:gutentags_ctags_extra_args = [
+      \ '--tag-relative=yes',
+      \ '--fields=+ailmnS',
+      \ ]
+nnoremap <silent><Leader>c :TagbarToggle<CR>
+" clear gutentags cache quickly:
+" command! -nargs=0 GutentagsClearCache call system('rm ' . g:gutentags_cache_dir . '/*')
 
 " LeaderF
-    let g:Lf_ShortcutF = "<leader>f"
-    " let g:Lf_Ctags = '/usr/bin/ctags/'
-    let g:Lf_WindowPosition = 'popup'
-    let g:Lf_PreviewInPopup = 1
-    let g:Lf_DefaultExternalTool = 'rg'
-    " search word under cursor, the pattern is treated as regex, and enter normal mode directly
-     noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
-    " search word under cursor, the pattern is treated as regex, append the result to previous search results.
-    noremap <C-H> :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
-    " search word under cursor literally only in current buffer
-    noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg -F --current-buffer -e %s ", expand("<cword>"))<CR>
-    " search visually selected text literally, don't quit LeaderF after accepting an entry
-    xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
-    " recall last search. If the result window is closed, reopen it.
-    noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
+" let g:Lf_ShortcutF = '<leader>f'
+" let g:Lf_Ctags = '/usr/bin/ctags/'
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_PreviewInPopup = 1
+let g:Lf_DefaultExternalTool = 'rg'
+" search word under cursor, the pattern is treated as regex, and enter normal mode directly
+ noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+" search word under cursor, the pattern is treated as regex, append the result to previous search results.
+noremap <leader>fl :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
+" search word under cursor literally only in current buffer
+noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg -F --current-buffer -e %s ", expand("<cword>"))<CR>
+" search visually selected text literally, don't quit LeaderF after accepting an entry
+xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
+" recall last search. If the result window is closed, reopen it.
+noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
+
+let g:Lf_ShortcutF = "<leader>ff"
+noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
+" search tags in this buffer
+noremap <leader>fh :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
+" search all tags
+noremap <leader>ft :<C-U><C-R>=printf("LeaderfTag %s", "")<CR><CR>
+noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
+noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
+
+let g:Lf_GtagsAutoGenerate = 1
+let g:Lf_Gtagslabel = 'native-pygments'
+noremap <leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
+noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
+noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
+noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
+noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
 
 " FZF
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.4, 'border': 'rounded'}}
+let g:fzf_preview_window = ['right:50%', 'ctrl-/']
+let g:fzf_buffers_jump = 1
+" override snippets command to search description
+command! -bar -bang Snippets
+  \ call fzf#vim#snippets({'options': '--ansi --tiebreak=index +m'}, <bang>0)
 
 " Snippets
-    " let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips/', $HOME.'/.local/share/nvim/plugged/vim-snippets/snippets/']
-    let g:UltiSnipsExpandTrigger="<c-e>"
-    let g:UltiSnipsListSnippets="<c-l>"
-    let g:UltiSnipsJumpForwardTrigger="<c-j>"
-    let g:UltiSnipsJumpBackwardTrigger="<c-k>"
-    let g:ultisnips_python_style='google'
+" let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips/', $HOME.'/.local/share/nvim/plugged/vim-snippets/snippets/']
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsListSnippets="<c-l>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:ultisnips_python_style='google'
 
 " " Supertab
 "     let g:SuperTabDefaultCompletionType = "<c-n>" " make supertab complete from the top
 
 " VimWiki
 let g:vimwiki_list = [{'path': '~/share/mywiki/',
-                      \ 'path_html': '~/share/mywiki_html',
-                      \ 'syntax': 'markdown',
-                      \ 'ext': '.md'}]
+                  \ 'path_html': '~/share/mywiki_html',
+                  \ 'syntax': 'markdown',
+                  \ 'ext': '.md'}]
 let g:GPGFilePattern = '*.\(gpg\|asc\|pgp\)\(.md\)\='
 " Make new diary entries using a template
 au BufNewFile ~/share/mywiki/diary/*.md :silent 0r !~/share/mywiki/diary/template '%'
@@ -268,11 +272,33 @@ nnoremap <leader>dy :VimwikiMakeYesterdayDiaryNote<cr>
 nnoremap <leader>di :VimwikiDiaryGenerateLinks<cr> :VimwikiDiaryIndex<cr>
 
 " Neodark colorscheme config
-    colorscheme neodark " I like neodark but the highlighting makes it hard to read things
-    let g:neodark#terminal_transparent = 1
-    let g:neodark#use_256color = 1
-    let g:neodark#solid_vertsplit = 1
-    let g:airline_theme='neodark'  " Set airline theme
+colorscheme neodark " I like neodark but the highlighting makes it hard to read things
+let g:neodark#terminal_transparent = 1
+let g:neodark#use_256color = 1
+let g:neodark#solid_vertsplit = 1
+let g:lightline = {
+    \ 'colorscheme': 'neodark',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \             ['server',  'modified', 'readonly', 'filename', 'gitbranch' ] ],
+    \  'right': [ [ 'lineinfo' ],
+    \             [ 'percent' ],
+    \             [ 'fileformat', 'fileencoding', 'filetype', 'charvaluehex' ] ]
+    \ },
+    \ 'component': {
+    \   'server': v:servername
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'FugitiveHead'
+    \ },
+    \ }
+let g:lightline.separator = {
+	\   'left': '', 'right': ''
+  \}
+let g:lightline.subseparator = {
+	\   'left': '', 'right': '' 
+  \}
+
 
 " Vimux and Vimux-Ipy
 " map <Leader>vp :call VimuxIpy()<CR>
@@ -300,6 +326,7 @@ syntax manual
 autocmd BufEnter * set syntax=on
 autocmd BufLeave * set syntax=off
 syntax on
+" set cc=88
 set number
 set relativenumber
 set encoding=utf-8
@@ -322,10 +349,9 @@ set foldmethod=indent " Enable folding
 set foldlevel=99 
 nnoremap  <leader>h za " Enable folding
 let g:SimpylFold_docstring_preview=1
-set ignorecase
 set nowrap
 set scrolloff=3
-set shortmess=atI " Don't show the vim intro message
+set shortmess=atIAFc " Don't show the vim intro message
 set undofile " Persistent undo
 set wrapscan " Wrap searches around end of file
 " set italicized comments
@@ -341,15 +367,23 @@ hi Search ctermbg=yellow
     syn match TestError "\<Err:"
 "remap escape key to jk
     inoremap jk <esc>| 
-" Set proper tabs
-    set tabstop=4
-    set shiftwidth=4
-    set smarttab
-    set expandtab
+" Set proper tabs (overwritten by sleuth.vim)
+    " set tabstop=4
+    " set shiftwidth=4
+    " set smarttab
+    " set expandtab
+" No backup or swap files
+set nobackup
+set noswapfile
+set wildmenu
+set wildmode=longest:full,full
+" Copy from without copying line numbers
+set mouse=a
 " Remap save and quit
-    " map <Leader>ww :w<Enter>
-    map <Leader>wq :wq<Enter>
-    map <Leader>qq :q!<Enter>
+    map <Leader>s :w<Enter>
+    " map <Leader>wq :wq<Enter>
+    map <Leader>q :q!<Enter>
+    map <Leader>dd :bd<Enter>
 "split navigations
     nnoremap <C-J> <C-W><C-J>
     nnoremap <C-K> <C-W><C-K>
@@ -363,14 +397,22 @@ hi Search ctermbg=yellow
     au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 " Treat .svelte files as HTML
     au! BufNewFile,Bufread *.svelte set ft=html
-" remap buffer list
-   map <Leader>b :ls<Enter>
+" remap buffer list (now with vim-buffergator)
+   " map <Leader>b :ls<Enter>
+" switch to next-previous buffer
+nnoremap <C-n> :bn<CR>
+nnoremap <C-p> :bp<CR>
+
 " Useful commands
 "nvim +checkhealth
+
 augroup FileTypeSpecificAutocommands
+    autocmd!
     " Two spaces for tabs in R files
     autocmd FileType r setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType '.Rd' setlocal tabstop=2 softtabstop=2 shiftwidth=2
     " Change spaces to tabs in makefiles
     autocmd FileType make setlocal noexpandtab
+    " Javascript
+    autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 augroup END
