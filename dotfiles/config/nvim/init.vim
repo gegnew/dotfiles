@@ -136,7 +136,6 @@ Plug 'andymass/vim-matchup'
 Plug 'lambdalisue/suda.vim' " save files as sudo
 
 " Plug 'ctrlpvim/ctrlp.vim' " fuzzy finder
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'Yggdroot/indentLine'
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
@@ -274,41 +273,12 @@ nnoremap <silent><Leader>c :TagbarToggle<CR>
 " clear gutentags cache quickly:
 " command! -nargs=0 GutentagsClearCache call system('rm ' . g:gutentags_cache_dir . '/*')
 
-" LeaderF
-" let g:Lf_ShortcutF = '<leader>f'
-" let g:Lf_Ctags = '/usr/bin/ctags/'
-let g:Lf_WindowPosition = 'popup'
-let g:Lf_PreviewInPopup = 1
-let g:Lf_DefaultExternalTool = 'rg'
-" search word under cursor, the pattern is treated as regex, and enter normal mode directly
- noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
-" search word under cursor, the pattern is treated as regex, append the result to previous search results.
-noremap <leader>fl :<C-U><C-R>=printf("Leaderf! rg --append -e %s ", expand("<cword>"))<CR>
-" search word under cursor literally only in current buffer
-noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg -F --current-buffer -e %s ", expand("<cword>"))<CR>
-" search visually selected text literally, don't quit LeaderF after accepting an entry
-xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F --stayOpen -e %s ", leaderf#Rg#visual())<CR>
-" recall last search. If the result window is closed, reopen it.
-noremap go :<C-U>Leaderf! rg --stayOpen --recall<CR>
-
-let g:Lf_ShortcutF = "<leader>ff"
-" noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
-" switch to FZF Buffers for buffer switching
-noremap <leader>b :Buffers<CR>
-" search tags in this buffer
-noremap <leader>fh :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
-" search all tags
-noremap <leader>ft :<C-U><C-R>=printf("LeaderfTag %s", "")<CR><CR>
-noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
-noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
-
-let g:Lf_GtagsAutoGenerate = 1
-let g:Lf_Gtagslabel = 'native-pygments'
-noremap <leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
-noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
-noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
-noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
-noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
+" Telescope (https://github.com/nvim-telescope/telescope.nvim)
+" Using Lua functions
+nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 
 " FZF
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.4, 'border': 'rounded'}}
