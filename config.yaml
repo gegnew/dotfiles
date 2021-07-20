@@ -105,6 +105,19 @@ dotfiles:
   f_bashrc.remote:
     src: local/bashrc.remote
     dst: ~/.local/bashrc.remote
+  d_tridactyl:
+    src: config/tridactyl
+    dst: ~/.config/tridactyl
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  f_ankirc:
+    src: config/Ankirc
+    dst: ~/.config/Ankirc
+    chmod: '600'
+  f_exercism_user.json:
+    src: config/exercism/user.json
+    dst: ~/.config/exercism/user.json
 profiles:
   eliot:
     dotfiles:
@@ -211,3 +224,7 @@ profiles:
     - f_ideavimrc
     - f_st_config.h
     - f_bashrc.remote
+    - d_tridactyl
+    - d_alacritty
+    - f_ankirc
+    - f_exercism_user.json
