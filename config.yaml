@@ -118,6 +118,9 @@ dotfiles:
   f_exercism_user.json:
     src: config/exercism/user.json
     dst: ~/.config/exercism/user.json
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
 profiles:
   eliot:
     dotfiles:
@@ -228,3 +231,4 @@ profiles:
     - d_alacritty
     - f_ankirc
     - f_exercism_user.json
+    - d_ranger
