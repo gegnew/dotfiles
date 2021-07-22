@@ -232,3 +232,30 @@ profiles:
     - f_ankirc
     - f_exercism_user.json
     - d_ranger
+  fuschia:
+    dotfiles:
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_config
+    - d_nvim
+    - f_ipython_config.py
+    - f_rc.conf
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xmodmap
+    - f_gitconfig
+    - d_git_template
+    - f_tmux.conf.local
+    - f_init.vim
+    - f_ipython_config.py
+    - f_config.h
+    - d_startup
+    - f_pdbrc.py
+    - f_fonts.conf
+    - f_ideavimrc
+    - f_st_config.h
+    - f_bashrc.remote
+    - d_alacritty.yml
