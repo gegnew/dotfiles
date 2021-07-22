@@ -3,10 +3,10 @@ let mapleader = "\<SPACE>" " Map leader key
 let $MIX_ENV='test'
 
 " Install vim-plug if not already installed
-" if empty(glob('~/.config/nvim/autoload/plug.vim'))
-"   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-"     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-" endif
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
+  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
 
 set shortmess=atIAF " Don't show the vim intro message
 " Plugins
@@ -20,7 +20,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'TaDaa/vimade'
 
 Plug 'vimwiki/vimwiki'
-Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 Plug 'thaerkh/vim-workspace'
 Plug 'jalvesaq/Nvim-R'
@@ -151,7 +150,8 @@ call plug#end()
 
 " Plugin Configs
 " Neoterm
-let &runtimepath.=',/home/g/.local/share/nvim/plugged/neoterm'
+let g:gutentags_cache_dir = $HOME.'/.gutentags/'
+let &runtimepath.=','.$HOME.'/.local/share/nvim/plugged/neoterm'
 filetype plugin on " neoterm
 command! -nargs=* T split | terminal <args> " hack for :terminal
 command! -nargs=* VT vsplit | terminal <args> " hack for :terminal
@@ -311,7 +311,7 @@ nnoremap <leader>dt :VimwikiMakeTomorrowDiaryNote<cr>
 nnoremap <leader>dy :VimwikiMakeYesterdayDiaryNote<cr>
 nnoremap <leader>di :VimwikiDiaryGenerateLinks<cr> :VimwikiDiaryIndex<cr>
 
-colorscheme ayu
+colorscheme gruvbox
 set termguicolors
 
 let g:highlightedyank_highlight_duration = 420

@@ -1,1 +1,1 @@
-source ~/.config/bspwm/monitor_settings.sh
+# source ~/.config/bspwm/monitor_settings.sh

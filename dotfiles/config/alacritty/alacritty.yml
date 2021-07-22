@@ -1,5 +1,14 @@
+env:
+  TERM: xterm-256color
+  history: '10000'
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
 font:
-  size: 8
+  size: 8.5
   normal:
     family: FiraCode
     style: Regular
@@ -18,37 +27,38 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
 
-background_opacity: 1.0
+background_opacity: 0.95
 
 key_bindings:
   - {key: Return, mods: Control, action: ToggleViMode}
   - {key: V, mods: Alt, action: Paste}
 colors:
-  # COLORSCHEME: ayu-dark.yaml
+  # COLORSCHEME: gruvbox-dark.yaml
   # Default colors
   primary:
     # hard contrast: background = '0xf9f5d7'
-    background: '#0A0E14'
-    foreground: '#B3B1AD'
+    background: '0x282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xebdbb2'
 
   # Normal colors
   normal:
-    black: '#01060E'
-    red: '#EA6C73'
-    green: '#91B362'
-    yellow: '#F9AF4F'
-    blue: '#53BDFA'
-    magenta: '#FAE994'
-    cyan: '#90E1C6'
-    white: '#C7C7C7'
+    black: '0x282828'
+    red: '0xcc241d'
+    green: '0x98971a'
+    yellow: '0xd79921'
+    blue: '0x458588'
+    magenta: '0xb16286'
+    cyan: '0x689d6a'
+    white: '0xa89984'
 
   # Bright colors
   bright:
-    black: '#686868'
-    red: '#F07178'
-    green: '#C2D94C'
-    yellow: '#FFB454'
-    blue: '#59C2FF'
-    magenta: '#FFEE99'
-    cyan: '#95E6CB'
-    white: '#FFFFFF'
+    black: '0x928374'
+    red: '0xfb4934'
+    green: '0xb8bb26'
+    yellow: '0xfabd2f'
+    blue: '0x83a598'
+    magenta: '0xd3869b'
+    cyan: '0x8ec07c'
+    white: '0xebdbb2'

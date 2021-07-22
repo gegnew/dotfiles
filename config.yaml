@@ -30,9 +30,6 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
-  f_rc.conf:
-    src: config/ranger/rc.conf
-    dst: ~/.config/ranger/rc.conf
   f_tmux.conf:
     src: tmux.conf
     dst: ~/.tmux.conf
@@ -45,6 +42,7 @@ dotfiles:
   f_xmodmap:
     src: Xmodmap
     dst: ~/.Xmodmap
+    chmod: '644'
   f_gitconfig:
     src: gitconfig
     dst: ~/.gitconfig
@@ -60,9 +58,6 @@ dotfiles:
   f_01-keybindings.py:
     src: ipython/profile_default/startup/01-keybindings.py
     dst: ~/.ipython/profile_default/startup/01-keybindings.py
-  f_config.h:
-    src: st-0.8.2/config.h
-    dst: ~/st-0.8.2/config.h
   d_startup:
     src: ipython/profile_default/startup
     dst: ~/.ipython/profile_default/startup
@@ -99,9 +94,6 @@ dotfiles:
   d_ssh:
     src: ssh
     dst: ~/.ssh
-  f_st_config.h:
-    src: st/config.h
-    dst: ~/st/config.h
   f_bashrc.remote:
     src: local/bashrc.remote
     dst: ~/.local/bashrc.remote
@@ -121,6 +113,9 @@ dotfiles:
   d_ranger:
     src: config/ranger
     dst: ~/.config/ranger
+  f_colorscheme:
+    src: colorscheme
+    dst: ~/.colorscheme
 profiles:
   eliot:
     dotfiles:
@@ -133,7 +128,7 @@ profiles:
     - f_config
     - d_i3blocks
     - d_nvim
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xresources
@@ -146,7 +141,7 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -156,7 +151,6 @@ profiles:
     - f_init.vim
     - f_ipython_config.py
     - f_01-keybindings.py
-    - f_config.h
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
@@ -170,7 +164,7 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -191,7 +185,7 @@ profiles:
     - f_tmux.conf.local
     - f_gitconfig
     - d_git_template
-    - f_rc.conf
+    - d_ranger
     - d_startup
     - d_hooks
     - f_fzf
@@ -211,7 +205,7 @@ profiles:
     - f_config
     - d_nvim
     - f_ipython_config.py
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -220,12 +214,10 @@ profiles:
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_config.h
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
     - f_ideavimrc
-    - f_st_config.h
     - f_bashrc.remote
     - d_tridactyl
     - d_alacritty
@@ -242,7 +234,7 @@ profiles:
     - f_config
     - d_nvim
     - f_ipython_config.py
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -251,11 +243,11 @@ profiles:
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_config.h
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
     - f_ideavimrc
-    - f_st_config.h
     - f_bashrc.remote
-    - d_alacritty.yml
+    - d_alacritty
+    - d_tridactyl
+    - f_colorscheme

@@ -23,4 +23,9 @@ return require('packer').startup(function()
     'nvim-telescope/telescope.nvim',
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
+
+  use {
+    'glacambre/firenvim',
+    run = function() vim.fn['firenvim#install'](0) end 
+  }
 end)
