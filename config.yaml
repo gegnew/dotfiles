@@ -116,9 +116,9 @@ dotfiles:
   f_colorscheme:
     src: colorscheme
     dst: ~/.colorscheme
-  f_rofi_config:
-    src: config/rofi/config
-    dst: ~/.config/rofi/config
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
 profiles:
   eliot:
     dotfiles:
@@ -254,4 +254,4 @@ profiles:
     - d_alacritty
     - d_tridactyl
     - f_colorscheme
-    - f_rofi_config
+    - d_rofi
