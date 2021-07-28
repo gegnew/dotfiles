@@ -4,6 +4,13 @@ env:
 
 live_config_reload: true
 
+shell:
+  program: /usr/bin/tmux
+  args:
+    - -l
+    - -c
+    - "tmux attach-session -t main || tmux attach || tmux"
+
 mouse:
   hide_when_typing: true
 
