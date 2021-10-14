@@ -30,6 +30,8 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
+    upignore:
+    - '*/plugin'
   f_tmux.conf:
     src: tmux.conf
     dst: ~/.tmux.conf
@@ -119,6 +121,27 @@ dotfiles:
   d_rofi:
     src: config/rofi
     dst: ~/.config/rofi
+  f_direnvrc:
+    src: direnvrc
+    dst: ~/.direnvrc
+  f_70-synaptics.conf:
+    src: etc/X11/xorg.conf.d/70-synaptics.conf
+    dst: /etc/X11/xorg.conf.d/70-synaptics.conf
+  f_pam_env.conf:
+    src: etc/security/pam_env.conf
+    dst: /etc/security/pam_env.conf
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+  f_coc.vim:
+    src: config/nvim/coc.vim
+    dst: ~/.config/nvim/coc.vim
+  d_lua:
+    src: config/nvim/lua
+    dst: ~/.config/nvim/lua
+  f_coc-settings.json:
+    src: config/nvim/coc-settings.json
+    dst: ~/.config/nvim/coc-settings.json
 profiles:
   eliot:
     dotfiles:
@@ -144,20 +167,32 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
+    - f_ipython_config.py
     - d_ranger
     - f_tmux.conf
-    - f_xinitrc
+      # - f_xinitrc
     - f_xmodmap
     - f_gitconfig
     - d_git_template
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_01-keybindings.py
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
     - f_ideavimrc
+    - f_bashrc.remote
+    - d_alacritty
+    - d_tridactyl
+    - f_colorscheme
+    - d_rofi
+    - f_direnvrc
+    - f_70-synaptics.conf
+    - f_pam_env.conf
+    - f_alacritty.yml
+    - f_coc.vim
+    - d_lua
+    - f_coc-settings.json
   frankie:
     dotfiles:
     - d_aliases.d

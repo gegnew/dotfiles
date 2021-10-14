@@ -8,19 +8,19 @@
  */
 
 configuration {
-    lines:							15;
+    lines:							10;
     columns:						1;
-    font: 							"FiraCode 18";
+    font: 							"FiraCode 12";
     bw: 							0;
     location: 						0;
     padding: 						0;
     fixed-num-lines: 				true;
-    show-icons: 					false;
+    show-icons: 					true;
     sidebar-mode: 					true;
     separator-style: 				"none";
     hide-scrollbar: 				true;
     fullscreen: 					false;
-    fake-transparency: 				false;
+    fake-transparency: 				true;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
