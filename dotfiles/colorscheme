@@ -1,3 +1,4 @@
-"let ayucolor="dark"
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
+
+" let g:tmuxline_theme = 'lightline'
