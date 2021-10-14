@@ -18,12 +18,15 @@
    return !col || getline('.')[col - 1]  =~# '\s'
  endfunction
 
- " Use <c-r> to refresh completion.
+ " " Use <c-r> to refresh completion.
  inoremap <silent><expr> <c-r> coc#refresh()
 
  " select first completion item
- inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+				\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 
  " Use `[g` and `]g` to navigate diagnostics
  " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
@@ -48,7 +51,7 @@
  endfunction
 
 " " Symbol renaming.
-" nmap <leader>nn <Plug>(coc-rename)
+nmap <leader>nn <Plug>(coc-rename)
 
  " Formatting selected code.
  xmap <leader>f  <Plug>(coc-format-selected)
@@ -71,5 +74,3 @@
 
  " Use <leader>x for convert visual selected code to snippet
  xmap <leader>x  <Plug>(coc-convert-snippet)
-
- autocmd FileType php set iskeyword+=$

@@ -1,14 +1,7 @@
 {
+	"coc.preferences.useQuickfixForLocations": true,
 	"javascript.validate.enable": false,
-	"phpactor.enable": true,
-	"phpactor.path": "/usr/local/bin/phpactor",
 	"languageserver": {
-		"phpactor": {
-			"command": "phpactor",
-			"args": ["language-server"],
-			"trace.server": "verbose",
-			"filetypes": ["php"]
-		}
 	},
 	"coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "vue"],
 	"python.formatting.provider":"black",
