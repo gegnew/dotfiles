@@ -7,8 +7,8 @@
 # alias norvpn="sudo systemctl stop openvpn-client@gerrit.egnew-bastion-rlr-euc1-mgmt.service"
 
 
-alias vpn="wg-quick up wg1"
-alias novpn="wg-quick down wg1"
+alias vpn="wg-quick up wg_admin"
+alias novpn="wg-quick down wg_admin"
 
-alias vpns="sudo systemctl start wg-quick@wg1"
-alias novpns="sudo systemctl stop wg-quick@wg1"
+alias vpns="sudo systemctl start wg-quick@wg_admin"
+alias novpns="sudo systemctl stop wg-quick@wg_admin"
