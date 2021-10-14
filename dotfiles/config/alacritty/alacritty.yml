@@ -5,17 +5,17 @@ env:
 live_config_reload: true
 
 shell:
-  program: /usr/bin/tmux
+  program: bash
   args:
     - -l
     - -c
-    - "tmux attach-session -t main || tmux attach || tmux"
+    - tmux attach-session -t main || tmux attach || tmux
 
 mouse:
   hide_when_typing: true
 
 font:
-  size: 8.5
+  size: 12.5
   normal:
     family: FiraCode
     style: Regular
