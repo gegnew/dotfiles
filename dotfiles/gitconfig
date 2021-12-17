@@ -3,6 +3,7 @@
 	name = gegnew
 [init]
 	templatedir = ~/.git_template
+	defaultBranch = main
 ; [merge]
 ;     tool = nvimdiff4
 ; [mergetool "nvimdiff4"]
@@ -25,7 +26,10 @@
     b = branch
     c = commit -m
     ca = commit --amend
-    l = log --stat
+    ce = commit --amend --no-edit
+    cp = cherry-pick
+    ll = log --stat
+	l = log --oneline --all --graph
     g = log --graph
     m = merge --no-ff
     cc = diff --check
@@ -35,3 +39,7 @@
 	ctags = !.git/hooks/ctags
 [core]
 	autocrlf = false
+[pull]
+	ff = only
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret

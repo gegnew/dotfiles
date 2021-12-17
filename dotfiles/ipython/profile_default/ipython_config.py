@@ -184,7 +184,8 @@ c.InteractiveShell.banner1 = ""
 #c.InteractiveShell.color_info = True
 
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
-c.InteractiveShell.colors = 'Neutral'
+c.InteractiveShell.colors = 'LightBG'
+c.TerminalInteractiveShell.highlighting_style = 'monokai'
 
 ##
 #c.InteractiveShell.debug = False
@@ -636,4 +637,5 @@ c.Completer.use_jedi = True
 #     # del virtual_env_dir
 # del environ, join, sep, version_info
 
-
+c.InteractiveShellApp.extensions = ['autoreload']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2']

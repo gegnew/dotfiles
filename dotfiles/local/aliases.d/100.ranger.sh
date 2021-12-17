@@ -2,5 +2,7 @@
 alias r='ranger'
 alias rr='sudo ranger'
 
-#alias ranger to exit in directory navigated to
-alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
+if command -v ranger &> /dev/null; then
+    alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
+fi
+

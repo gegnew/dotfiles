@@ -1,0 +1,39 @@
+" Run ':installnative' in firefox to get this to work
+General Settings
+colors base16-nord
+set configversion 2.0
+set theme base16-nord
+set newtab about:blank
+set editorcmd alacritty nvim
+set smoothscroll true
+set hintchars fdsqjklmrezauiopwxcvghtybn
+
+" Binds
+bind yp composite js document.getElementById("clone-help-step-1").textContent.replace("git checkout -b", "git checkout -B").replace("git pull ", "git fetch ") + "git reset --hard " + document.getElementById("clone-help-step-1").textContent.split(" ")[3].replace("-","/") | yank
+bind yg composite js "git clone " + document.location.href.replace(/https?:\/\//,"git@").replace("/",":").replace(/$/,".git") | clipboard yank
+bind ,g js let uri = document.location.href.replace(/https?:\/\//,"git@").replace("/",":").replace(/$/,".git"); tri.native.run("cd ~/projects; git clone " + uri + "; cd \"$(basename \"" + uri + "\" .git)\"; st")
+bind x composite tab #; tabclose #
+unbind d
+bind yy clipboard yankcanon
+bind / fillcmdline find
+bind ? fillcmdline find -?
+bind n findnext 1
+bind N findnext -1
+bind ,<Space> nohlsearch
+bind j scrollline 5
+bind k scrollline -5
+bind XX !s killall firefox
+bind ;c hint -c [class*="expand"],[class="togg"]
+bind gd tabdetach
+bind gD composite tabduplicate; tabdetach
+bind --mode=insert <C-j> !s xdotool key Down
+bind --mode=insert <C-k> !s xdotool key Up
+
+" Aliases
+alias translate js let googleTranslateCallback = document.createElement('script'); googleTranslateCallback.innerHTML = "function googleTranslateElementInit(){ new google.translate.TranslateElement(); }"; document.body.insertBefore(googleTranslateCallback, document.body.firstChild); let googleTranslateScript = document.createElement('script'); googleTranslateScript.charset="UTF-8"; googleTranslateScript.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&tl=&sl=&hl="; document.body.insertBefore(googleTranslateScript, document.body.firstChild);
+
+" Logging
+set logging.$COMPONENT undefined
+
+" For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
+" vim: set filetype=tridactyl

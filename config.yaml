@@ -3,9 +3,6 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
-  d_st-0.8.2:
-    src: st-0.8.2
-    dst: ~/st-0.8.2
   d_aliases.d:
     src: local/aliases.d
     dst: ~/.local/aliases.d
@@ -33,9 +30,8 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
-  f_rc.conf:
-    src: config/ranger/rc.conf
-    dst: ~/.config/ranger/rc.conf
+    upignore:
+    - '*/plugin'
   f_tmux.conf:
     src: tmux.conf
     dst: ~/.tmux.conf
@@ -48,6 +44,7 @@ dotfiles:
   f_xmodmap:
     src: Xmodmap
     dst: ~/.Xmodmap
+    chmod: '644'
   f_gitconfig:
     src: gitconfig
     dst: ~/.gitconfig
@@ -63,9 +60,6 @@ dotfiles:
   f_01-keybindings.py:
     src: ipython/profile_default/startup/01-keybindings.py
     dst: ~/.ipython/profile_default/startup/01-keybindings.py
-  f_config.h:
-    src: st-0.8.2/config.h
-    dst: ~/st-0.8.2/config.h
   d_startup:
     src: ipython/profile_default/startup
     dst: ~/.ipython/profile_default/startup
@@ -102,16 +96,55 @@ dotfiles:
   d_ssh:
     src: ssh
     dst: ~/.ssh
-  f_st_config.h:
-    src: st/config.h
-    dst: ~/st/config.h
   f_bashrc.remote:
     src: local/bashrc.remote
     dst: ~/.local/bashrc.remote
+  d_tridactyl:
+    src: config/tridactyl
+    dst: ~/.config/tridactyl
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  f_ankirc:
+    src: config/Ankirc
+    dst: ~/.config/Ankirc
+    chmod: '600'
+  f_exercism_user.json:
+    src: config/exercism/user.json
+    dst: ~/.config/exercism/user.json
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
+  f_colorscheme:
+    src: colorscheme
+    dst: ~/.colorscheme
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  f_direnvrc:
+    src: direnvrc
+    dst: ~/.direnvrc
+  f_70-synaptics.conf:
+    src: etc/X11/xorg.conf.d/70-synaptics.conf
+    dst: /etc/X11/xorg.conf.d/70-synaptics.conf
+  f_pam_env.conf:
+    src: etc/security/pam_env.conf
+    dst: /etc/security/pam_env.conf
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+  f_coc.vim:
+    src: config/nvim/coc.vim
+    dst: ~/.config/nvim/coc.vim
+  d_lua:
+    src: config/nvim/lua
+    dst: ~/.config/nvim/lua
+  f_coc-settings.json:
+    src: config/nvim/coc-settings.json
+    dst: ~/.config/nvim/coc-settings.json
 profiles:
   eliot:
     dotfiles:
-    - d_st-0.8.2
     - d_aliases.d
     - d_bashrc.d
     - d_profile.d
@@ -121,13 +154,12 @@ profiles:
     - f_config
     - d_i3blocks
     - d_nvim
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xresources
   eva:
     dotfiles:
-    - d_st-0.8.2
     - d_aliases.d
     - d_bashrc.d
     - d_profile.d
@@ -135,24 +167,34 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - f_rc.conf
+    - f_ipython_config.py
+    - d_ranger
     - f_tmux.conf
-    - f_xinitrc
+      # - f_xinitrc
     - f_xmodmap
     - f_gitconfig
     - d_git_template
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_01-keybindings.py
-    - f_config.h
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
     - f_ideavimrc
+    - f_bashrc.remote
+    - d_alacritty
+    - d_tridactyl
+    - f_colorscheme
+    - d_rofi
+    - f_direnvrc
+    - f_70-synaptics.conf
+    - f_pam_env.conf
+    - f_alacritty.yml
+    - f_coc.vim
+    - d_lua
+    - f_coc-settings.json
   frankie:
     dotfiles:
-    - d_st-0.8.2
     - d_aliases.d
     - d_bashrc.d
     - d_profile.d
@@ -160,7 +202,7 @@ profiles:
     - f_bash_profile
     - f_config
     - d_nvim
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -181,7 +223,7 @@ profiles:
     - f_tmux.conf.local
     - f_gitconfig
     - d_git_template
-    - f_rc.conf
+    - d_ranger
     - d_startup
     - d_hooks
     - f_fzf
@@ -193,7 +235,6 @@ profiles:
     - d_ssh
   verena:
     dotfiles:
-    - d_st-0.8.2
     - d_aliases.d
     - d_bashrc.d
     - d_profile.d
@@ -202,7 +243,7 @@ profiles:
     - f_config
     - d_nvim
     - f_ipython_config.py
-    - f_rc.conf
+    - d_ranger
     - f_tmux.conf
     - f_xinitrc
     - f_xmodmap
@@ -211,10 +252,41 @@ profiles:
     - f_tmux.conf.local
     - f_init.vim
     - f_ipython_config.py
-    - f_config.h
     - d_startup
     - f_pdbrc.py
     - f_fonts.conf
     - f_ideavimrc
-    - f_st_config.h
     - f_bashrc.remote
+    - d_tridactyl
+    - d_alacritty
+    - f_ankirc
+    - f_exercism_user.json
+    - d_ranger
+  fuschia:
+    dotfiles:
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - f_config
+    - d_nvim
+    - f_ipython_config.py
+    - d_ranger
+    - f_tmux.conf
+    - f_xinitrc
+    - f_xmodmap
+    - f_gitconfig
+    - d_git_template
+    - f_tmux.conf.local
+    - f_init.vim
+    - f_ipython_config.py
+    - d_startup
+    - f_pdbrc.py
+    - f_fonts.conf
+    - f_ideavimrc
+    - f_bashrc.remote
+    - d_alacritty
+    - d_tridactyl
+    - f_colorscheme
+    - d_rofi
