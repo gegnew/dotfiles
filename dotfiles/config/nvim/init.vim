@@ -47,7 +47,8 @@ Plug 'tpope/vim-apathy'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-sleuth'  " automatic tab formatting
+" Plug github.com/xi/vim-indent-detect'tpope/vim-sleuth'  " automatic tab formatting
+Plug 'xi/vim-indent-detect'
 Plug 'tpope/vim-rhubarb'
 
 " Plug '9mm/vim-closer'
@@ -58,8 +59,10 @@ Plug 'svermeulen/vim-cutlass'
   nnoremap xx dd
   nnoremap X D
 Plug 'svermeulen/vim-yoink'
+  let g:yoinkChangeTickThreshold  = 1 " fixes issue with AutoSave
   let g:yoinkIncludeDeleteOperations = 1
   let g:yoinkSyncSystemClipboardOnFocus = 0
+  let g:yoinkSavePersistently = 1
   nmap <c-n> <plug>(YoinkPostPasteSwapBack)
   nmap <c-p> <plug>(YoinkPostPasteSwapForward)
   nmap p <plug>(YoinkPaste_p)
@@ -89,7 +92,7 @@ Plug 'sbdchd/neoformat'
 " Plug 'prettier/vim-prettier', {
 " \ 'do': 'yarn install',
 " \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'markdown', 'vue', 'yaml', 'html'] }
-Plug 'psf/black', { 'tag': '19.10b0' } " force upgrade black (https://github.com/psf/black/issues/1293)
+Plug 'psf/black'
 " Plug 'nvie/vim-flake8'
 Plug 'alfredodeza/jacinto.vim'
 Plug 'elzr/vim-json'
@@ -156,6 +159,7 @@ Plug 'airblade/vim-gitgutter'
   nnoremap <leader>gn :GitGutterNextHunk<cr>
   nnoremap <leader>gp :GitGutterPrevHunk<cr>
 Plug 'simeji/winresizer'
+  let g:winresizer_start_key = '<leader>e'
 Plug 'farmergreg/vim-lastplace'
 Plug 'mattboehm/vim-accordion'
   nnoremap <leader>ll :Accordion 2<CR>
@@ -164,7 +168,6 @@ Plug 'mattboehm/vim-accordion'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ojroques/vim-oscyank'
 
-" Plug 'Shougo/unite.vim' " delete this?
 " Plug 'Shougo/neco-syntax' " Generic syntax completion (on Arch you need to `yay -S words`)
 
 " Completion
@@ -216,6 +219,7 @@ nnoremap <leader>u :MundoToggle<cr>
     let g:lf_map_keys = 0
     map <leader>r :FloatermNew ranger<CR>
     let g:floaterm_keymap_toggle = '<C-f>'
+  " nnoremap   <Leader>fl      :FloatermNew! cd && cd -<CR>
     let g:floaterm_width = 0.8
     let g:floaterm_height = 0.8
     let g:floaterm_opener = 'edit'
@@ -230,9 +234,10 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-json',
   \ 'coc-prettier',
-  \ 'coc-pyright',
+  \ 'coc-jedi',
   \ 'coc-pairs',
   \ ]
+  " \ 'coc-pyright',
 source $HOME/.config/nvim/coc.vim
 
 " quick-scope
@@ -247,8 +252,10 @@ source $HOME/.config/nvim/coc.vim
 
 " Run Black on save
 " autocmd BufWritePre *.py execute ':Black'
+nnoremap <leader>b :Black<CR>
 " let g:black_skip_string_normalization = 1
 let g:black_linelength = 88
+let g:black_quiet = 1
 
 " " Neomake (linting)
 " let g:neomake_open_list = 0
@@ -362,7 +369,7 @@ tnoremap <C-l> <Right>
 " These are from https://www.hillelwayne.com/post/intermediate-vim/
 " Let's see how I like them
 nnoremap Q @@ " repeat last macro
-nnoremap Y y$ "yank to end of line
+nnoremap Y y$ " yank to end of line
 set lazyredraw
 
 "===========SETTINGS============
@@ -429,6 +436,7 @@ highlight Comment cterm=italic
     " set shiftwidth=4
     " set smarttab
     " set expandtab
+    " let g:detectindent_preferred_expandtab
 
 " No backup or swap files
 set nobackup

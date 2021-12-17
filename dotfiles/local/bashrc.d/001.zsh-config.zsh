@@ -48,12 +48,13 @@ zinit light-mode for \
 
 
 # python venvs
-if [[ -n $VIRTUAL_ENV && -e "${VIRTUAL_ENV}/bin/activate" ]]; then
-  source "${VIRTUAL_ENV}/bin/activate"
-fi
+# if [[ -n $VIRTUAL_ENV && -e "${VIRTUAL_ENV}/bin/activate" ]]; then
+#   source "${VIRTUAL_ENV}/bin/activate"
+# fi
 
 # FZF convenience bindings
-. "$HOME/.local/fzf-gems/fzf_git_functions.sh"
-. "$HOME/.local/fzf-gems/fzf_git_keybindings.zsh"
+# TODO: re-download these
+# . "$HOME/.local/fzf-gems/fzf_git_functions.sh"
+# . "$HOME/.local/fzf-gems/fzf_git_keybindings.zsh"
 
 export LC_CTYPE=en_US.UTF-8

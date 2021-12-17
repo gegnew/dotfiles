@@ -184,7 +184,8 @@ c.InteractiveShell.banner1 = ""
 #c.InteractiveShell.color_info = True
 
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
-c.InteractiveShell.colors = 'Neutral'
+c.InteractiveShell.colors = 'LightBG'
+c.TerminalInteractiveShell.highlighting_style = 'monokai'
 
 ##
 #c.InteractiveShell.debug = False

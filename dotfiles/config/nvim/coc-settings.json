@@ -1,10 +1,9 @@
 {
 	"coc.preferences.useQuickfixForLocations": true,
 	"javascript.validate.enable": false,
-	"languageserver": {
-	},
 	"coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "vue"],
 	"python.formatting.provider":"black",
+	"python.linting.mypyEnabled":true,
 	"snippets.extends": {
 		"vue": ["javascript"]
 	},

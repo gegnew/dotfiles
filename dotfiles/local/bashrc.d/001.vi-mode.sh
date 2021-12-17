@@ -1,2 +1,2 @@
 set -o vi
-bind '"jk":vi-movement-mode'
+# bind '"jk":vi-movement-mode'

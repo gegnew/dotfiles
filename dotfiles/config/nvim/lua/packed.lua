@@ -56,9 +56,10 @@ return require('packer').startup(
         config = require('plugins.AutoSave')
     }
 
-    -- use {
-    --   'glacambre/firenvim',
-    --   run = function() vim.fn['firenvim#install'](0) end 
-    -- }
+    use {
+      'glacambre/firenvim',
+      run = function() vim.fn['firenvim#install'](0) end,
+      config = require('plugins.firenvim')
+    }
   end
 )
