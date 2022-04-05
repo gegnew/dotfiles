@@ -1,6 +1,5 @@
 let mapleader = "\<SPACE>" " Map leader key
 
-
 " this is a nice lua-based layout
 " https://github.com/kuator/nvim/tree/master/lua
 
@@ -32,13 +31,17 @@ Plug 'ntpeters/vim-better-whitespace'
 
 Plug 'thaerkh/vim-workspace'
 Plug 'jalvesaq/Nvim-R'
+  let r_syntax_folding = 1
+
 " tpope
 Plug 'tpope/vim-commentary'
+  autocmd FileType zig setlocal commentstring=//\ %s
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'kristijanhusak/vim-dadbod-completion'
 Plug 'tpope/vim-fugitive'
+  nnoremap <silent> cx /^<<<<<<< .*$\\|^=======\\|^\|\|\|\|\|\|\|\\|^>>>>>>> .*$<CR>:set hlsearch<CR>
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
@@ -81,6 +84,9 @@ Plug 'svermeulen/vim-subversive'
   xmap <leader>s <plug>(SubversiveSubvertRange)
   nmap <leader>ss <plug>(SubversiveSubvertWordRange)
 
+Plug 'gcmt/wildfire.vim'
+  nmap <leader>s <Plug>(wildfire-quick-select)
+
 Plug 'godlygeek/tabular'
 " Plug 'plasticboy/vim-markdown'
 Plug 'masukomi/vim-markdown-folding'
@@ -96,6 +102,7 @@ Plug 'psf/black'
 " Plug 'nvie/vim-flake8'
 Plug 'alfredodeza/jacinto.vim'
 Plug 'elzr/vim-json'
+Plug 'chrisbra/csv.vim'
 
 Plug 'sodapopcan/vim-twiggy' " fugitive extension for git branch management
 Plug 'junegunn/gv.vim'
@@ -145,7 +152,7 @@ Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
 " let test#custom_runners = {'R': ['testthat']}
 
 " Navigation
-Plug 'tmhedberg/SimpylFold'  " fold Python code properly
+Plug 'kalekundert/vim-coiled-snake'  " fold Python code properly
 Plug 'unblevable/quick-scope'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
@@ -189,6 +196,13 @@ Plug 'Yggdroot/indentLine'
 
 " Plug 'vim-scripts/gtags.vim'
 Plug 'majutsushi/tagbar'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'skywind3000/gutentags_plus'
+let g:gutentags_modules = ['ctags', 'gtags_cscope']
+let g:gutentags_project_root = ['.root']
+let g:gutentags_cache_dir = expand('~/.cache/tags')
+let g:gutentags_plus_switch = 1
 
 Plug 'SirVer/ultisnips' " snippets part 1
 Plug 'honza/vim-snippets' " snippets part 2
@@ -235,6 +249,7 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-prettier',
   \ 'coc-jedi',
+  \ 'coc-pyright',
   \ 'coc-pairs',
   \ ]
   " \ 'coc-pyright',
@@ -267,11 +282,11 @@ let g:black_quiet = 1
 " let g:neoformat_only_msg_on_error = 1
 
 " coc-prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
+" command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " vim-test and vim-ultest keymaps
 let test#python#pytest#options = "--color=yes"
-let test#javascript#mocha#options = "--color"
+let test#javascript#mocha#options = "--colors"
 nmap ]t <Plug>(ultest-next-fail)
 nmap [t <Plug>(ultest-prev-fail)
 
@@ -375,13 +390,16 @@ set lazyredraw
 "===========SETTINGS============
 " General
 set nocompatible
-if has("autocmd")
+" if has("autocmd")
   filetype plugin indent on
-endif
+" endif
 
 hi Normal guibg=NONE ctermbg=NONE
-let g:vimade = {}
-let g:vimade.fadelevel = 0.7
+" let g:vimade = {}
+let g:vimade = {
+      \ 'enabletreesitter' : 1,
+      \ 'fadelevel': 0.7,
+      \}
 " " turn off highlight active window:
 "   hi InactiveWindow guibg=#00040B "#0D1B22
 "   hi ActiveWindow guibg=NONE
@@ -412,10 +430,9 @@ set backspace=indent,eol,start
 " set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P " percentage through file
 set splitbelow " New window goes below
 set splitright " New window goes right
-set foldmethod=indent " Enable folding
-set foldlevel=99
-nnoremap  <leader>h za " Enable folding
-let g:SimpylFold_docstring_preview=1
+" set foldmethod=indent " Enable folding
+" set foldlevel=99
+" nnoremap  <leader>h za " Enable folding
 set nowrap
 set scrolloff=3
 " Persistent undo config for Undotree
@@ -474,6 +491,8 @@ set cmdheight=1
   nnoremap ` '
 " append a semicolon to the end of the line in insert mode
   imap ;; <ESC>A;<ESC>
+" append a hash to end of line to start a comment
+  imap ## <ESC>A<space><space>#<space>
 
 " Useful commands
 "nvim +checkhealth
@@ -489,7 +508,7 @@ augroup FileTypeSpecificAutocommands
     " Javascript
     " autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
     au FileType vimwiki setlocal syntax=markdown
-    autocmd FileType markdown set foldmethod=expr foldexpr=NestedMarkdownFolds()
+    " autocmd FileType markdown set foldmethod=expr foldexpr=NestedMarkdownFolds()
 augroup END
 
 let g:tmuxline_theme = 'lightline'

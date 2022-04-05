@@ -17,24 +17,21 @@ mouse:
 font:
   size: 12.5
   normal:
-    family: FiraCode
-    style: Regular
-
-  # The bold font face
+    family: Victor Mono
+    style: Medium
   bold:
-    family: FiraCode
+    family: Victor Mono
     style: Bold
-
-  # The italic font face
   italic:
-    family: FiraCode
-    style: Italic
+    family: Victor Mono
+    style: Light Italic
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
 
-background_opacity: 0.95
+window:
+  opacity: 0.95
 
 key_bindings:
   - {key: Return, mods: Control, action: ToggleViMode}

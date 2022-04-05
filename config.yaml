@@ -142,6 +142,12 @@ dotfiles:
   f_coc-settings.json:
     src: config/nvim/coc-settings.json
     dst: ~/.config/nvim/coc-settings.json
+  f_envrc.default:
+    src: envrc.default
+    dst: ~/envrc.default
+  d_direnv:
+    src: config/direnv
+    dst: ~/.config/direnv
 profiles:
   eliot:
     dotfiles:
@@ -193,6 +199,8 @@ profiles:
     - f_coc.vim
     - d_lua
     - f_coc-settings.json
+    - f_envrc.default
+    - d_direnv
   frankie:
     dotfiles:
     - d_aliases.d

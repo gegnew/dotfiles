@@ -33,14 +33,11 @@ return require('packer').startup(
     use 'williamboman/nvim-lsp-installer'
 
     -- fuzzy finder
-    use {
-      'nvim-telescope/telescope.nvim',
-      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}},
-      config=require'plugins.nvim-telescope'
+    use {'ibhagwan/fzf-lua',
+      requires = { 'kyazdani42/nvim-web-devicons' },
+      config=require'plugins.fzf'
     }
-    use {
-      'nvim-telescope/telescope-fzy-native.nvim'
-    }
+
     use {
       'tjdevries/complextras.nvim',
       config=require'plugins.complextras'

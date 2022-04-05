@@ -34,8 +34,11 @@
     m = merge --no-ff
     cc = diff --check
     d = diff --name-only --diff-filter=U
+    p = push
+	pf = push -f
     pa = push origin --all
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short 
+	pu = push --set-upstream origin
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	ctags = !.git/hooks/ctags
 [core]
 	autocrlf = false

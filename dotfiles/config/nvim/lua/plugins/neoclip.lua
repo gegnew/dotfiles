@@ -9,19 +9,21 @@ return function()
         set_reg = false,
       },
       keys = {
-        i = {
-          select = '<cr>',
-          paste = '<c-v>',
-          paste_behind = '<c-k>',
-        },
-        n = {
-          select = '<cr>',
-          paste = 'p',
-          paste_behind = 'P',
-        },
+        telescope = {
+          i = {
+            select = '<cr>',
+            paste = '<c-v>',
+            paste_behind = '<c-k>',
+          },
+          n = {
+            select = '<cr>',
+            paste = 'p',
+            paste_behind = 'P',
+          },
+        }
       },
     })
-  require('telescope').load_extension('neoclip')
-  vim.api.nvim_set_keymap('n', '<leader>fl', [[<cmd>lua require('telescope').extensions.neoclip.default()<cr>]], { noremap = true, silent = true })
+  -- require('telescope').load_extension('neoclip')
+  -- vim.api.nvim_set_keymap('n', '<leader>fl', [[<cmd>lua require('telescope').extensions.neoclip.default()<cr>]], { noremap = true, silent = true })
 
 end
