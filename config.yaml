@@ -148,6 +148,9 @@ dotfiles:
   d_direnv:
     src: config/direnv
     dst: ~/.config/direnv
+  d_wofi:
+    src: config/wofi
+    dst: ~/.config/wofi
 profiles:
   eliot:
     dotfiles:
@@ -298,3 +301,45 @@ profiles:
     - d_tridactyl
     - f_colorscheme
     - d_rofi
+  ira:
+    dotfiles:
+      - d_aliases.d
+      - d_bashrc.d
+      - d_profile.d
+      - f_bashrc
+      - f_bash_profile
+      - d_nvim
+      - f_gitconfig
+      - d_ranger
+      - f_xmodmap
+      - f_alacritty.yml
+      - d_wofi
+      # - f_config
+      - d_nvim
+      # - f_ipython_config.py
+      - f_tmux.conf
+      - f_tmux.conf.local
+      #   # - f_xinitrc
+      # - f_xmodmap
+      # - f_gitconfig
+      # - d_git_template
+      # - f_init.vim
+      # - f_ipython_config.py
+      # - d_startup
+      # - f_pdbrc.py
+      # - f_fonts.conf
+      # - f_ideavimrc
+      # - f_bashrc.remote
+      # - d_alacritty
+      # - d_tridactyl
+      # - f_colorscheme
+      # - d_rofi
+      # - f_direnvrc
+      # - f_70-synaptics.conf
+      # - f_pam_env.conf
+      # - f_alacritty.yml
+      # - f_coc.vim
+      # - d_lua
+      # - f_coc-settings.json
+      # - f_envrc.default
+      # - d_direnv
