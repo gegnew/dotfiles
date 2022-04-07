@@ -121,9 +121,6 @@ dotfiles:
   d_rofi:
     src: config/rofi
     dst: ~/.config/rofi
-  f_direnvrc:
-    src: direnvrc
-    dst: ~/.direnvrc
   f_70-synaptics.conf:
     src: etc/X11/xorg.conf.d/70-synaptics.conf
     dst: /etc/X11/xorg.conf.d/70-synaptics.conf
@@ -192,7 +189,6 @@ profiles:
     - d_tridactyl
     - f_colorscheme
     - d_rofi
-    - f_direnvrc
     - f_70-synaptics.conf
     - f_pam_env.conf
     - f_alacritty.yml
