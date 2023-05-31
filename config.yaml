@@ -448,3 +448,25 @@ profiles:
       - f_known_hosts
       - f_known_hosts.old
       - f_zeit-app.pem
+  lia.local:
+    dotfiles:
+    - d_aliases.d
+    - d_bashrc.d
+    - d_profile.d
+    - f_bashrc
+    - f_bash_profile
+    - d_nvim
+    - f_gitconfig
+    - d_ranger
+    - d_alacritty
+    - d_nvim
+    - f_ipython_config.py
+    - f_tmux.conf
+    - f_tmux.conf.local
+    - d_ssh
+    - d_tridactyl
+    - d_direnv
+    - d_alacritty
+    - d_gh
+    - d_rbw
+    - d_zfunc
