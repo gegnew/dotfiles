@@ -1,0 +1,20 @@
+# source $HOME/.local/zshrc.d/001.zsh-config.zsh
+# source $HOME/.local/zshrc.d/002.zshrc.zsh
+# source $HOME/.local/zshrc.d/002.zinit.zsh
+for FN in $HOME/.local/zshrc.d/*.zsh ; do
+      source "$FN"
+done
+
+
+# g did this
+for FN in $HOME/.local/profile.d/*.sh ; do
+      source "$FN"
+done
+
+export EDITOR=nvim
+export ANDROID_HOME=/home/g/Android/Sdk
+
+# add Pulumi to the PATH
+export PATH=$PATH:$HOME/.pulumi/bin
+
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
