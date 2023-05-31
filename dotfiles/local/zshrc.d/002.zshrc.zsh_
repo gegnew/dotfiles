@@ -1,0 +1,231 @@
+#######################################################################
+#                          General settings                           #
+#######################################################################
+# Enable autocompletion
+autoload -Uz compinit
+
+# case insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+#set the PERMISSIONS for newly-created files
+umask 077
+
+#######################################################################
+#                        zinit configurations                         #
+#######################################################################
+
+# done in 001.zsh-config.zsh
+# source "$HOME/.zinit/bin/zinit.zsh"
+# (( ${+_comps} )) && _comps[zinit]=_zinit
+
+# git.zsh is required by some omz plugins
+# zinit ice wait lucid
+# zinit snippet OMZ::lib/git.zsh
+
+# Install a OMZ plugin with multiple files
+# zinit ice svn lucid
+# zinit snippet OMZ::plugins/pip
+
+zplugin ice as"completion"
+zplugin snippet OMZ::plugins/docker/_docker
+
+# pure theme
+zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
+zinit light sindresorhus/pure
+
+# spaceship theme
+# zinit ice depth'1'
+# zinit light denysdovhan/spaceship-prompt
+
+# zinit light skywind3000/z.lua
+
+zinit light softmoth/zsh-vim-mode
+
+zinit ice wait lucid atload'_zsh_autosuggest_start'
+zinit light zsh-users/zsh-autosuggestions
+
+zinit ice wait lucid
+zinit light zdharma/fast-syntax-highlighting
+
+zinit light-mode for \
+    lukechilds/zsh-nvm \
+    ChrisPenner/copy-pasta \
+    agkozak/zsh-z \
+    wookayin/fzf-fasd \
+    Aloxaf/fzf-tab \
+    marlonrichert/zsh-autocomplete
+    # mroth/evalcache \
+    # zsh-users/zsh-autosuggestions \
+    # zdharma/fast-syntax-highlighting \
+    # zdharma/history-search-multi-word \
+    # ytakahashi/igit \
+
+
+#######################################################################
+#                           Plugin settings                           #
+#######################################################################
+FZ_HISTORY_CD_CMD=zshz
+unalias z
+z() {
+  if [[ -z "$*" ]]; then
+    cd "$(zshz -l 2>&1 | fzf +s --tac | sed 's/^[0-9,.]* *//')"
+  else
+    _last_z_args="$@"
+    _z "$@"
+  fi
+}
+
+zz() {
+  cd "$(zshz -l 2>&1 | sed 's/^[0-9,.]* *//' | fzf -q "$_last_z_args")"
+}
+alias j=z
+alias jj=zz
+
+zinit light denysdovhan/spaceship-prompt
+# SPACESHIP_CHAR_SYMBOL="❯ "
+SPACESHIP_CHAR_SYMBOL="❱ "
+# SPACESHIP_PROMPT_ORDER=(
+#     node pyenv php user host char
+# )
+SPACESHIP_VI_MODE_INSERT=''
+SPACESHIP_VI_MODE_NORMAL='n'
+SPACESHIP_VI_MODE_PREFIX=''
+SPACESHIP_VI_MODE_COLOR='grey'
+SPACESHIP_PROMPT_ORDER=(
+    vi_mode char
+)
+
+TIMETRACE_PROJECT=$(timetrace status --format "{project}")
+spaceship_timetrace() {
+    spaceship::exists timetrace || return
+
+    if [[ $TIMETRACE_PROJECT != "---" ]]; then
+      timetrace_status=$(timetrace status --format "{project} ({trackedTimeCurrent})")
+    else
+        timetrace_status=''
+    fi
+
+    # Exit section if variable is empty
+    [[ -z $timetrace_status ]] && return
+
+  spaceship::section "white" \
+        ⏳"$timetrace_status"
+}
+SPACESHIP_RPROMPT_ORDER=( dir git timetrace node pyenv php docker)
+SPACESHIP_CHAR_COLOR_FAILURE=208
+SPACESHIP_CHAR_COLOR_SUCCESS=225
+
+# Make it work with your existing RPS1 if it is set. Note the single quotes
+setopt PROMPT_SUBST
+RPS1='${MODE_INDICATOR_PROMPT} ${vcs_info_msg_0_}'
+
+#######################################################################
+#                         fzf configurations                          #
+#######################################################################
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_BASE="$HOME/.fzf"
+export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
+
+export PATH="$HOME/.fzf/bin:$PATH"
+#######################################################################
+#                        Environment variables                        #
+#######################################################################
+
+# -M: verbose mode
+# -N: show line number
+# -s: squeeze blank lines to single blank line
+export LESS='-RMs'
+export PAGER=less
+export VISUAL=vi
+export LC_COLLATE='C'
+export LC_ALL="en_US.UTF-8"
+export LANG=en_US.UTF-8
+export KEYTIMEOUT=30
+
+# if [ -d $HOME/tools/anaconda ]; then
+#     CONDA_NAME="anaconda"
+# fi
+
+# if [ -d $HOME/tools/miniconda ]; then
+#     CONDA_NAME="miniconda"
+# fi
+
+# if [-z "$LD_LIBRARY_PATH"]; then
+#   export LD_LIBRARY_PATH="$HOME/tools/$CONDA_NAME/lib"
+# else
+#   export LD_LIBRARY_PATH="$HOME/tools/$CONDA_NAME/lib:$LD_LIBRARY_PATH"
+# fi
+# export LD_LIBRARY_PATH="$HOME/local/lib:$LD_LIBRARY_PATH"
+#
+# export PATH="$HOME/tools/$CONDA_NAME/bin:$PATH"
+# export PATH="$HOME/tools/ctags/bin:$PATH"
+# export PATH="$HOME/tools/nvim/bin:$PATH"
+# export PATH="$HOME/tools/ripgrep:$PATH"
+# export PATH="$HOME/tools/fd:$PATH"
+# export PATH="$HOME/local/bin:$PATH"
+
+# use nvim as man pager
+if [[ "$(command -v nvim)" ]]; then
+    export EDITOR='nvim'
+    export MANPAGER='nvim +Man!'
+    export MANWIDTH=999
+fi
+
+setopt noclobber  # Do not overwrite existing files by default
+setopt autocd  # cd to a directory if only name is provided
+setopt correct_all  # correct misspelled command
+
+export HISTFILE=~/.histfile
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+
+setopt HIST_IGNORE_ALL_DUPS  # do not put duplicated command into history list
+setopt HIST_SAVE_NO_DUPS  # do not save duplicated command
+setopt HIST_REDUCE_BLANKS  # remove unnecessary blanks
+setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately after execution
+setopt EXTENDED_HISTORY  # record command start time
+
+alias history="fc -l 1"
+# below alias taken from https://github.com/zimfw/history/blob/master/init.zsh
+alias history-stat="fc -ln 0 | awk '{print \$1}' | sort | uniq -c | sort -nr | head"
+
+#######################################################################
+#                            custom alias                             #
+#######################################################################
+alias zshconfig="nvim ~/.zshrc"
+alias grep="grep -E -n --color=auto"
+alias ls='ls -F --color=auto'
+alias less="less -m"
+alias hexdump='hexdump -C'
+alias ll="ls -l --color=auto"
+alias ldot='ls -d .??*'
+alias cp='nocorrect cp -i'
+alias mv='nocorrect mv -i'
+alias cls="clear"
+
+#######################################################################
+#                        key binding settings                         #
+#######################################################################
+# Use vim key binding instead of the default emacs key binding
+# bindkey -v
+
+# For terminal which can not understand home and end key on zsh shell
+# https://anjia0532.github.io/2017/09/10/zsh-home-end-keypad-not-work/
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
+
+#######################################################################
+#                          custom functions                           #
+#######################################################################
+
+mkcd ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+
+# Note that we need to use compinit command after we add new completions to
+# some command or update the completion behavior. Instead of running the
+# command multiple times, running it at the end of the zshrc seems okay.
+compinit

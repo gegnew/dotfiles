@@ -1,0 +1,122 @@
+Host liquet-ops-01
+	HostName 165.227.211.205
+  User root
+
+Host lq-vault
+  HostName 137.184.30.243
+  User root
+
+Host vpn
+  HostName 159.203.85.233
+  User root
+
+
+Host eva
+	User g
+	HostName 192.168.0.31
+
+Host ec2-1
+	User ubuntu
+	HostName ec2-3-72-226-78.eu-central-1.compute.amazonaws.com
+	IdentityFile ~/.ssh/zeit-app.pem
+
+Host test-iot-device-1
+	User ubuntu
+	HostName ec2-52-207-249-16.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host test-iot-device-2
+	User ubuntu
+	HostName ec2-44-203-187-145.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host greengrass-ssh-relay-dev
+	User ubuntu
+	HostName ec2-54-86-175-2.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host aws-vpc-github-actions-runner
+	User ubuntu
+	HostName 10.60.5.119
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host pi-gerrit-local
+	User pi
+	HostName 192.168.1.157
+
+# TailScale connections
+Host ge
+	User pi
+	HostName 100.85.208.129
+
+Host un
+	User pi
+	HostName 100.65.80.107
+
+Host df
+	User pi
+	HostName 100.101.113.59
+
+Host ee
+	User pi
+	HostName 100.75.170.33
+
+Host dv
+	User pi
+	HostName 100.100.142.41
+
+Host ov
+	User pi
+	HostName 100.117.166.77
+
+Host it1
+	User pi
+	HostName 100.96.220.23
+
+Host it2
+	User pi
+	HostName 100.67.181.121
+
+Host subnet-router
+	User ec2-user
+	HostName ec2-3-219-35-77.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host ts-subnet-router
+	User ec2-user
+  HostName 100.124.230.24
+  IdentityFile ~/.ssh/gerrit.pem
+
+Host zeit-api-dev
+	User ubuntu
+	# HostName ec2-44-207-145-30.compute-1.amazonaws.com
+	HostName 3.91.53.221
+	# HostName 44.207.145.30
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host ts-zeit-api-dev
+	User ubuntu
+	HostName 10.60.3.157
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host erik_dev1
+	User ubuntu
+	HostName ec2-44-203-74-34.compute-1.amazonaws.com
+	# HostName 10.0.1.230
+	IdentityFile ~/.ssh/erik_dev0.pem
+	ForwardX11 Yes
+
+# Host erik_dev0
+# 	User ubuntu
+# 	HostName ubuntu@ec2-34-205-20-160.compute-1.amazonaws.com
+# 	IdentityFile ~/.ssh/erik_dev0.pem
+
+Host test-mongo
+	User ubuntu
+	HostName ec2-3-236-93-200.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
+
+Host test-mongo-2
+	User ubuntu
+	HostName ubuntu@ec2-44-192-117-202.compute-1.amazonaws.com
+	IdentityFile ~/.ssh/gerrit.pem
