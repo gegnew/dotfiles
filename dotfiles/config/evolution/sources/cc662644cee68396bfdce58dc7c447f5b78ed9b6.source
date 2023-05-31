@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=g.egnew@gmail.com
+Enabled=true
+Parent=9d6687b19ce777de6a55773745c30dc87d493685
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=992d71524460645f81fc82d2bb24a75e2bb86408
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=g.egnew@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

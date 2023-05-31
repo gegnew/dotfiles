@@ -1,0 +1,397 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
+
+### Variables
+# set $mod Mod1
+# if you switch them below with xkb_options altwin:swap_lalt_lwin:
+set $mod Mod4
+
+set $lock swaylock
+set $browser firefox
+
+# Home row direction keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+# Your preferred terminal emulator
+set $term alacritty
+set $menu rofi -show drun -theme $HOME/.config/rofi/themes/spotlight-dark.rasi
+
+
+### Output configuration
+#
+# output "*" bg ~/Pictures/wallpapers/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg fill
+exec ~/.azotebg
+# exec pulseaudio --daemonize
+#
+
+exec --no-startup-id dunst
+exec sworkstyle &> /tmp/sworkstyle.log
+# exec mailspring
+# exec spotify
+# exec --no-startup-id nextcloud
+# exec --no-startup-id libinput-gestures
+exec_always "pkill kanshi; kanshi"
+exec systemctl --user import-environment
+
+### Idle configuration
+exec swayidle -w \
+         timeout 600 $lock \
+         timeout 1200 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+         before-sleep $lock
+
+
+# GTK
+# This is the only place where you must set GTK scaling
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Adwaita-dark'
+    # gsettings set $gnome-schema icon-theme 'Numix-Square'
+    gsettings set org.gnome.desktop.interface text-scaling-factor 1
+    gsettings set org.gnome.desktop.interface cursor-size $cursor_size
+}
+
+# for sway windows
+# font victor:mono 20, "Font Awesome 6 Free" 14
+font pango:Victor Mono Bold, FontAwesome, 12
+
+
+# Notifications
+
+# Multimedia
+set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
+exec rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob -W 250 -H 22 -b 0 -p 5 --background-color "#000000B0"
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioRaiseVolume exec pamixer -ui 2 && pamixer --get-volume > $WOBSOCK
+bindsym XF86AudioLowerVolume exec pamixer -ud 2 && pamixer --get-volume > $WOBSOCK
+bindsym XF86AudioMute exec pamixer --toggle-mute && ( pamixer --get-mute && echo 0 > $WOBSOCK ) || pamixer --get-volume > $WOBSOCK
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
+bindsym XF86MonBrightnessUp exec brightnessctl set +5% | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
+
+# Logout screen
+bindsym $mod+Shift+e exec wlogout
+
+# Waybar config
+exec_always ~/.config/waybar/waybar.sh
+
+### Input configuration
+
+    # could also be input type:keyboard {
+    input * {
+      xkb_layout us-german-umlaut
+
+      # normal option:
+      # xkb_options "ctrl:swapcaps,altwin:swap_lalt_lwin"
+
+      # this works if you also use evcape:
+      xkb_options "ctrl:nocaps,altwin:swap_lalt_lwin"
+      # xkb_options "ctrl:nocaps,altwin:swap_lalt_lwin,altwin:swap_ralt_rwin"
+      # the evcape systemd service should contain:
+                  # [Unit]
+                  # Description=evcape
+
+                  # [Service]
+                  # ExecStart=/path/to/evcape.py \
+                  #     press:leftctrl,release:leftctrl=press:esc,release:esc \
+                  #     press:capslock,release:capslock=press:esc,release:esc \
+                  #     press:rightshift,release:rightshift=press:backspace,release:backspace \
+                  #     press:rightctrl,release:rightctrl=press:backspace,release:backspace
+                  # Restart=always
+
+                  # [Install]
+                  # WantedBy=default.target
+
+      repeat_delay 200
+      repeat_rate 45
+
+      tap enabled
+      middle_emulation enabled
+    }
+
+    # RK61
+    input "14:13330:RK61-5.0_Keyboard" {
+      xkb_layout us-german-umlaut-rk61
+      xkb_options "ctrl:nocaps,altwin:swap_lalt_lwin"
+      repeat_delay 200
+      repeat_rate 45
+    }
+
+    # mac keyboard
+    input "76:615:g's_kb" {
+      xkb_layout us-german-umlaut
+      xkb_options "ctrl:nocaps,altwin"
+      repeat_delay 200
+      repeat_rate 45
+    }
+
+    # maybe eventually i'll figure out smooth scrolling
+
+    # input touchpad {
+    #   xkb_options "VertScrollDelta=-60"
+      # vert_scroll_delta -60
+      # horiz_scroll_delta -60
+      # corner_coasting 0
+      # coasting_speed 1
+      # coasting_friction 50
+    # }
+
+# Section "InputClass"
+#         Identifier  "touchpad"
+#         Driver "synaptics"
+#         MatchIsTouchpad "on"
+#           Option      "VertScrollDelta"          "-60"
+#           Option      "HorizScrollDelta"         "-60"
+#           Option      "CornerCoasting"           "0"
+#           Option      "CoastingSpeed"            "1"
+#           Option      "CoastingFriction"         "50"
+# EndSection
+
+# You can get the names of your inputs by running: swaymsg -t get_inputs
+# Read `man 5 sway-input` for more information about this section.
+
+### Key bindings
+#
+# Basics:
+#
+    # Start a terminal
+    bindsym $mod+Return exec $term
+
+    # Kill focused window
+    bindsym $mod+Shift+q kill
+
+    # copyq (way better than clipman)
+    exec --no-startup-id copyq
+
+    # Start your launcher
+    #
+    bindsym $mod+d exec $menu
+    bindsym $mod+shift+d exec --no-startup-id bwmenu
+    # aint work https://github.com/fdw/rofi-rbw/issues/46
+    bindsym $mod+u exec rofi-rbw
+    # bindsym $mod+shift+b exec --no-startup-id rofi-rbw
+
+    exec --no-startup-id pulseaudio
+    exec --no-startup-id pa-applet
+    bindsym $mod+Ctrl+m exec pavucontrol
+
+    # Drag floating windows by holding down $mod and left mouse button.
+    # Resize them with right mouse button + $mod.
+    # Despite the name, also works for non-floating windows.
+    # Change normal to inverse to use left mouse button for resizing and right
+    # mouse button for dragging.
+    floating_modifier $mod normal
+
+    # Reload the configuration file
+    bindsym $mod+Shift+r reload
+
+    default_border pixel 2
+    client.focused #555555 #555555 #ffffff #2e9ef4 #e6e600
+
+    smart_gaps off
+    gaps inner 10
+    gaps outer 1
+
+    # Use Mouse+$mod to move floating windows
+    floating_modifier $mod
+
+    bindsym $mod+i exec $browser
+
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+$left focus left
+    bindsym $mod+$down focus down
+    bindsym $mod+$up focus up
+    bindsym $mod+$right focus right
+    # Or use $mod+[up|down|left|right]
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+$left move left
+    bindsym $mod+Shift+$down move down
+    bindsym $mod+Shift+$up move up
+    bindsym $mod+Shift+$right move right
+    # Ditto, with arrow keys
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+
+    # warpd, for mouse movement
+    bindsym $mod+Ctrl+k exec warpd --hint
+    bindsym $mod+Ctrl+j exec warpd --normal
+    bindsym $mod+Ctrl+l exec warpd --grid
+
+# Workspaces:
+#
+    # Switch to workspace
+    bindsym $mod+1 workspace number 1
+    bindsym $mod+2 workspace number 2
+    bindsym $mod+3 workspace number 3
+    bindsym $mod+4 workspace number 4
+    bindsym $mod+5 workspace number 5
+    bindsym $mod+6 workspace number 6
+    bindsym $mod+7 workspace number 7
+    bindsym $mod+8 workspace number 8
+    bindsym $mod+9 workspace number 9
+    bindsym $mod+0 workspace number 10
+    # Move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace number 1
+    bindsym $mod+Shift+2 move container to workspace number 2
+    bindsym $mod+Shift+3 move container to workspace number 3
+    bindsym $mod+Shift+4 move container to workspace number 4
+    bindsym $mod+Shift+5 move container to workspace number 5
+    bindsym $mod+Shift+6 move container to workspace number 6
+    bindsym $mod+Shift+7 move container to workspace number 7
+    bindsym $mod+Shift+8 move container to workspace number 8
+    bindsym $mod+Shift+9 move container to workspace number 9
+    bindsym $mod+Shift+0 move container to workspace number 10
+    # Note: workspaces can have any name you want, not just numbers.
+    # We just use 1-10 as the default.
+    bindsym $mod+tab workspace back_and_forth
+    bindsym $mod+n workspace next
+    bindsym $mod+p workspace prev
+
+
+  # windows that should be floating
+    for_window [app_id="azote"] floating enable
+    for_window [app_id="gnome-calculator"] floating enable
+    for_window [app_id="gnome-calendar"] floating enable
+    for_window [app_id="gnome-control-center"] floating enable
+    for_window [app_id="blueberry.py"] floating enable
+    for_window [app_id="wdisplays"] floating enable
+    for_window [window_role="pop-up"] floating enable
+    for_window [window_role="bubble"] floating enable
+    for_window [window_role="task_dialog"] floating enable
+    for_window [window_role="Preferences"] floating enable
+    for_window [window_role="About"] floating enable
+    for_window [class="(?i)gsimplecal"] floating enable, move position mouse, move down $height px
+    for_window [class="Gnome-calculator"] floating enable
+    for_window [class="(?i)qemu-system"] floating enable
+    for_window [class="(?i)VirtualBox" title="(?i)Manager"] floating enable
+    for_window [class="(?i)VirtualBox"] floating enable
+    for_window [class="(?i)blueman"] floating enable
+    for_window [class="(?i)pcmanfm"] floating enable
+    for_window [class="(?i)Gnome-system-monitor"] floating enable, move position mouse, move down $height px
+    for_window [class="(?i)xfce4-power-manager-settings"] floating enable, move position mouse, move down $height px
+    for_window [class="(?i)cmst"] floating enable, move position mouse, move down $height px
+    for_window [instance="__scratchpad"] floating enable
+    for_window [instance="__nmtui"] floating enable
+    for_window [class="(?i)recordmydesktop"] floating enable
+    for_window [class="(?i)GpicView"] floating enable
+    for_window [class="(?i)pavucontrol"] floating enable, move position mouse, move down $height px
+    for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down $height px
+    for_window [class="(?i)arandr"] floating enable, move position mouse
+    for_window [class="(?i)flameshot"] floating enable
+
+
+    # Autostart applications per workspace
+    exec swaymsg "workspace 10; exec spotify;"
+    exec swaymsg "workspace 9; exec slack;"
+    # exec swaymsg "workspace 8; exec gnome-calendar;"
+    # exec swaymsg "workspace 7; exec bitwarden-desktop;"
+    # exec swaymsg "workspace 6; exec anki;"
+    # exec swaymsg "workspace 2; exec obsidian;"
+    # exec swaymsg "workspace 2; exec notion-app-enhanced;"
+    # exec swaymsg "workspace 1; exec firefox;"
+    # exec swaymsg "workspace 1; exec alacritty;"
+
+
+    # Define outputs
+    set $primary DP-3
+    set $secondary eDP-1
+
+    # workspace to displays
+    workspace 1 output $primary
+    workspace 2 output $primary
+    workspace 3 output $primary
+    workspace 4 output $primary
+    workspace 5 output $primary
+    workspace 6 output $primary
+
+    workspace 7 output $secondary
+    workspace 8 output $secondary
+    workspace 9 output $secondary
+    workspace 10 output $secondary
+
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+b or $mod+v, for horizontal and vertical splits
+    # respectively.
+    bindsym $mod+b splith
+    bindsym $mod+v splitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+w layout tabbed
+    bindsym $mod+e layout toggle split
+
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    bindsym $mod+a focus parent
+    # focus the child container
+    bindsym $mod+z focus child
+
+# Screenshots:
+    # Region-select-screenshot to clipboard
+    bindsym Print exec grimshot --notify copy area
+    # Region-select-screenshot to file
+    bindsym ctrl+Print exec grimshot --notify save area
+    # Region-select-video to file
+    bindsym alt+ctrl+Print exec wf-recorder -g "$(slurp)"
+
+# Scratchpad:
+    # with a dropdown
+    for_window [title="alacritty-dropdown"] move container to scratchpad
+    bindsym $mod+shift+g floating enable, move scratchpad
+    bindsym $mod+y scratchpad show
+    bindsym --to-code $mod+g [title="alacritty-dropdown"] scratchpad show, resize set 69 ppt 85 ppt, move position center
+    exec --no-startup-id 'alacritty -t alacritty-dropdown --config-file ~/.config/alacritty/alacritty-dropdown.yml'
+
+# Resizing containers:
+mode "resize" {
+    bindsym $right resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $left resize grow width 10px
+
+    # Ditto, with arrow keys
+    bindsym Right resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Left resize grow width 10px
+
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+# Other stuff:
+
+#
+# Status Bar:
+bar {
+  swaybar_command waybar
+}

@@ -1,0 +1,12 @@
+2022/04/09-10:37:36.923 3ddd Reusing MANIFEST /home/g/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001
+2022/04/09-10:37:36.923 3ddd Recovering log #32
+2022/04/09-10:37:36.924 3ddd Reusing old log /home/g/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/000032.log 
+2022/04/09-11:10:52.673 5cae Level-0 table #37: started
+2022/04/09-11:10:52.692 5cae Level-0 table #37: 2690963 bytes OK
+2022/04/09-11:10:52.696 5cae Delete type=0 #32
+2022/04/09-11:26:02.238 8849 Compacting 1@1 + 1@2 files
+2022/04/09-11:26:02.242 8849 Generated table #38@1: 6 keys, 191021 bytes
+2022/04/09-11:26:02.242 8849 Compacted 1@1 + 1@2 files => 191021 bytes
+2022/04/09-11:26:02.245 8849 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/09-11:26:02.245 8849 Delete type=2 #37
+2022/04/09-11:26:02.245 8849 Delete type=2 #34

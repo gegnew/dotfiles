@@ -1,0 +1,36 @@
+name = "Gerrit Egnew"
+downloads-dir = "/home/g/Downloads"
+signature = """
+Cheers,
+
+-g
+"""
+
+[gmail]
+default = true
+email = "g.egnew@gmail.com"
+
+imap-host = "imap.gmail.com"
+imap-port = 993
+imap-login = "g.egnew@gmail.com"
+imap-passwd-cmd = "pass gmail/apps/himalaya"
+# imap-passwd-cmd = "rbw get g.egnew@gmail.com"
+
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "g.egnew@gmail.com"
+smtp-passwd-cmd = "pass gmail/apps/himalaya"
+
+[tribe]
+default = true
+email = "g.egnew@gmail.com"
+
+imap-host = "imap.gmail.com"
+imap-port = 993
+imap-login = "gerrit@tribe.ai"
+imap-passwd-cmd = "pass gmail/apps/tribe/himalaya"
+
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "gerrit@tribe.ai"
+smtp-passwd-cmd = "pass gmail/apps/tribe/himalaya"

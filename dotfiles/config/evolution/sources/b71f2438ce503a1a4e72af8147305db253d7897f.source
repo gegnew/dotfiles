@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=gerrit@tribe.ai
+Enabled=true
+Parent=e87acc622ac59727efd81e7a39c1aff88e043507
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=203f213472a84ea4f711334c123f09412b964b35
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=gerrit@tribe.ai
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

@@ -1,0 +1,18 @@
+2022/04/09-10:37:36.557 5 Reusing MANIFEST /home/g/.config/chromium/Default/Session Storage/MANIFEST-000001
+2022/04/09-10:37:36.557 5 Recovering log #71
+2022/04/09-10:37:36.557 5 Reusing old log /home/g/.config/chromium/Default/Session Storage/000071.log 
+2022/04/09-10:45:19.747 5 Level-0 table #75: started
+2022/04/09-10:45:19.750 5 Level-0 table #75: 18032 bytes OK
+2022/04/09-10:45:19.754 5 Delete type=0 #71
+2022/04/09-11:38:31.647 24 Level-0 table #77: started
+2022/04/09-11:38:31.653 24 Level-0 table #77: 68723 bytes OK
+2022/04/09-11:38:31.658 24 Delete type=0 #74
+2022/04/09-11:38:31.659 24 Compacting 4@0 + 1@1 files
+2022/04/09-11:38:31.672 24 Generated table #78@0: 4218 keys, 146545 bytes
+2022/04/09-11:38:31.672 24 Compacted 4@0 + 1@1 files => 146545 bytes
+2022/04/09-11:38:31.675 24 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/09-11:38:31.676 24 Delete type=2 #72
+2022/04/09-11:38:31.676 24 Delete type=2 #69
+2022/04/09-11:38:31.676 24 Delete type=2 #77
+2022/04/09-11:38:31.676 24 Delete type=2 #67
+2022/04/09-11:38:31.676 24 Delete type=2 #75

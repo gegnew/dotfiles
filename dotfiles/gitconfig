@@ -4,21 +4,33 @@
 [init]
 	templatedir = ~/.git_template
 	defaultBranch = main
-; [merge]
-;     tool = nvimdiff4
-; [mergetool "nvimdiff4"]
-;     cmd = nvim -d $LOCAL $BASE $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
-; [mergetool "nfugitive"]
-;     cmd = nvim -f -c "Gdiff" "$MERGED"
-; [diff]
-;     tool = nvimdiff2
-; [difftool "nvimdiff2"]
-;     cmd = nvim -d $LOCAL $REMOTE
 
-[mergetool "fugitive"]
-	cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+; [mergetool "fugitive"]
+;     cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+; [merge]
+    ; tool = diffconflicts
+
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[add.interactive]
+    useBuiltin = false # required for git 2.37.0
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+
 [merge]
-	tool = fugitive
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+
+
 [alias]
     s = status
     co = checkout
@@ -27,22 +39,31 @@
     c = commit -m
     ca = commit --amend
     ce = commit --amend --no-edit
+    cn = commit --no-verify -m
     cp = cherry-pick
+    z = cz commit
     ll = log --stat
-	l = log --oneline --all --graph
+    l = log --oneline --all --graph
     g = log --graph
     m = merge --no-ff
     cc = diff --check
     d = diff --name-only --diff-filter=U
     p = push
-	pf = push -f
+    pf = push -f
     pa = push origin --all
-	pu = push --set-upstream origin
+    pu = push --set-upstream origin
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	ctags = !.git/hooks/ctags
+    ctags = !.git/hooks/ctags
 [core]
 	autocrlf = false
 [pull]
 	ff = only
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
+[push]
+	followTags = true
+[mergetool "diffconflicts"]
+	cmd = vim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
+	trustExitCode = true
+[mergetool]
+	keepBackup = false

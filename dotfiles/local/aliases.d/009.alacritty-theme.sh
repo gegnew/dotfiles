@@ -1,16 +1,18 @@
-COLORSCHEME='gruvbox'
+COLORSCHEME='base16-gruvbox'
 COLOR='dark'
 
 function day() {
     sed -i 's/dark\b/light/g' $HOME/.colorscheme
-    alacritty-colorscheme apply $COLORSCHEME-light.yaml
-		COLOR='light'
+    echo 'you gonna regret this later probably'
+    # alacritty-colorscheme apply $COLORSCHEME-light-medium.yml
+		# COLOR='light'
 }
 
 function night() {
     sed -i 's/light\b/dark/g' $HOME/.colorscheme
-    alacritty-colorscheme apply $COLORSCHEME-dark.yaml
-		COLOR='dark'
+    echo 'you gonna regret this later probably'
+    # alacritty-colorscheme apply $COLORSCHEME-dark-medium.yml
+		# COLOR='dark'
 }
 
 function toggle() {
@@ -19,6 +21,6 @@ function toggle() {
 	elif [[ condition ]]; then
     sed -i 's/light\b/dark/g' $HOME/.colorscheme
 	fi
-		alacritty-colorscheme toggle $COLORSCHEME-light.yaml $COLORSCHEME-dark.yaml
+lifepillar/vim-gruvbox8		alacritty-colorscheme toggle $COLORSCHEME.yml $COLORSCHEME.yaml
 }
 

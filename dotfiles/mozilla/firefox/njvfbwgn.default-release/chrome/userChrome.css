@@ -1,0 +1,9 @@
+#tabbrowser-tabs {
+    visibility: collapse;
+}
+#titlebar {
+    max-height: 10px;
+}
+#TabsToolbar .titlebar-buttonbox-container {
+    transform: scale(.55) translateY(-10px) translateX(38px);
+}

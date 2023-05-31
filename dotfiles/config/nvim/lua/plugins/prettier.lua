@@ -1,0 +1,19 @@
+-- local prettier = require "prettier"
+--
+-- prettier.setup {
+--     bin = 'prettierd',
+--     cli_options = {
+--         single_quote = true,
+--     },
+--
+--     filetypes = {
+--         "css",
+--         "javascript",
+--         "javascriptreact",
+--         "typescript",
+--         "typescriptreact",
+--         "json",
+--         "scss",
+--         "less"
+--     }
+-- }

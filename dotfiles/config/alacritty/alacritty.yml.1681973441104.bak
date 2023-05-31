@@ -1,0 +1,74 @@
+env:
+  TERM: xterm-256color
+  # history: '10000'
+
+live_config_reload: true
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - tmux attach-session -t main 2> /dev/null || tmux attach-session -t main 2>
+      /dev/null ||  tmux new -A -s main
+    # - "source ~/.zshrc && tmux attach-session -t main 2> /dev/null || tmux attach-session -t main 2> /dev/null ||  tmux new -A -s main"
+  # shell:
+  # program: /usr/bin/zellij
+  # args:
+  # - options --default-shell nu
+mouse:
+  hide_when_typing: true
+
+font:
+  size: 13
+  normal:
+    family: Victor Mono
+    style: Normal
+  bold:
+    family: Victor Mono
+    style: Bold
+  italic:
+    family: Victor Mono
+    style: Light Italic
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+window:
+  opacity: 0.5
+
+key_bindings:
+  - { key: Return, mods: Control, action: ToggleViMode }
+  - { key: V, mods: Alt, action: Paste }
+
+# TokyoNight Alacritty Colors
+# https://github.com/folke/tokyonight.nvim/blob/main/extras/alacritty_tokyonight_storm.yml
+colors:
+  name: 3024 (dark)
+  author: Chris Kempson
+  primary:
+    background: "#090300"
+    foreground: "#a5a2a2"
+  cursor:
+    text: "#090300"
+    cursor: "#a5a2a2"
+  normal:
+    black: "#090300"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#a5a2a2"
+  bright:
+    black: "#5c5855"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#f7f7f7"
+theme: 3024.dark

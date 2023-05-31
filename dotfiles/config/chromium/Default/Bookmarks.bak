@@ -1,0 +1,236 @@
+{
+   "checksum": "e57e5d4ba670dd1fe8d59786c2a9f288",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13293796216634282",
+            "guid": "14c53556-5ac3-4940-ad9e-45245f3d5141",
+            "id": "5",
+            "name": "is it possible to have blur effects or transparency for sway? : swaywm",
+            "type": "url",
+            "url": "https://www.reddit.com/r/swaywm/comments/njyskw/is_it_possible_to_have_blur_effects_or/"
+         }, {
+            "date_added": "13293796339908841",
+            "guid": "248af1ac-51d7-4eba-9f63-c139b117c131",
+            "id": "6",
+            "name": "Terminals lose transparency in fullscreen · Issue #3624 · swaywm/sway · GitHub",
+            "type": "url",
+            "url": "https://github.com/swaywm/sway/issues/3624"
+         }, {
+            "date_added": "13293803449360316",
+            "guid": "316ac23c-827d-4f4e-a072-715da011ea0f",
+            "id": "8",
+            "name": "GitHub - dominikbraun/timetrace: timetrace is a simple CLI for tracking your working time.",
+            "type": "url",
+            "url": "https://github.com/dominikbraun/timetrace"
+         }, {
+            "date_added": "13293813921658363",
+            "guid": "83a7fc49-22ed-4f1e-b702-2a0f655e923b",
+            "id": "10",
+            "name": "ctags(1) — Arch manual pages",
+            "type": "url",
+            "url": "https://man.archlinux.org/man/ctags.1.en"
+         }, {
+            "date_added": "13293813999525571",
+            "guid": "7d289886-6776-4e05-84fb-124fb780bb0e",
+            "id": "11",
+            "name": "From Vimperator to Tridactyl",
+            "type": "url",
+            "url": "https://nullprogram.com/blog/2018/09/20/"
+         }, {
+            "date_added": "13293814021829808",
+            "guid": "ca50b43f-f33f-4a9a-a908-ddaf21ccb624",
+            "id": "12",
+            "name": "waybar config - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?q=waybar+config&oq=waybar+config&aqs=chrome.0.69i59j0i512l4j69i60l3.2680j0j7&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13293814064418143",
+            "guid": "f79a045e-f14a-43df-afcc-c9561603b568",
+            "id": "13",
+            "name": "Waybar config · e8e4c38c73 - PinePhoneBoyOS - Dejvino's GIT Server",
+            "type": "url",
+            "url": "https://git.dejvino.cz/dejvino/PinePhoneBoyOS/commit/e8e4c38c730ba82a21b84321c8ccdc52a54e07eb"
+         }, {
+            "date_added": "13293815648796056",
+            "guid": "44950148-8f0e-496c-8af9-872361b0d798",
+            "id": "15",
+            "name": "Working with Wayland and Sway - Grimoire",
+            "type": "url",
+            "url": "https://grimoire.science/working-with-wayland-and-sway/"
+         }, {
+            "date_added": "13293816359298229",
+            "guid": "c4caa695-a694-4e0b-a5fb-a8a43c21390c",
+            "id": "16",
+            "name": "How to copy to clipboard in Vim? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/3961859/how-to-copy-to-clipboard-in-vim"
+         }, {
+            "date_added": "13293816408828434",
+            "guid": "615fdbe9-c9fc-4df3-a969-4d10bcd0e664",
+            "id": "17",
+            "name": "GitHub - nakabonne/pbgopy: Copy and paste between devices",
+            "type": "url",
+            "url": "https://github.com/nakabonne/pbgopy"
+         }, {
+            "date_added": "13293816537234169",
+            "guid": "2f99e113-5f22-4535-8593-267569add09a",
+            "id": "18",
+            "name": "GitHub - ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more",
+            "type": "url",
+            "url": "https://github.com/ryanoasis/nerd-fonts"
+         }, {
+            "date_added": "13293816624210379",
+            "guid": "c840c660-acf3-476a-9e10-f9db1d6bb52d",
+            "id": "19",
+            "name": "GitHub - ryanoasis/vim-devicons: Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more",
+            "type": "url",
+            "url": "https://github.com/ryanoasis/vim-devicons"
+         }, {
+            "date_added": "13293816686459915",
+            "guid": "e4fd1b05-29a8-4e70-a4fb-9f24cbd9b551",
+            "id": "20",
+            "name": "How to Get Vim Show Hidden Invisible Characters",
+            "type": "url",
+            "url": "https://linuxhint.com/show-hidden-invisible-characters-vim/"
+         }, {
+            "date_added": "13293823237185953",
+            "guid": "f2e43cc0-8893-4b77-aec3-eaa8abf22786",
+            "id": "22",
+            "name": "Will Chrome ever get MRU tab switching? - Quora",
+            "type": "url",
+            "url": "https://www.quora.com/Will-Chrome-ever-get-MRU-tab-switching"
+         }, {
+            "date_added": "13293883567032929",
+            "guid": "cf9b4255-3734-44e8-a7de-888b28f7dde7",
+            "id": "24",
+            "name": "Log in with a fingerprint",
+            "type": "url",
+            "url": "https://help.gnome.org/users/gnome-help/stable/session-fingerprint.html.en"
+         }, {
+            "date_added": "13293883691500050",
+            "guid": "a58b35be-a049-4cfb-abd6-71835765cca2",
+            "id": "25",
+            "name": "SDDM - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/SDDM"
+         }, {
+            "date_added": "13293883965444890",
+            "guid": "291f6478-df97-456f-a066-f160ba7239ed",
+            "id": "26",
+            "name": "GitHub - gnunn1/tilix: A tiling terminal emulator for Linux using GTK+ 3",
+            "type": "url",
+            "url": "https://github.com/gnunn1/tilix"
+         }, {
+            "date_added": "13293884316605057",
+            "guid": "23534e3d-3a4a-4b05-b371-2f4997dbb6ee",
+            "id": "27",
+            "name": "Any wayland-friendly guake alternatives? : archlinux",
+            "type": "url",
+            "url": "https://www.reddit.com/r/archlinux/comments/bfqc71/any_waylandfriendly_guake_alternatives/"
+         }, {
+            "date_added": "13293884385848320",
+            "guid": "0f98c73b-4930-4ee4-b5a7-3aa419c7fcb8",
+            "id": "28",
+            "name": "swayr: An urgent-first/LRU window switcher for sway",
+            "type": "url",
+            "url": "https://sr.ht/~tsdh/swayr/"
+         }, {
+            "date_added": "13293884973359862",
+            "guid": "fa91f808-5baf-423b-b2cb-ae54e39170b3",
+            "id": "29",
+            "name": "GitHub - cknadler/vim-anywhere: Use Vim everywhere you've always wanted to",
+            "type": "url",
+            "url": "https://github.com/cknadler/vim-anywhere"
+         }, {
+            "date_added": "13293885978372978",
+            "guid": "233ba6e8-c472-446d-809a-8352a177fc54",
+            "id": "30",
+            "name": "GitHub - rileyrg/linux-init: Emacs org-file based suite of Linux config files and scripts",
+            "type": "url",
+            "url": "https://github.com/rileyrg/linux-init"
+         }, {
+            "date_added": "13293887219646019",
+            "guid": "c5337172-edb1-4fc2-bec2-2d9a7f983466",
+            "id": "32",
+            "name": "Power management/Suspend and hibernate - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation"
+         }, {
+            "date_added": "13293888570002637",
+            "guid": "9db23868-8835-4587-9809-ae7f95dc50e4",
+            "id": "34",
+            "name": "Swaylock - Trying to have a somewhat nice locker : swaywm",
+            "type": "url",
+            "url": "https://www.reddit.com/r/swaywm/comments/mtc11k/swaylock_trying_to_have_a_somewhat_nice_locker/"
+         }, {
+            "date_added": "13293888577687855",
+            "guid": "0c4e5fa3-074a-4f8c-9e84-54908417a071",
+            "id": "35",
+            "name": "GitHub - mortie/swaylock-effects: Swaylock, with fancy effects",
+            "type": "url",
+            "url": "https://github.com/mortie/swaylock-effects"
+         }, {
+            "date_added": "13293889161565917",
+            "guid": "531f296c-3af0-4dfc-bfb1-b190f7a2180a",
+            "id": "36",
+            "name": "How to combine xfce desktop enviroment and i3wm - Technical Issues and Assistance / Tutorials - Manjaro Linux Forum",
+            "type": "url",
+            "url": "https://archived.forum.manjaro.org/t/how-to-combine-xfce-desktop-enviroment-and-i3wm/111364"
+         }, {
+            "date_added": "13293889427077931",
+            "guid": "2daaa1b4-2a88-4506-81ea-1f77c5a9ed1e",
+            "id": "37",
+            "name": "GitHub - luispabon/sway-dotfiles: My sway desktop config and setup scripts",
+            "type": "url",
+            "url": "https://github.com/luispabon/sway-dotfiles"
+         }, {
+            "date_added": "13293892394497162",
+            "guid": "5fd46a60-7d81-4e8e-a296-e8f2cadbaba1",
+            "id": "38",
+            "name": "[bug] Cannot use `cmpignore` to ignore all but a single file in a directory · Issue #327 · deadc0de6/dotdrop · GitHub",
+            "type": "url",
+            "url": "https://github.com/deadc0de6/dotdrop/issues/327"
+         }, {
+            "date_added": "13293893199730358",
+            "guid": "8a2864ff-e921-448c-9c6a-886ac129bc86",
+            "id": "39",
+            "name": "Themes - davatorium/rofi Wiki",
+            "type": "url",
+            "url": "https://github-wiki-see.page/m/davatorium/rofi/wiki/Themes"
+         }, {
+            "date_added": "13293896492386960",
+            "guid": "5eef5dc7-f482-4025-a56d-a058be720961",
+            "id": "41",
+            "name": "GitHub - Alexays/Waybar: Highly customizable Wayland bar for Sway and Wlroots based compositors.",
+            "type": "url",
+            "url": "https://github.com/Alexays/Waybar"
+         } ],
+         "date_added": "13293793301656403",
+         "date_modified": "13293896492386960",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13293793301656404",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13293793301656406",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

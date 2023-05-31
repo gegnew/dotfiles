@@ -1,21 +1,17 @@
+layout_poetry() {
+  # does this really work i dunno
+  if [[ ! -f pyproject.toml ]]; then
+    log_error 'No pyproject.toml found. Use `poetry new` or `poetry init` to create one first.'
+    exit 2
+  fi
 
-# layout_poetry() {
-#   if [[ ! -f pyproject.toml ]]; then
-#     log_error 'No pyproject.toml found. Use `poetry new` or `poetry init` to create one first.'
-#     exit 2
-#   fi
-#
-#   local VENV=$(poetry env list --full-path | cut -d' ' -f1)
-#   if [[ -z $VENV || ! -d $VENV/bin ]]; then
-#     log_error 'No poetry virtual environment found. Use `poetry install` to create one first.'
-#     exit 2
-#   fi
-#
-#   export VIRTUAL_ENV=$VENV
-#   export POETRY_ACTIVE=1
-#   PATH_add "$VENV/bin"
-# }
+  # create venv if it doesn't exist
+  poetry run true
 
+  export VIRTUAL_ENV=$(poetry env info --path)
+  export POETRY_ACTIVE=1
+  PATH_add "$VIRTUAL_ENV/bin"
+}
 
 
 
@@ -26,3 +22,19 @@ use_python() {
   load_prefix "$python_root"
   layout_python "$python_root/bin/python"
 }
+
+# use nvm
+# export NODE_VERSION_PREFIX=v
+# export NODE_VERSIONS=~/.nvm/versions/node
+
+
+use_pdm() {
+  eval "$(pdm --pep582)"
+
+  if [[ -d '__pypackages__' ]]; then
+    local bindir="$(ls -d __pypackages__/*/bin)"
+    export PATH="$PWD/$bindir:$PATH"
+  fi
+}
+
+# PATH="$PWD/$(ls -d __pypackages__/*/bin):$PATH"

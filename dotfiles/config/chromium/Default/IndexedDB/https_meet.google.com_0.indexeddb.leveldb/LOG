@@ -1,0 +1,6 @@
+2022/04/07-17:28:13.504 14e75 Creating DB /home/g/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb since it was missing.
+2022/04/07-17:28:13.511 14e75 Reusing MANIFEST /home/g/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/07-17:33:15.844 1a3de Level-0 table #5: started
+2022/04/07-17:33:15.847 1a3de Level-0 table #5: 5827 bytes OK
+2022/04/07-17:33:15.851 1a3de Delete type=0 #3
+2022/04/07-17:33:15.851 1a3de Manual compaction at level-0 from (begin) .. (end); will stop at (end)

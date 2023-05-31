@@ -1,4 +1,6 @@
 alias v='vim'
+alias vim='nvim'
 
 # edit neovim config
-alias cvim='vim ~/.config/nvim/init.vim'
+# alias cv='vim ~/.config/nvim/init.lua'
+alias cv='vim ~/.config/nvim/lua/custom/init.lua'

@@ -2,8 +2,7 @@
 alias tt='timetrace'
 alias ts='timetrace stop'
 
-# primity
-alias tp='timetrace start primity'
-
-# sonova
+alias tpr='timetrace start primity +R'
+alias tpp='timetrace start primity +P'
 alias tv='timetrace start sonova'
+alias tz='timetrace start zeit'

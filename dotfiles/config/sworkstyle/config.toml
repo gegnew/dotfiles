@@ -1,0 +1,34 @@
+fallback = ''
+
+[matching]
+'anki' = { type = 'generic', value = ''}
+'/(?i)settings*/' = { type = 'generic', value = ''}
+'/(?i)calendar*/' = { type = 'generic', value = ''}
+'chromium' = ''
+
+# from https://github.com/Lyr-7D1h/swayest_workstyle/issues/16
+'/Firefox .*Private Browsing/' = ''
+'/(?i)Google Drive.*Firefox/' = ''
+'/(?i)Google Calendar.*Firefox/' = ''
+'// Twitter.*Firefox/' = ''
+'/ eBay.*Firefox/' = ''
+'/(?i)reddit.*Firefox/' = ''
+'/(?i)drive.*Firefox/' = ''
+'/(?i)play.*Firefox/' = ''
+'/(?i)Github.*Firefox/' = ''
+'/Google.*Firefox/' = ''
+'/(?i)MAX.*Iridium/' = ''
+'/(?i)Dashboards -.*Iridium/' = ''
+'/(?i) youtube.*Firefox/' = ''
+'pavucontrol' = ''
+'foot' = ''
+'/YouTube/' = ''
+'org.qutebrowser.qutebrowser' = ''
+'whatsapp-for-linux' = ''
+'Ardour-6.9.0' = '🎵'
+'Pcmanfm' = ''
+'dota2' = '⚔'
+'Gimp' = ''
+'/pdf/' = ''
+'/docx/' = ''
+

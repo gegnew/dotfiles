@@ -1,0 +1,6 @@
+2022/04/09-11:38:26.382 afc1 Creating DB /home/g/.config/chromium/Default/IndexedDB/https_www.lacrux.com_0.indexeddb.leveldb since it was missing.
+2022/04/09-11:38:26.391 afc1 Reusing MANIFEST /home/g/.config/chromium/Default/IndexedDB/https_www.lacrux.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/09-11:38:34.938 a4c9 Level-0 table #5: started
+2022/04/09-11:38:34.940 a4c9 Level-0 table #5: 6176 bytes OK
+2022/04/09-11:38:34.943 a4c9 Delete type=0 #3
+2022/04/09-11:38:34.943 a4c9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

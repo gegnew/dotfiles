@@ -1,0 +1,45 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon16.png"
+   },
+   "commands": {
+      "alt_switch_fast": {
+         "description": "Quick switch - Use to switch quickly among last 2 to 4 tabs. (Suggested: Alt+W)",
+         "suggested_key": {
+            "default": "Alt+W",
+            "mac": "Alt+W"
+         }
+      },
+      "alt_switch_slow_backward": {
+         "description": "Normal switch backward (Suggested: Alt+S) ",
+         "suggested_key": {
+            "default": "Alt+S",
+            "mac": "Alt+S"
+         }
+      },
+      "alt_switch_slow_forward": {
+         "description": "Normal switch forward (Suggested: Alt+Shift+S)",
+         "suggested_key": {
+            "default": "Alt+Shift+S",
+            "mac": "Alt+Shift+S"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Cycle through last used Chrome tabs using keyboard shortcut.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo3vvnjwbwlRBeybOMmTRnRwziWFYsIiMxgm0g+UTwz8TG5pPZTdRNE/hoB9I9oeZv/WiVqaFpFdhUAMIjsTe2vUOH89nhkpUOdgrDwMCgpqy8DWFyU6qupWkaSJX6JnHlzIL+dQOn2CQkndE7AR4GXYH4TAIZEpL0f3l5lECTM6iumwt/73nkqPW6KY0B0guQlYONRM1y8jJfN+OxGHIJpLiMweKUIeLW3hkh/IpLZga6Whip6E4gDmD7HQQYx0R26a83xJvyEhHy0SH+QV8ak5pcBRqvPUtoPOd8+d9rG4NgN0c12aX1RKlBE6CdaTl+XI3RQVERVScQdoPc9p43QIDAQAB",
+   "manifest_version": 2,
+   "name": "CLUT: Cycle Last Used Tabs",
+   "permissions": [ "tabs" ],
+   "short_name": "CLUT",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}
