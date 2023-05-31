@@ -30,7 +30,6 @@
     colorMoved = default
 
 
-
 [alias]
     s = status
     co = checkout
@@ -62,6 +61,7 @@
 	helper = /usr/lib/git-core/git-credential-libsecret
 [push]
 	followTags = true
+	autoSetupRemote = true
 [mergetool "diffconflicts"]
 	cmd = vim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
 	trustExitCode = true

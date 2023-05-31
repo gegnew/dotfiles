@@ -19,17 +19,17 @@ shell:
 mouse:
   hide_when_typing: false
 
-font:
-  size: 13
-  normal:
-    family: Victor Mono Nerd Font
-    style: Normal
-  bold:
-    family: Victor Mono Nerd Font
-    style: Bold
-  italic:
-    family: Victor Mono Nerd Font
-    style: Light Italic
+# font:
+#   size: 13
+  # normal:
+  #   family: Victor Mono Nerd Font
+  #   style: Normal
+  # bold:
+  #   family: Victor Mono Nerd Font
+  #   style: Bold
+  # italic:
+  #   family: Victor Mono Nerd Font
+  #   style: Light Italic
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
